@@ -120,13 +120,21 @@ _&lt;List any other documents or Web addresses to which this SRS refers. These m
 _(LINK TO UNITY GUIDELINES AS WELL AS APPLE/GOOGLE GUIDELINES?)_
 
    **2.**** Overall Description**
+   
     **2.1**** Product Perspective**
 
 _&lt;Describe the context and origin of the product being specified in this SRS. For example, state whether this product is a follow-on member of a product family, a replacement for certain existing systems, or a new, self-contained product. If the SRS defines a component of a larger system, relate the requirements of the larger system to the functionality of this software and identify interfaces between the two. A simple diagram that shows the major components of the overall system, subsystem interconnections, and external interfaces can be helpful.&gt;_
 
+  The product specified in this document is a new, self-contained mobile game. It takes a gaming concept featured in previous games, and hopes to expand upon them with new features.
+
   **2.2**** Product Functions**
 
 _&lt;Summarize the major functions the product must perform or must let the user perform. Details will be provided in Section 3, so only a high level summary (such as a bullet list) is needed here. Organize the functions to make them understandable to any reader of the SRS. A picture of the major groups of related requirements and how they relate, such as a top level data flow diagram or object class diagram, is often effective.&gt;_
+
+  The following is a list of the basic requirements our mobile game must feature:
+  * The game must allow for multiple players to play rounds on a turn-by-turn basis.
+  * The game must allow the multiple rounds to be played by each player.
+  * The game must remember scores from previous rounds for each player.
 
   **2.3**** User Classes and Characteristics**
 
@@ -143,6 +151,8 @@ _&lt;Describe any items or issues that will limit the options available to the d
   **2.6**** User Documentation**
 
 _&lt;List the user documentation components (such as user manuals, on-line help, and tutorials) that will be delivered along with the software. Identify any known user documentation delivery formats or standards.&gt;_
+
+  A "Help" menu will be available on the main screen of the mobile game.
 
   **2.7**** Assumptions and Dependencies**
 
