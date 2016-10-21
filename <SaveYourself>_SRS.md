@@ -97,26 +97,38 @@
 
 _&lt;Identify the product whose software requirements are specified in this document, including the revision or release number. Describe the scope of the product that is covered by this SRS, particularly if this SRS describes only part of the system or a single subsystem.&gt;_
 
-_        The purpose of this Software Requirments Document(SRS) is to provide a full, detailed description of the \*Tap\* application. The document will cover each feature as well as how each feature is used._
+The purpose of this Software Requirments Document(SRS) is to provide a full, detailed description of the "Save Yourself" application. The document will cover each feature as well as how each feature is used. It will show the complete design specifactions for our application. The document will contain an overview of everything down to design contraints, interaction with interfaces, system features, and so on. 
 
   **1.2**** Document Conventions**
 
 _&lt;Describe any standards or typographical conventions that were followed when writing this SRS, such as fonts or highlighting that have special significance. For example, state whether priorities  for higher-level requirements are assumed to be inherited by detailed requirements, or whether every requirement statement is to have its own priority.&gt;_
 
-_        Features here may be code named. Please refer to the glossary for the complete definition_
+Features here may be code named. Please refer to the glossary for the complete definition.
 
   **1.3**** Intended Audience and Reading Suggestions**
 
 _&lt;Describe the different types of reader that the document is intended for, such as developers, project managers, marketing staff, users, testers, and documentation writers. Describe what the rest of this SRS contains and how it is organized. Suggest a sequence for reading the document, beginning with the overview sections and proceeding through the sections that are most pertinent to each reader type.&gt;_
 
+Our intended audience would be for anyone who has an interest in a mobile gaming application that you could play with your friends. For an overall description of our application, please see **Part 2**. This section is intended to give a general guide of the document. **Part 3** contains our external interface requirments. **Part 4** contains the full feature list. **Part 5** and **Part 6** contains miscellaneous information. 
+
   **1.4**** Product Scope**
 
 _&lt;Provide a short description of the software being specified and its purpose, including relevant benefits, objectives, and goals. Relate the software to corporate goals or business strategies. If a separate vision and scope document is available, refer to it rather than duplicating its contents here.&gt;_
+
+This application will be a mobile game which involves tapping at a screen to defeat enemies. These enemies will be coming at the chaaracter in the middle(You) and in order to deafeat them, you must tap away at them. A user will load up the game and have an option to play against a simple AI or the option of playing against another player. Adding a social element to a game can be incredibly benifical to users who might be looking for new friends or a new challenge. The application will be very easy to use by incoporating a simple and effective interface. The game is intended for all audiences and is a simple enough game to be played for short periods such as a lunch break or recess.
 
   **1.5**** References**
 
 _&lt;List any other documents or Web addresses to which this SRS refers. These may include user interface style guides, contracts, standards, system requirements specifications, use case documents, or a vision and scope document. Provide enough information so that the reader could access a copy of each reference, including title, author, version number, date, and source or location.&gt;_
 
+The application is intended to follow Apple, Google and Unity guidelines, which can be found below.
+
+Apple:
+https://developer.apple.com/ios/human-interface-guidelines/
+Google:
+https://material.google.com/
+Unity:
+https://docs.unity3d.com/Manual/index.html
 _(LINK TO UNITY GUIDELINES AS WELL AS APPLE/GOOGLE GUIDELINES?)_
 
    **2.**** Overall Description**
