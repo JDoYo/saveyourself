@@ -225,8 +225,8 @@ _&lt;List the sequences of user actions and system responses that stimulate the 
 - User clicks the Play button
 - The game starts.
 - User loses the game.
-- The game finishes.
-- The Application saves the user's score on their device.
+- The game stops.
+- The Application saves the User's score on their device.
 
 4.1.3        Functional Requirements
 
@@ -243,6 +243,121 @@ REQ-3: The application must increment the User's score during the game.
 REQ-4: The application must stop the game when the User dies.
 
 REQ-5: The application must save the User's score to their device.
+
+**4.2**** Play Singleplayer**
+
+_&lt;Don&#39;t really say &quot;System Feature 1.&quot; State the feature name in just a few words.&gt;_
+
+4.2.1        Description and Priority
+
+_&lt;Provide a short description of the feature and indicate whether it is of High, Medium, or Low priority. You could also include specific priority component ratings, such as benefit, penalty, cost, and risk (each rated on a relative scale from a low of 1 to a high of 9).&gt;_
+
+NEED TO DO
+
+Priority Level: NEED TO DO
+
+4.2.2        Stimulus/Response Sequences
+
+_&lt;List the sequences of user actions and system responses that stimulate the behavior defined for this feature. These will correspond to the dialog elements associated with use cases.&gt;_
+
+NEED TO DO
+
+4.2.3        Functional Requirements
+
+_&lt;Itemize the detailed functional requirements associated with this feature. These are the software capabilities that must be present in order for the user to carry out the services provided by the feature, or to execute the use case. Include how the product should respond to anticipated error conditions or invalid inputs. Requirements should be concise, complete, unambiguous, verifiable, and necessary. Use &quot;TBD&quot; as a placeholder to indicate when necessary information is not yet available.&gt;_
+
+_&lt;Each requirement should be uniquely identified with a sequence number or a meaningful tag of some kind.&gt;_
+
+NEED TO DO
+
+  **4.3**** Start New Round**
+
+_&lt;Don&#39;t really say &quot;System Feature 1.&quot; State the feature name in just a few words.&gt;_
+
+4.3.1        Description and Priority
+
+_&lt;Provide a short description of the feature and indicate whether it is of High, Medium, or Low priority. You could also include specific priority component ratings, such as benefit, penalty, cost, and risk (each rated on a relative scale from a low of 1 to a high of 9).&gt;_
+
+The application must allow the User to start a new round.
+
+Priority Level: High
+
+4.3.2        Stimulus/Response Sequences
+
+_&lt;List the sequences of user actions and system responses that stimulate the behavior defined for this feature. These will correspond to the dialog elements associated with use cases.&gt;_
+
+- User clicks the Play button.
+- The game starts.
+- User loses the game.
+- The game stops.
+- User clicks the Start Over button.
+
+4.3.3        Functional Requirements
+
+_&lt;Itemize the detailed functional requirements associated with this feature. These are the software capabilities that must be present in order for the user to carry out the services provided by the feature, or to execute the use case. Include how the product should respond to anticipated error conditions or invalid inputs. Requirements should be concise, complete, unambiguous, verifiable, and necessary. Use &quot;TBD&quot; as a placeholder to indicate when necessary information is not yet available.&gt;_
+
+_&lt;Each requirement should be uniquely identified with a sequence number or a meaningful tag of some kind.&gt;_
+
+REQ-1 from 4.1.3 Functional Requirements.
+
+REQ-2 from 4.1.3 Functional Requirements.
+
+REQ-4 from 4.1.3 Functional Requirements.
+
+REQ-6: The application must have a Start Over button so the User can start a new round.
+
+REQ-7: The application must start another round when the User clicks the Start Over button.
+
+  **4.4**** Play Turn-Based Multiplayer**
+
+_&lt;Don&#39;t really say &quot;System Feature 1.&quot; State the feature name in just a few words.&gt;_
+
+4.4.1        Description and Priority
+
+_&lt;Provide a short description of the feature and indicate whether it is of High, Medium, or Low priority. You could also include specific priority component ratings, such as benefit, penalty, cost, and risk (each rated on a relative scale from a low of 1 to a high of 9).&gt;_
+
+The application must allow users to play against each other with a turn-by-turn system. The users must be able to play against each other on one device and compare their final scores.
+
+Priority Level: Medium
+
+4.4.2        Stimulus/Response Sequences
+
+_&lt;List the sequences of user actions and system responses that stimulate the behavior defined for this feature. These will correspond to the dialog elements associated with use cases.&gt;_
+
+- User clicks the Play Multiplayer button.
+- The game asks for the number of players.
+- User enters the number of players.
+- The game starts.
+- Player 1 plays the game.
+- Player 1 dies.
+- The game stops.
+- Player 1's score is displayed.
+- The game starts.
+- Player 2 plays the game.
+- Player 2 dies.
+- The game stops.
+- Player 1 and Player 2's scores are compared.
+- (repeat steps 9-13 if there's a Player 3 and Player 4)
+
+4.4.3        Functional Requirements
+
+_&lt;Itemize the detailed functional requirements associated with this feature. These are the software capabilities that must be present in order for the user to carry out the services provided by the feature, or to execute the use case. Include how the product should respond to anticipated error conditions or invalid inputs. Requirements should be concise, complete, unambiguous, verifiable, and necessary. Use &quot;TBD&quot; as a placeholder to indicate when necessary information is not yet available.&gt;_
+
+_&lt;Each requirement should be uniquely identified with a sequence number or a meaningful tag of some kind.&gt;_
+
+REQ-8: The application must have a Play Multiplayer button so multiple players can play on one device.
+
+REQ-9: The application must ask for the number of players when the User clicks the Play Multiplayer button.
+
+REQ-10: The application must start the game when the User enters the number of players.
+
+REQ-4 from 4.1.3 Functional Requirements.
+
+REQ-11: The application must display Player 1's score when the game stops.
+
+REQ-12: The applcation must restart the game after displaying Player 1's score.
+
+REQ-13: The application must compare all of the player's scores.
 
     **4.2**** System Feature 2 (and so on)**
    **5.**** Other Nonfunctional Requirements**
