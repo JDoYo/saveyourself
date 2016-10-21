@@ -189,6 +189,7 @@ The following image is a prototype of what the invisioned game could look like w
   **3.2**** Hardware Interfaces**
 
 _&lt;Describe the logical and physical characteristics of each interface between the software product and the hardware components of the system. This may include the supported device types, the nature of the data and control interactions between the software and the hardware, and communication protocols to be used.&gt;_
+  Hardware connections to the software will be handled by the operating system of the player's mobile device. 
 
   **3.3**** Software Interfaces**
 
