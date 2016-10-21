@@ -144,15 +144,15 @@ _&lt;Describe the context and origin of the product being specified in this SRS.
 
 _&lt;Summarize the major functions the product must perform or must let the user perform. Details will be provided in Section 3, so only a high level summary (such as a bullet list) is needed here. Organize the functions to make them understandable to any reader of the SRS. A picture of the major groups of related requirements and how they relate, such as a top level data flow diagram or object class diagram, is often effective.&gt;_
 
-NOTE: Remove the use of word rounds and 
-
-  The following is a list of the basic requirements that our mobile game must feature:
+  The following is a list summarizing the requirements our mobile game must feature:
+  - The game must be comprised of rounds that are made up of these components:
+     - The player's avatar which remains stationary in the center of the screen.
+     - In-game generated enemies which congregate and swarm the player from all directions of the screen.
+  - The game must allow a player to start a new round.
+  - The game must allow a player to play rounds alone.
   - The game must allow for multiple players to play rounds on a turn-by-turn basis.
-  - The game must allow the multiple rounds to be played by each player.
-  - The game must save scores from previous rounds for each player.
-  - The game is comprised of rounds that are made up of these components:
-      - The player's avatar which remains stationary in the center screen.
-      - Enemies which congregate and swarm the player from all directions.
+  - The game must save each player's score for a particular round to be used at a later time.
+    - Used to compare player scores when multiple players are involved.
 
   **2.3**** User Classes and Characteristics**
 
