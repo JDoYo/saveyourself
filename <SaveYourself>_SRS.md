@@ -144,15 +144,10 @@ _&lt;Describe the context and origin of the product being specified in this SRS.
 
 _&lt;Summarize the major functions the product must perform or must let the user perform. Details will be provided in Section 3, so only a high level summary (such as a bullet list) is needed here. Organize the functions to make them understandable to any reader of the SRS. A picture of the major groups of related requirements and how they relate, such as a top level data flow diagram or object class diagram, is often effective.&gt;_
 
-NOTE: Remove the use of word rounds and 
-
   The following is a list of the basic requirements that our mobile game must feature:
   - The game must allow for multiple players to play rounds on a turn-by-turn basis.
   - The game must allow the multiple rounds to be played by each player.
   - The game must save scores from previous rounds for each player.
-  - The game is comprised of rounds that are made up of these components:
-      - The player's avatar which remains stationary in the center screen.
-      - Enemies which congregate and swarm the player from all directions.
 
   **2.3**** User Classes and Characteristics**
 
@@ -164,7 +159,7 @@ _&lt;Identify the various user classes that you anticipate will use this product
 
 _&lt;Describe the environment in which the software will operate, including the hardware platform, operating system and versions, and any other software components or applications with which it must peacefully coexist.&gt;_
 
-  The application will operate on Apple devices running iOS 8.0 or higher and Android devices running version 5.0 or higher. The game would not conflict with any features the mobile device provides to its users outside of the gaming environment.
+  The application will operate on Apple devices running iOS 8.0 or higher and Android devices running version 5.0 or higher.
 
   **2.5**** Design and Implementation Constraints**
 
@@ -176,7 +171,7 @@ _&lt;Describe any items or issues that will limit the options available to the d
 
 _&lt;List the user documentation components (such as user manuals, on-line help, and tutorials) that will be delivered along with the software. Identify any known user documentation delivery formats or standards.&gt;_
 
-  On the main screen of the mobile game, a "Help" button will navigate the user to a help section that will explain the basics of the gameplay. With our initial release, we will utilize the comments sections of the mobile app stores to observe user issues with the game. The descriptions section for the game on the mobile app stores can be used to provide information to users on any update information of future releases.
+  On the main screen of the mobile game, a "Help" button will navigate the user to a help section that will explain the basics of the gameplay. With our initial release, we will utilize the comments sections of the mobile app stores to observe user issues with the game. The descriptions section for the game on the mobile app stores can be used to provide information to users on any update information.
 
   **2.7**** Assumptions and Dependencies**
 
@@ -196,7 +191,7 @@ The following image is a prototype of what the invisioned game could look like w
   **3.2**** Hardware Interfaces**
 
 _&lt;Describe the logical and physical characteristics of each interface between the software product and the hardware components of the system. This may include the supported device types, the nature of the data and control interactions between the software and the hardware, and communication protocols to be used.&gt;_
-  Hardware connections to the software will be handled by the operating system of the player's mobile device. The mobile device must be running on an operating system as specified in section 2.4 of this SRS document.
+  Hardware connections to the software will be handled by the operating system of the player's mobile device. The mobile device must be running on an Android or iOS operating system.
 
   **3.3**** Software Interfaces**
 
@@ -274,6 +269,7 @@ _&lt;Itemize the detailed functional requirements associated with this feature. 
 _&lt;Each requirement should be uniquely identified with a sequence number or a meaningful tag of some kind.&gt;_
 
 NEED TO DO
+DON'T FORGET TO ADJUST THE REQUIREMENT NUMBERS IN 4.3 AND 4.4 AS WELL.
 
   **4.3**** Start New Round**
 
@@ -362,7 +358,7 @@ REQ-11: The application must display Player 1's score when the game stops.
 
 REQ-12: The applcation must restart the game after displaying Player 1's score.
 
-REQ-13: The application must compare all of the player's scores.
+REQ-13: The application must compare all of the players' scores.
 
     **4.2**** System Feature 2 (and so on)**
    **5.**** Other Nonfunctional Requirements**
