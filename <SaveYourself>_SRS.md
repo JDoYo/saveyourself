@@ -97,27 +97,38 @@
 
 _&lt;Identify the product whose software requirements are specified in this document, including the revision or release number. Describe the scope of the product that is covered by this SRS, particularly if this SRS describes only part of the system or a single subsystem.&gt;_
 
-_        The purpose of this Software Requirments Document(SRS) is to provide a full, detailed description of the \*Tap\* application. The document will cover each feature as well as how each feature is used._
+  The purpose of this Software Requirments Document(SRS) is to provide a full, detailed description of the "Save Yourself" application. The document will cover each feature as well as how each feature is used. It will show the complete design specifactions for our application. The document will contain an overview of everything down to design contraints, interaction with interfaces, system features, and so on. 
 
   **1.2**** Document Conventions**
 
 _&lt;Describe any standards or typographical conventions that were followed when writing this SRS, such as fonts or highlighting that have special significance. For example, state whether priorities  for higher-level requirements are assumed to be inherited by detailed requirements, or whether every requirement statement is to have its own priority.&gt;_
 
-_        Features here may be code named. Please refer to the glossary for the complete definition_
+Features here may be code named. Please refer to the glossary for the complete definition.
 
   **1.3**** Intended Audience and Reading Suggestions**
 
 _&lt;Describe the different types of reader that the document is intended for, such as developers, project managers, marketing staff, users, testers, and documentation writers. Describe what the rest of this SRS contains and how it is organized. Suggest a sequence for reading the document, beginning with the overview sections and proceeding through the sections that are most pertinent to each reader type.&gt;_
 
+  Our intended audience would be for anyone who has an interest in a mobile gaming application that you could play with your friends. For an overall description of our application, please see **Part 2**. This section is intended to give a general guide of the document. **Part 3** contains our external interface requirments. **Part 4** contains the full feature list. **Part 5** and **Part 6** contains miscellaneous information. 
+
   **1.4**** Product Scope**
 
 _&lt;Provide a short description of the software being specified and its purpose, including relevant benefits, objectives, and goals. Relate the software to corporate goals or business strategies. If a separate vision and scope document is available, refer to it rather than duplicating its contents here.&gt;_
+
+This application will be a mobile game which involves tapping at a screen to defeat enemies. These enemies will be coming at the chaaracter in the middle(You) and in order to deafeat them, you must tap away at them. A user will load up the game and have an option to play against a simple AI or the option of playing against another player. Adding a social element to a game can be incredibly benifical to users who might be looking for new friends or a new challenge. The application will be very easy to use by incoporating a simple and effective interface. The game is intended for all audiences and is a simple enough game to be played for short periods such as a lunch break or recess.
 
   **1.5**** References**
 
 _&lt;List any other documents or Web addresses to which this SRS refers. These may include user interface style guides, contracts, standards, system requirements specifications, use case documents, or a vision and scope document. Provide enough information so that the reader could access a copy of each reference, including title, author, version number, date, and source or location.&gt;_
 
-_(LINK TO UNITY GUIDELINES AS WELL AS APPLE/GOOGLE GUIDELINES?)_
+The application is intended to follow Apple, Google and Unity guidelines, which can be found below.
+
+  Apple:
+  https://developer.apple.com/ios/human-interface-guidelines/
+  Google:
+  https://material.google.com/
+  Unity:
+  https://docs.unity3d.com/Manual/index.html
 
    **2.**** Overall Description**
    
@@ -213,17 +224,25 @@ REQ-2:
 
 _&lt;If there are performance requirements for the product under various circumstances, state them here and explain their rationale, to help the developers understand the intent and make suitable design choices. Specify the timing relationships for real time systems. Make such requirements as specific as possible. You may need to state performance requirements for individual functional requirements or features.&gt;_
 
+Being an Android and iPhone gaming application, the application has the extreme likelyhood of being computationally heavy. **WRITE MORE**
+
   **5.2**** Safety Requirements**
 
 _&lt;Specify those requirements that are concerned with possible loss, damage, or harm that could result from the use of the product. Define any safeguards or actions that must be taken, as well as actions that must be prevented. Refer to any external policies or regulations that state safety issues that affect the product&#39;s design or use. Define any safety certifications that must be satisfied.&gt;_
+
+  SY's operation does not require any communication with any data outide of the application itself. The application will not change the phone itself in any way when being installed onto and Andriod or iPhone. It should be noted however that SY will not be responsible for any harm caused by interating with other users while playing the game. SY is not responsible for any injuries that occured to due the use of the application while operating a motor vehicle. Finally, SY will not be responsible for any harm or injuries to due poor judgement or lack of attention when operating the applcation.
 
   **5.3**** Security Requirements**
 
 _&lt;Specify any requirements regarding security or privacy issues surrounding use of the product or protection of the data used or created by the product. Define any user identity authentication requirements. Refer to any external policies or regulations containing security issues that affect the product. Define any security or privacy certifications that must be satisfied.&gt;_
 
+  The application would not keep a lot of data on the user besides a username, and some of their in-game statistics. Access to this application is given through logging into a secured mobile device with a passcode or some type of security enabled. Malicious parties will not be able to access the data that is contained within the application without the proper log-in information. If a user were to have their mobile device unlocked and the device is not in the possession of said user, the unknown user could potenially have full access to the data stored within the application. SY also has a multiplayer aspect to the game, where packets will be sent over the internet or bluetooth which contain game data. This data is not sensitive therefore it is not required to encrypt the game packets. The game packets would contain only data related to the game, this would only inculde what each user has spawned into the game world via tapping, or the deletion of game objects via tapping. A malicious user could potenially listen to the game packets however the only thing that they would be able to identify someone with would be a username. SY will not send location data over the internet, howvever it is possible someone could snoop around and find this data.
+
   **5.4**** Software Quality Attributes**
 
 _&lt;Specify any additional quality characteristics for the product that will be important to either the customers or the developers. Some to consider are: adaptability, availability, correctness, flexibility, interoperability, maintainability, portability, reliability, reusability, robustness, testability, and usability. Write these to be specific, quantitative, and verifiable when possible. At the least, clarify the relative preferences for various attributes, such as ease of use over ease of learning.&gt;_
+
+The application will be displayed in a way that will make it very easy for the user to understand everything that is going on. It will guide a user's eyes to points of interests in the application.*****
 
   **5.5**** Business Rules**
 
