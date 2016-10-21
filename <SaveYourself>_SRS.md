@@ -191,7 +191,7 @@ The following image is a prototype of what the invisioned game could look like w
   **3.2**** Hardware Interfaces**
 
 _&lt;Describe the logical and physical characteristics of each interface between the software product and the hardware components of the system. This may include the supported device types, the nature of the data and control interactions between the software and the hardware, and communication protocols to be used.&gt;_
-  Hardware connections to the software will be handled by the operating system of the player's mobile device. The mobile device must be running on an Android or iOS operating system.
+  Hardware connections to the software will be handled by the operating system of the player's mobile device. The mobile devicec must be running on an Android or iOS operating system.
 
   **3.3**** Software Interfaces**
 
@@ -200,12 +200,13 @@ _&lt;Describe the connections between this product and other specific software c
   **3.4**** Communications Interfaces**
 
 _&lt;Describe the requirements associated with any communications functions required by this product, including e-mail, web browser, network server communications protocols, electronic forms, and so on. Define any pertinent message formatting. Identify any communication standards that will be used, such as FTP or HTTP. Specify any communication security or encryption issues, data transfer rates, and synchronization mechanisms.&gt;_
+  Save yourself is an offline mobile application. The application will only access and save data to the device. the application will not interface with a database or the internet.
 
   **4.**** System Features**
 
 _&lt;This template illustrates organizing the functional requirements for the product by system features, the major services provided by the product. You may prefer to organize this section by use case, mode of operation, user class, object class, functional hierarchy, or combinations of these, whatever makes the most logical sense for your product.&gt;_
 
-  **4.1**** Save Scores**
+  **4.1**** System Feature 1**
 
 _&lt;Don&#39;t really say &quot;System Feature 1.&quot; State the feature name in just a few words.&gt;_
 
@@ -213,19 +214,9 @@ _&lt;Don&#39;t really say &quot;System Feature 1.&quot; State the feature name i
 
 _&lt;Provide a short description of the feature and indicate whether it is of High, Medium, or Low priority. You could also include specific priority component ratings, such as benefit, penalty, cost, and risk (each rated on a relative scale from a low of 1 to a high of 9).&gt;_
 
-The application must save the player's score so that it can be retrieved at a later time.
-
-Priority Level: High
-
 4.1.2        Stimulus/Response Sequences
 
 _&lt;List the sequences of user actions and system responses that stimulate the behavior defined for this feature. These will correspond to the dialog elements associated with use cases.&gt;_
-
-- User clicks the Play button
-- The game starts.
-- User loses the game.
-- The game finishes.
-- The Application saves the user's score on their device.
 
 4.1.3        Functional Requirements
 
@@ -243,7 +234,7 @@ REQ-2:
 
 _&lt;If there are performance requirements for the product under various circumstances, state them here and explain their rationale, to help the developers understand the intent and make suitable design choices. Specify the timing relationships for real time systems. Make such requirements as specific as possible. You may need to state performance requirements for individual functional requirements or features.&gt;_
 
-  Being an Android and iPhone gaming application, the application has the likelihood of being computationally heavy. The spawning and subsequent deletion of in game objects or sprites, depending on the amount spawned in, may or may not be computationally heavy. In order for the game to work properly, optimization must be a key factor in making sure the game will not slow down or crash.
+  Being an Android and iPhone gaming application, the application has the likelyhood of being computationally heavy. The spawning and subsequent deletion of in game objects or sprites, depending on the amount spawned in, may or may not be computationally heavy. In order for the game to work properly, optimization must be a key factor in making sure the game will not slow down or crash.
 
   **5.2**** Safety Requirements**
 
