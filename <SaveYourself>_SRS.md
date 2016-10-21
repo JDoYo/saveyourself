@@ -413,6 +413,10 @@ _&lt;Optionally, include any pertinent analysis models, such as data flow diagra
 
 Use Case Diagram:
 ![alt-text](https://github.com/JDoYo/saveyourself/blob/kalyno-patch-1/usecase.png)
+![alt-text](https://github.com/JDoYo/saveyourself/blob/kalyno-patch-1/singleplayer.png)
+![alt-text](https://github.com/JDoYo/saveyourself/blob/kalyno-patch-1/multiplayer.png)
+![alt-text](https://github.com/JDoYo/saveyourself/blob/kalyno-patch-1/playnewround.png)
+![alt-text](https://github.com/JDoYo/saveyourself/blob/kalyno-patch-1/savescores.png)
 
 
 **Appendix C: To Be Determined List**
