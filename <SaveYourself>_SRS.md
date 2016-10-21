@@ -130,7 +130,6 @@ The application is intended to follow Apple, Google and Unity guidelines, which 
   https://docs.unity3d.com/Manual/index.html
 
    **2.**** Overall Description**
-   
     **2.1**** Product Perspective**
 
 The product specified in this document is a new, self-contained mobile game. It takes a gaming concept featured in previous games, and hopes to expand upon them with new features.
