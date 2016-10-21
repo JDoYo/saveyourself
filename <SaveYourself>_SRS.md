@@ -275,12 +275,17 @@ _&lt;Itemize the detailed functional requirements associated with this feature. 
 
 _&lt;Each requirement should be uniquely identified with a sequence number or a meaningful tag of some kind.&gt;_
 
-- REQ-6 The application must have a 'Single-Player' button so the user can play without another user.
-- REQ-7 The application must start when the user presses the 'Single-Player button.
-- REQ-4 from 4.1.3 Functional Requirements.
-- REQ-8 The application must display score when the player dies and the game has ended.
-- REQ-9 The application must give the user the option to restart the game once the game has ended.
-- REQ-10 The application must give the user the option to exit to the main menu when the game has ended.
+REQ-6 The application must have a 'Single-Player' button so the user can play without another user.
+
+REQ-7 The application must start when the user presses the 'Single-Player button.
+
+REQ-4 from 4.1.3 Functional Requirements.
+
+REQ-8 The application must display score when the player dies and the game has ended.
+
+REQ-9 The application must give the user the option to restart the game once the game has ended.
+
+REQ-10 The application must give the user the option to exit to the main menu when the game has ended.
 
 **4.3**** Start New Round**
 
