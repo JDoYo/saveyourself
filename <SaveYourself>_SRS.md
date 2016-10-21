@@ -191,16 +191,19 @@ The following image is a prototype of what the invisioned game could look like w
   **3.2**** Hardware Interfaces**
 
 _&lt;Describe the logical and physical characteristics of each interface between the software product and the hardware components of the system. This may include the supported device types, the nature of the data and control interactions between the software and the hardware, and communication protocols to be used.&gt;_
-  Hardware connections to the software will be handled by the operating system of the player's mobile device. The mobile device must be running on an Android or iOS operating system.
+ 
+ Hardware connections to the software will be handled by the operating system of the player's mobile device. The mobile device must be running on an Android or iOS operating system.
 
   **3.3**** Software Interfaces**
 
 _&lt;Describe the connections between this product and other specific software components (name and version), including databases, operating systems, tools, libraries, and integrated commercial components. Identify the data items or messages coming into the system and going out and describe the purpose of each. Describe the services needed and the nature of communications. Refer to documents that describe detailed application programming interface protocols. Identify data that will be shared across software components. If the data sharing mechanism must be implemented in a specific way (for example, use of a global data area in a multitasking operating system), specify this as an implementation constraint.&gt;_
 
+ 
   **3.4**** Communications Interfaces**
 
 _&lt;Describe the requirements associated with any communications functions required by this product, including e-mail, web browser, network server communications protocols, electronic forms, and so on. Define any pertinent message formatting. Identify any communication standards that will be used, such as FTP or HTTP. Specify any communication security or encryption issues, data transfer rates, and synchronization mechanisms.&gt;_
-  Save yourself is an offline mobile application. The application will only access and save data to the device. The application will not interface with a database or the internet.
+
+Save yourself is an offline mobile application. The application will only access and save data to the device. The application will not interface with a database or the internet.
 
   **4.**** System Features**
 
@@ -213,7 +216,6 @@ _&lt;Don&#39;t really say &quot;System Feature 1.&quot; State the feature name i
 4.1.1        Description and Priority
 
 _&lt;Provide a short description of the feature and indicate whether it is of High, Medium, or Low priority. You could also include specific priority component ratings, such as benefit, penalty, cost, and risk (each rated on a relative scale from a low of 1 to a high of 9).&gt;_
-
 The application must save the player's score so that it can be retrieved at a later time.
 
 Priority Level: High
@@ -252,15 +254,20 @@ _&lt;Don&#39;t really say &quot;System Feature 1.&quot; State the feature name i
 
 _&lt;Provide a short description of the feature and indicate whether it is of High, Medium, or Low priority. You could also include specific priority component ratings, such as benefit, penalty, cost, and risk (each rated on a relative scale from a low of 1 to a high of 9).&gt;_
 
-NEED TO DO
+The application allows a user to play the game by his or her self.
 
-Priority Level: NEED TO DO
+Priority Level: HIGH
 
 4.2.2        Stimulus/Response Sequences
 
 _&lt;List the sequences of user actions and system responses that stimulate the behavior defined for this feature. These will correspond to the dialog elements associated with use cases.&gt;_
 
-NEED TO DO
+- User clicks the Play Single-Player button.
+- The Game starts.
+- Player plays the game.
+- Player dies within game.
+- Player's final score is displayed.
+- Player is given the option to restart game or exit to main menu.
 
 4.2.3        Functional Requirements
 
@@ -268,8 +275,12 @@ _&lt;Itemize the detailed functional requirements associated with this feature. 
 
 _&lt;Each requirement should be uniquely identified with a sequence number or a meaningful tag of some kind.&gt;_
 
-NEED TO DO
-DON'T FORGET TO ADJUST THE REQUIREMENT NUMBERS IN 4.3 AND 4.4 AS WELL.
+REQ-14 The application must have a 'Single-Player' button so the user can play without another user.
+REQ-15 The application must start when the user presses the 'Single-Player button.
+REQ-4 from 4.1.3 Functional Requirements.
+REQ-16 The application must display score when the player dies and the game has ended.
+REQ-17 The application must give the user the option to restart the game once the game has ended.
+REQ-18 The application must give the user the option to exit to the main menu when the game has ended.
 
   **4.3**** Start New Round**
 
@@ -358,7 +369,7 @@ REQ-11: The application must display Player 1's score when the game stops.
 
 REQ-12: The applcation must restart the game after displaying Player 1's score.
 
-REQ-13: The application must compare all of the players' scores.
+REQ-13: The application must compare all of the player's scores.
 
     **4.2**** System Feature 2 (and so on)**
    **5.**** Other Nonfunctional Requirements**
