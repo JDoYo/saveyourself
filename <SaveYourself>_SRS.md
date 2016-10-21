@@ -200,7 +200,7 @@ _&lt;Describe the connections between this product and other specific software c
   **3.4**** Communications Interfaces**
 
 _&lt;Describe the requirements associated with any communications functions required by this product, including e-mail, web browser, network server communications protocols, electronic forms, and so on. Define any pertinent message formatting. Identify any communication standards that will be used, such as FTP or HTTP. Specify any communication security or encryption issues, data transfer rates, and synchronization mechanisms.&gt;_
-  Save yourself is an offline mobile application. The application will only access and save data to the device. the application will not interface with a database or the internet.
+  Save yourself is an offline mobile application. The application will only access and save data to the device. The application will not interface with a database or the internet.
 
   **4.**** System Features**
 
