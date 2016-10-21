@@ -115,7 +115,7 @@ _&lt;Describe the different types of reader that the document is intended for, s
 
 _&lt;Provide a short description of the software being specified and its purpose, including relevant benefits, objectives, and goals. Relate the software to corporate goals or business strategies. If a separate vision and scope document is available, refer to it rather than duplicating its contents here.&gt;_
 
-This application will be a mobile game which involves tapping at a screen to defeat enemies. These enemies will be coming at the chaaracter in the middle(You) and in order to deafeat them, you must tap away at them. A user will load up the game and have an option to play against a simple AI or the option of playing against another player. Adding a social element to a game can be incredibly benifical to users who might be looking for new friends or a new challenge. The application will be very easy to use by incoporating a simple and effective interface. The game is intended for all audiences and is a simple enough game to be played for short periods such as a lunch break or recess.
+This application will be a mobile game which involves tapping at a screen to defeat enemies. These enemies will be moving toward the player's character located in the center of the screen, and in order to defeat these enemies, the player must tap them to defeat them. A user will load up the game and have an option to play against a simple AI or the option of playing against other players. Adding a social element to this game can be benifical to users who might be looking for a new social outlet or challenging entertainment. The application will be easy to use by incorporating a simple and effective interface.
 
   **1.5**** References**
 
@@ -143,13 +143,15 @@ _&lt;Describe the context and origin of the product being specified in this SRS.
 _&lt;Summarize the major functions the product must perform or must let the user perform. Details will be provided in Section 3, so only a high level summary (such as a bullet list) is needed here. Organize the functions to make them understandable to any reader of the SRS. A picture of the major groups of related requirements and how they relate, such as a top level data flow diagram or object class diagram, is often effective.&gt;_
 
   The following is a list of the basic requirements that our mobile game must feature:
-  * The game must allow for multiple players to play rounds on a turn-by-turn basis.
-  * The game must allow the multiple rounds to be played by each player.
-  * The game must save scores from previous rounds for each player.
+  - The game must allow for multiple players to play rounds on a turn-by-turn basis.
+  - The game must allow the multiple rounds to be played by each player.
+  - The game must save scores from previous rounds for each player.
 
   **2.3**** User Classes and Characteristics**
 
 _&lt;Identify the various user classes that you anticipate will use this product. User classes may be differentiated based on frequency of use, subset of product functions used, technical expertise, security or privilege levels, educational level, or experience. Describe the pertinent characteristics of each user class. Certain requirements may pertain only to certain user classes. Distinguish the most important user classes for this product from those who are less important to satisfy.&gt;_
+
+  The game will be appropriate for all ages. The game will be available for all users who own a mobile device running the featured operating systems specified in the following section (2.4) of this document through their respective mobile application stores. The game is intended to be played by all users who play mobile games with a device running those specified operating systems.
 
   **2.4**** Operating Environment**
 
@@ -167,7 +169,7 @@ _&lt;Describe any items or issues that will limit the options available to the d
 
 _&lt;List the user documentation components (such as user manuals, on-line help, and tutorials) that will be delivered along with the software. Identify any known user documentation delivery formats or standards.&gt;_
 
-  A "Help" menu will be available on the main screen of the mobile game.
+  On the main screen of the mobile game, a "Help" button will navigate the user to a help section that will explain the basics of the gameplay. With our initial release, we will utilize the comments sections of the mobile app stores to observe user issues with the game. The descriptions section for the game on the mobile app stores can be used to provide information to users on any update information.
 
   **2.7**** Assumptions and Dependencies**
 
@@ -176,7 +178,6 @@ _&lt;List any assumed factors (as opposed to known facts) that could affect the 
   Since the application will be developed using Unity and made for Apple devices, once the implementation is complete, it will have to be transferred to Xcode to finish the final steps. If the application can't be moved to Xcode, it won't be able to reach the users.
 
   **3.**** External Interface Requirements**
-  
     **3.1**** User Interfaces**
 
 _&lt;Describe the logical characteristics of each interface between the software product and the users. This may include sample screen images, any GUI standards or product family style guides that are to be followed, screen layout constraints, standard buttons and functions (e.g., help) that will appear on every screen, keyboard shortcuts, error message display standards, and so on. Define the software components for which a user interface is needed. Details of the user interface design should be documented in a separate user interface specification.&gt;_
