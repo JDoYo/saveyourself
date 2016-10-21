@@ -216,7 +216,7 @@ _&lt;Don&#39;t really say &quot;System Feature 1.&quot; State the feature name i
 4.1.1        Description and Priority
 
 _&lt;Provide a short description of the feature and indicate whether it is of High, Medium, or Low priority. You could also include specific priority component ratings, such as benefit, penalty, cost, and risk (each rated on a relative scale from a low of 1 to a high of 9).&gt;_
-The application must save the player's score so that it can be retrieved at a later time.
+The application must save the User's score so that it can be retrieved at a later time.
 
 Priority Level: High
 
@@ -254,7 +254,7 @@ _&lt;Don&#39;t really say &quot;System Feature 1.&quot; State the feature name i
 
 _&lt;Provide a short description of the feature and indicate whether it is of High, Medium, or Low priority. You could also include specific priority component ratings, such as benefit, penalty, cost, and risk (each rated on a relative scale from a low of 1 to a high of 9).&gt;_
 
-The application allows a user to play the game by his or her self.
+The application must allow the User to play alone.
 
 Priority Level: HIGH
 
@@ -275,14 +275,14 @@ _&lt;Itemize the detailed functional requirements associated with this feature. 
 
 _&lt;Each requirement should be uniquely identified with a sequence number or a meaningful tag of some kind.&gt;_
 
-REQ-14 The application must have a 'Single-Player' button so the user can play without another user.
-REQ-15 The application must start when the user presses the 'Single-Player button.
-REQ-4 from 4.1.3 Functional Requirements.
-REQ-16 The application must display score when the player dies and the game has ended.
-REQ-17 The application must give the user the option to restart the game once the game has ended.
-REQ-18 The application must give the user the option to exit to the main menu when the game has ended.
+- REQ-6 The application must have a 'Single-Player' button so the user can play without another user.
+- REQ-7 The application must start when the user presses the 'Single-Player button.
+- REQ-4 from 4.1.3 Functional Requirements.
+- REQ-8 The application must display score when the player dies and the game has ended.
+- REQ-9 The application must give the user the option to restart the game once the game has ended.
+- REQ-10 The application must give the user the option to exit to the main menu when the game has ended.
 
-  **4.3**** Start New Round**
+**4.3**** Start New Round**
 
 _&lt;Don&#39;t really say &quot;System Feature 1.&quot; State the feature name in just a few words.&gt;_
 
@@ -316,9 +316,9 @@ REQ-2 from 4.1.3 Functional Requirements.
 
 REQ-4 from 4.1.3 Functional Requirements.
 
-REQ-6: The application must have a Start Over button so the User can start a new round.
+REQ-11: The application must have a Start Over button so the User can start a new round.
 
-REQ-7: The application must start another round when the User clicks the Start Over button.
+REQ-12: The application must start another round when the User clicks the Start Over button.
 
   **4.4**** Play Turn-Based Multiplayer**
 
@@ -357,19 +357,19 @@ _&lt;Itemize the detailed functional requirements associated with this feature. 
 
 _&lt;Each requirement should be uniquely identified with a sequence number or a meaningful tag of some kind.&gt;_
 
-REQ-8: The application must have a Play Multiplayer button so multiple players can play on one device.
+REQ-13: The application must have a Play Multiplayer button so multiple players can play on one device.
 
-REQ-9: The application must ask for the number of players when the User clicks the Play Multiplayer button.
+REQ-14: The application must ask for the number of players when the User clicks the Play Multiplayer button.
 
-REQ-10: The application must start the game when the User enters the number of players.
+REQ-15: The application must start the game when the User enters the number of players.
 
 REQ-4 from 4.1.3 Functional Requirements.
 
-REQ-11: The application must display Player 1's score when the game stops.
+REQ-16: The application must display Player 1's score when the game stops.
 
-REQ-12: The applcation must restart the game after displaying Player 1's score.
+REQ-17: The applcation must restart the game after displaying Player 1's score.
 
-REQ-13: The application must compare all of the player's scores.
+REQ-18: The application must compare all of the player's scores.
 
     **4.2**** System Feature 2 (and so on)**
    **5.**** Other Nonfunctional Requirements**
