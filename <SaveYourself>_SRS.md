@@ -183,7 +183,7 @@ _&lt;Describe the logical characteristics of each interface between the software
 
 The following image is a prototype of what the invisioned game could look like while in use:
 
-![alt-text](https://github.com/JDoYo/saveyourself/blob/master/Save%20Yourself%20Gameplay%20Screengrab%20Prototype.png)
+![alt-text](https://github.com/JDoYo/saveyourself/blob/master/Save%20Yourself%20Gameplay%20Screengrab%20Prototype%20RESIZED%20BORDERED.png)
 
   **3.2**** Hardware Interfaces**
 
