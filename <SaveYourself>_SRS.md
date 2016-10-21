@@ -125,8 +125,10 @@ The application is intended to follow Apple, Google and Unity guidelines, which 
 
   Apple:
   https://developer.apple.com/ios/human-interface-guidelines/
+  
   Google:
   https://material.google.com/
+  
   Unity:
   https://docs.unity3d.com/Manual/index.html
 
@@ -231,7 +233,7 @@ REQ-2:
 
 _&lt;If there are performance requirements for the product under various circumstances, state them here and explain their rationale, to help the developers understand the intent and make suitable design choices. Specify the timing relationships for real time systems. Make such requirements as specific as possible. You may need to state performance requirements for individual functional requirements or features.&gt;_
 
-Being an Android and iPhone gaming application, the application has the extreme likelyhood of being computationally heavy. **WRITE MORE**
+  Being an Android and iPhone gaming application, the application has the likelyhood of being computationally heavy. The spawning and subsequent deletion of in game objects or sprites, depending on the amount spawned in, may or may not be computationally heavy. In order for the game to work properly, optimization must be a key factor in making sure the game will not slow down or crash.
 
   **5.2**** Safety Requirements**
 
@@ -272,6 +274,10 @@ _&lt;Define all the terms necessary to properly interpret the SRS, including acr
 **Appendix B: Analysis Models**
 
 _&lt;Optionally, include any pertinent analysis models, such as data flow diagrams, class diagrams, state-transition diagrams, or entity-relationship diagrams_.&gt;
+
+Use Case Diagram:
+![alt-text](https://github.com/JDoYo/saveyourself/blob/master/Photo%20Oct%2021%2C%2010%2041%2006%20AM.jpg)
+
 
 **Appendix C: To Be Determined List**
 
