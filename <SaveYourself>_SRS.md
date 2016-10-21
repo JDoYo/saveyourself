@@ -176,9 +176,14 @@ _&lt;List any assumed factors (as opposed to known facts) that could affect the 
   Since the application will be developed using Unity and made for Apple devices, once the implementation is complete, it will have to be transferred to Xcode to finish the final steps. If the application can't be moved to Xcode, it won't be able to reach the users.
 
   **3.**** External Interface Requirements**
+  
     **3.1**** User Interfaces**
 
 _&lt;Describe the logical characteristics of each interface between the software product and the users. This may include sample screen images, any GUI standards or product family style guides that are to be followed, screen layout constraints, standard buttons and functions (e.g., help) that will appear on every screen, keyboard shortcuts, error message display standards, and so on. Define the software components for which a user interface is needed. Details of the user interface design should be documented in a separate user interface specification.&gt;_
+
+The following image is a prototype of what the invisioned game could look like while in use:
+
+![alt-text](https://github.com/JDoYo/saveyourself/blob/master/Save%20Yourself%20Gameplay%20Screengrab%20Prototype.png)
 
   **3.2**** Hardware Interfaces**
 
