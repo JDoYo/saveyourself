@@ -242,11 +242,17 @@ _&lt;Specify any requirements regarding security or privacy issues surrounding u
 
 _&lt;Specify any additional quality characteristics for the product that will be important to either the customers or the developers. Some to consider are: adaptability, availability, correctness, flexibility, interoperability, maintainability, portability, reliability, reusability, robustness, testability, and usability. Write these to be specific, quantitative, and verifiable when possible. At the least, clarify the relative preferences for various attributes, such as ease of use over ease of learning.&gt;_
 
-The application will be displayed in a way that will make it very easy for the user to understand everything that is going on. It will guide a user's eyes to points of interests in the application.*****
+The primary non-functional requirments that Save Yourself will focus on are reliablity and usability. 
+
+  The application will be displayed in a way that will make it very easy for the user to understand everything that is going on. It will guide a user's eyes to points of interests in the application. The application will be basic enough that users of all ages would be able to properly navigate their way through the application. An interface that's too complex would be a large pitfall for Save Yourself, the point of the application is for it to open quickly so you're able to jump into a game as fast as possible. Due to this we will be limiting loading times and the loading times to load into a game with another player will take a minimal amount of time to load.
+
+  In regards to reliability, Save Yourself will be using a simeple database for statistics that involves the game data. The game needs to also be reliable in a sense that when a user opens it, it will open without delay or crashing. Since certain people will be using this application almost daily, it is imperative that the application does not crash and interrupt the user's daily routine.
 
   **5.5**** Business Rules**
 
 _&lt;List any operating principles about the product, such as which individuals or roles can perform which functions under specific circumstances. These are not functional requirements in themselves, but they may imply certain functional requirements to enforce the rules.&gt;_
+
+Save Yourself is a gaming application that will be a similar experience for all users that play this game. Each user has full control over the application and are welcome to modify and use each of the game's features to its fullest. One of our main non-functional requirments stated in section 5.4 is usability. With that being said, there is no function that will be disabled to any user, at any time.
 
   **6.**** Other Requirements**
 
