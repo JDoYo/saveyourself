@@ -142,47 +142,35 @@ _&lt;Describe the context and origin of the product being specified in this SRS.
 
   **2.2**** Product Functions**
 
-_&lt;Summarize the major functions the product must perform or must let the user perform. Details will be provided in Section 3, so only a high level summary (such as a bullet list) is needed here. Organize the functions to make them understandable to any reader of the SRS. A picture of the major groups of related requirements and how they relate, such as a top level data flow diagram or object class diagram, is often effective.&gt;_
-
-  The following is a list summarizing the requirements our mobile game must feature:
-  - The game must be comprised of rounds that are made up of these components:
-     - The player's avatar which remains stationary in the center of the screen.
-     - In-game generated enemies which congregate and swarm the player from all directions of the screen.
-  - The game must allow a player to start a new round.
-  - The game must allow a player to play rounds alone.
-  - The game must allow for multiple players to play rounds on a turn-by-turn basis.
-  - The game must save each player's score for a particular round to be used at a later time.
-    - Used to compare player scores when multiple players are involved.
+The following is a list summarizing the requirements our mobile game must feature:
+ - The game must be comprised of rounds that are made up of these components:
+    - The player's avatar which remains stationary in the center of the screen.
+    - In-game generated enemies which congregate and swarm the player from all directions of the screen.
+ - The game must allow a player to start a new round.
+ - The game must allow a player to play rounds alone.
+ - The game must allow for multiple players to play rounds on a turn-by-turn basis.
+ - The game must save each player's score for a particular round to be used at a later time.
+   - Used to compare player scores when multiple players are involved.
 
   **2.3**** User Classes and Characteristics**
 
-_&lt;Identify the various user classes that you anticipate will use this product. User classes may be differentiated based on frequency of use, subset of product functions used, technical expertise, security or privilege levels, educational level, or experience. Describe the pertinent characteristics of each user class. Certain requirements may pertain only to certain user classes. Distinguish the most important user classes for this product from those who are less important to satisfy.&gt;_
-
-  The game will be appropriate for all ages. The game will be available for all users who own a mobile device running the featured operating systems specified in the following section (2.4) of this document through their respective mobile application stores. The game is intended to be played by all users who play mobile games with a device running those specified operating systems.
+The game will be appropriate for all ages. The game will be available for all users who own a mobile device running the featured operating systems specified in the following section (2.4) of this document through their respective mobile application stores. The game is intended to be played by all users who play mobile games with a device running those specified operating systems.
 
   **2.4**** Operating Environment**
 
-_&lt;Describe the environment in which the software will operate, including the hardware platform, operating system and versions, and any other software components or applications with which it must peacefully coexist.&gt;_
-
-  The application will operate on Apple devices running iOS 8.0 or higher and Android devices running version 5.0 or higher. The game would not conflict with any features the mobile device provides to its users outside of the gaming environment.
+The application will operate on Apple devices running iOS 8.0 or higher and Android devices running version 5.0 or higher. The game would not conflict with any features the mobile device provides to its users outside of the gaming environment.
 
   **2.5**** Design and Implementation Constraints**
 
-_&lt;Describe any items or issues that will limit the options available to the developers. These might include: corporate or regulatory policies; hardware limitations (timing requirements, memory requirements); interfaces to other applications; specific technologies, tools, and databases to be used; parallel operations; language requirements; communications protocols; security considerations; design conventions or programming standards (for example, if the customer&#39;s organization will be responsible for maintaining the delivered software).&gt;_
-
-  The design and implementation of the application will be limited to the tools, content, and programming languages that are available for use within the Unity environment.
+The design and implementation of the application will be limited to the tools, content, and programming languages that are available for use within the Unity environment. Potential updates to the game will be available through the mobile device's respective mobile appllication stores.
 
   **2.6**** User Documentation**
 
-_&lt;List the user documentation components (such as user manuals, on-line help, and tutorials) that will be delivered along with the software. Identify any known user documentation delivery formats or standards.&gt;_
-
-  On the main screen of the mobile game, a "Help" button will navigate the user to a help section that will explain the basics of the gameplay. With our initial release, we will utilize the comments sections of the mobile app stores to observe user issues with the game. The descriptions section for the game on the mobile app stores can be used to provide information to users on any update information of future releases.
+On the main screen of the game, a "Help" button will navigate the user to a help section that will explain the basics of the gameplay and the use of the game. The description section for the game on the mobile application stores can be used to provide information to users on any update information of future releases. With our initial release, we will utilize the comments sections of the mobile application stores to observe user issues with the game.
 
   **2.7**** Assumptions and Dependencies**
 
-_&lt;List any assumed factors (as opposed to known facts) that could affect the requirements stated in the SRS. These could include third-party or commercial components that you plan to use, issues around the development or operating environment, or constraints. The project could be affected if these assumptions are incorrect, are not shared, or change. Also identify any dependencies the project has on external factors, such as software components that you intend to reuse from another project, unless they are already documented elsewhere (for example, in the vision and scope document or the project plan).&gt;_
-
-  Since the application will be developed using Unity and made for Apple devices, once the implementation is complete, it will have to be transferred to Xcode to finish the final steps. If the application can't be moved to Xcode, it won't be able to reach the users.
+Since the application will be developed using Unity and made for Apple devices, once the implementation is complete, it will have to be transferred to Xcode to finish the final steps. If the application can't be moved to Xcode, it won't be able to reach those users.
 
   **3.**** External Interface Requirements**
     **3.1**** User Interfaces**
