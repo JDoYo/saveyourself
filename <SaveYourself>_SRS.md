@@ -416,7 +416,7 @@ Use Case Diagram:
 ![alt-text](https://github.com/JDoYo/saveyourself/blob/kalyno-patch-1/singleplayer.png)
 ![alt-text](https://github.com/JDoYo/saveyourself/blob/kalyno-patch-1/multiplayer.png)
 ![alt-text](https://github.com/JDoYo/saveyourself/blob/kalyno-patch-1/playnewround.png)
-![alt-text](https://github.com/JDoYo/saveyourself/blob/kalyno-patch-1/savescores.png)
+![alt-text](https://github.com/JDoYo/saveyourself/blob/kalyno-patch-1/savecores.png)
 
 
 **Appendix C: To Be Determined List**
