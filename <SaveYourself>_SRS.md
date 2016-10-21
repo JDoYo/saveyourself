@@ -189,9 +189,11 @@ _&lt;List any assumed factors (as opposed to known facts) that could affect the 
 
 _&lt;Describe the logical characteristics of each interface between the software product and the users. This may include sample screen images, any GUI standards or product family style guides that are to be followed, screen layout constraints, standard buttons and functions (e.g., help) that will appear on every screen, keyboard shortcuts, error message display standards, and so on. Define the software components for which a user interface is needed. Details of the user interface design should be documented in a separate user interface specification.&gt;_
 
-The following image is a prototype of what the invisioned game could look like while in use:
+The following image is a prototype of what the invisioned gameplay as well as the homescreen could look like while in use, respectively:
 
 ![alt-text](https://github.com/JDoYo/saveyourself/blob/master/Save%20Yourself%20Gameplay%20Screengrab%20Prototype%20RESIZED%20BORDERED.png)
+
+![alt-text](https://github.com/JDoYo/saveyourself/blob/master/Save%20Yourself%20Homescreen%20Screengrab%20Prototype%20BORDERED.png)
 
   **3.2**** Hardware Interfaces**
 
