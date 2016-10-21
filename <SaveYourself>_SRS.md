@@ -131,10 +131,10 @@ _&lt;Describe the context and origin of the product being specified in this SRS.
 
 _&lt;Summarize the major functions the product must perform or must let the user perform. Details will be provided in Section 3, so only a high level summary (such as a bullet list) is needed here. Organize the functions to make them understandable to any reader of the SRS. A picture of the major groups of related requirements and how they relate, such as a top level data flow diagram or object class diagram, is often effective.&gt;_
 
-  The following is a list of the basic requirements our mobile game must feature:
+  The following is a list of the basic requirements that our mobile game must feature:
   * The game must allow for multiple players to play rounds on a turn-by-turn basis.
   * The game must allow the multiple rounds to be played by each player.
-  * The game must remember scores from previous rounds for each player.
+  * The game must save scores from previous rounds for each player.
 
   **2.3**** User Classes and Characteristics**
 
@@ -144,9 +144,13 @@ _&lt;Identify the various user classes that you anticipate will use this product
 
 _&lt;Describe the environment in which the software will operate, including the hardware platform, operating system and versions, and any other software components or applications with which it must peacefully coexist.&gt;_
 
+  The application will operate on Apple devices running iOS 8.0 or higher and Android devices running version 5.0 or higher.
+
   **2.5**** Design and Implementation Constraints**
 
 _&lt;Describe any items or issues that will limit the options available to the developers. These might include: corporate or regulatory policies; hardware limitations (timing requirements, memory requirements); interfaces to other applications; specific technologies, tools, and databases to be used; parallel operations; language requirements; communications protocols; security considerations; design conventions or programming standards (for example, if the customer&#39;s organization will be responsible for maintaining the delivered software).&gt;_
+
+  The design and implementation of the application will be limited to the tools, content, and programming languages that are available for use within the Unity environment.
 
   **2.6**** User Documentation**
 
