@@ -105,7 +105,8 @@
 
 
    **1.**** Introduction**
-     **1.1**** Purpose**
+
+**1.1**** Purpose**
 
   The purpose of this Software Requirments Document(SRS) is to provide a full, detailed description of the "Save Yourself" application. The document will cover each feature as well as how each feature is used. It will show the complete design specifactions for our application. The document will contain an overview of everything down to design contraints, interaction with interfaces, system features, and so on. 
 
@@ -135,11 +136,12 @@ The application is intended to follow Apple, Google and Unity guidelines, which 
   https://docs.unity3d.com/Manual/index.html
 
    **2.**** Overall Description**
-    **2.1**** Product Perspective**
+
+**2.1**** Product Perspective**
 
 The product specified in this document is a new, self-contained mobile game. It takes a gaming concept featured in previous games, and hopes to expand upon them with new features.
 
-  **2.2**** Product Functions**
+**2.2**** Product Functions**
 
 The following is a list summarizing the requirements our mobile game must feature:
  - The game must be comprised of rounds that are made up of these components:
