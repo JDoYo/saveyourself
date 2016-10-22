@@ -180,14 +180,14 @@ The following image is a prototype of what the invisioned gameplay as well as th
   **3.2**** Hardware Interfaces**
 
 _&lt;Describe the logical and physical characteristics of each interface between the software product and the hardware components of the system. This may include the supported device types, the nature of the data and control interactions between the software and the hardware, and communication protocols to be used.&gt;_
- 
- Hardware connections to the software will be handled by the operating system of the player's mobile device. The mobile device must be running on an Android or iOS operating system.
+
+  Hardware interfacing will mostly be handled by the native operating system of the device in use.  Both iOS and Android natively support the touch screen feature, as well as intergrated graphics controllers, so additional features will not require additional software for hardware interfacing.  The physical storage of user data will be handled by the app itself to access physical store media on the device.
 
   **3.3**** Software Interfaces**
 
 _&lt;Describe the connections between this product and other specific software components (name and version), including databases, operating systems, tools, libraries, and integrated commercial components. Identify the data items or messages coming into the system and going out and describe the purpose of each. Describe the services needed and the nature of communications. Refer to documents that describe detailed application programming interface protocols. Identify data that will be shared across software components. If the data sharing mechanism must be implemented in a specific way (for example, use of a global data area in a multitasking operating system), specify this as an implementation constraint.&gt;_
 
-  The app will be compatibile with the current iOS operating sytem as well as the current Android OS.  Updates for the app will be issued in line with new operating system releases from both Android and Apple to ensure compatibility at all times.  The game's touch and tap feature will make use of the native touch interface to both operating systems.  Player data will be assigned to a default name of Player 1 and Player 2 when multiplayer mode is being used.  The high scores for each will be saved in free memory space on the device itself.  Since the game is offline only, 
+  The app will be compatibile with the current iOS operating sytem as well as the current Android OS.  Updates for the app will be issued in line with new operating system releases from both Android and Apple to ensure compatibility at all times.  The game's touch and tap feature will make use of the native touch interface to both operating systems.  Player data will be assigned to a default name of Player 1 and Player 2 when multiplayer mode is being used.  The high scores for each will be saved in free memory space on the device itself.  Since the game is offline only currently, no network protocols will be needed; however, in later releases, bluetooth and wifi networking protocols will be implemented for local network play.
 
  
   **3.4**** Communications Interfaces**
