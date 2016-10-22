@@ -384,3 +384,5 @@ Use Case Diagram:
 
 
 **Appendix C: To Be Determined List**
+
+The game will eventually look to implement local network co-op mode, but that is a low priority and, if implemented, will be in a much later release.
