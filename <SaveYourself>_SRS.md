@@ -152,7 +152,7 @@ The following is a list summarizing the requirements our mobile game must featur
    - Used to compare player scores when multiple players are involved.
  - The game must allow the player to pause the game at any point during the round.
 
-  **2.3**** User Classes and Characteristics**
+**2.3**** User Classes and Characteristics**
 
 The game will be appropriate for all ages. The game will be available for all users who own a mobile device running the featured operating systems specified in the following section (2.4) of this document through their respective mobile application stores. The game is intended to be played by all users who play mobile games with a device running those specified operating systems.
 
