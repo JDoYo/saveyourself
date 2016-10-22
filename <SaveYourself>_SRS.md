@@ -198,13 +198,13 @@ Save yourself is an offline mobile application. The application will only access
 
   **4.1**** Save Scores**
 
-4.1.1        Description and Priority
+**4.1.1****        Description and Priority
 
 The application must save the User's score so that it can be retrieved at a later time.
 
 Priority Level: High
 
-4.1.2        Stimulus/Response Sequences
+**4.1.2****        Stimulus/Response Sequences
 
 - User clicks the Play button
 - The game starts.
@@ -212,7 +212,7 @@ Priority Level: High
 - The game stops.
 - The Application saves the User's score on their device.
 
-4.1.3        Functional Requirements
+**4.1.3****        Functional Requirements
 
 REQ-1: The application must have a Play button so the User can start the game.
 
@@ -226,13 +226,13 @@ REQ-5: The application must save the User's score to their device.
 
 **4.2**** Play Singleplayer**
 
-4.2.1        Description and Priority
+**4.2.1****        Description and Priority
 
 The application must allow the User to play alone.
 
 Priority Level: High
 
-4.2.2        Stimulus/Response Sequences
+**4.2.2****       Stimulus/Response Sequences
 
 - User clicks the Play Single-Player button.
 - The Game starts.
@@ -241,7 +241,7 @@ Priority Level: High
 - Player's final score is displayed.
 - Player is given the option to restart game or exit to main menu.
 
-4.2.3        Functional Requirements
+**4.2.3****       Functional Requirements
 
 REQ-6 The application must have a 'Single-Player' button so the user can play without another user.
 
@@ -257,13 +257,13 @@ REQ-10 The application must give the user the option to exit to the main menu wh
 
 **4.3**** Start New Round**
 
-4.3.1        Description and Priority
+**4.3.1****       Description and Priority
 
 The application must allow the User to start a new round.
 
 Priority Level: High
 
-4.3.2        Stimulus/Response Sequences
+**4.3.2****        Stimulus/Response Sequences
 
 - User clicks the Play button.
 - The game starts.
@@ -271,7 +271,7 @@ Priority Level: High
 - The game stops.
 - User clicks the Start Over button.
 
-4.3.3        Functional Requirements
+**4.3.3****     Functional Requirements
 
 REQ-1 from 4.1.3 Functional Requirements.
 
@@ -285,13 +285,13 @@ REQ-12: The application must start another round when the User clicks the Start 
 
   **4.4**** Play Turn-Based Multiplayer**
 
-4.4.1        Description and Priority
+**4.4.1****        Description and Priority
 
 The application must allow users to play against each other with a turn-by-turn system. The users must be able to play against each other on one device and compare their final scores.
 
 Priority Level: Medium
 
-4.4.2        Stimulus/Response Sequences
+**4.4.2****       Stimulus/Response Sequences
 
 - User clicks the Play Multiplayer button.
 - The game asks for the number of players.
@@ -308,7 +308,7 @@ Priority Level: Medium
 - Player 1 and Player 2's scores are compared.
 - (repeat steps 9-13 if there's a Player 3 and Player 4)
 
-4.4.3        Functional Requirements
+**4.4.3****       Functional Requirements
 
 REQ-13: The application must have a Play Multiplayer button so multiple players can play on one device.
 
@@ -327,13 +327,13 @@ REQ-18: The application must compare all of the player's scores.
 
 **4.5**** Pause Gameplay**
 
-4.5.1        Description and Priority
+**4.5.1****       Description and Priority
 
 The application must pause gameplay upon player’s request.
 
 Priority Level: Low
 
-4.5.2        Stimulus/Response Sequences
+**4.5.2****       Stimulus/Response Sequences
 
 - User clicks the Play button
 - The game starts.
@@ -342,7 +342,7 @@ Priority Level: Low
 - User clicks the resume button.
 - Game resumes.
 
-4.5.3        Functional Requirements
+**4.5.3****      Functional Requirements
 
 REQ-19: The application must have a Pause button so the User can pause the game.
 
@@ -351,7 +351,8 @@ REQ-20: The application must have a Resume button so the User can resume the gam
 REQ-21: The application must unpause the game when the User clicks the Resume button.
 
    **5.**** Other Nonfunctional Requirements**
-    **5.1**** Performance Requirements**
+
+**5.1**** Performance Requirements**
 
   Being an Android and iPhone gaming application, the application has the likelihood of being computationally heavy. The spawning and subsequent deletion of in game objects or sprites, depending on the amount spawned in, may or may not be computationally heavy. In order for the game to work properly, optimization must be a key factor in making sure the game will not slow down or crash.
 
