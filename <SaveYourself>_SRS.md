@@ -187,7 +187,7 @@ _&lt;Describe the logical and physical characteristics of each interface between
 
 _&lt;Describe the connections between this product and other specific software components (name and version), including databases, operating systems, tools, libraries, and integrated commercial components. Identify the data items or messages coming into the system and going out and describe the purpose of each. Describe the services needed and the nature of communications. Refer to documents that describe detailed application programming interface protocols. Identify data that will be shared across software components. If the data sharing mechanism must be implemented in a specific way (for example, use of a global data area in a multitasking operating system), specify this as an implementation constraint.&gt;_
 
-  As mentioned earlier, the application will operate on Apple devices running iOS 8.0 or higher and Android devices running version 5.0 or higher.  Updates for the app will be issued in line with new operating system releases from both Android and Apple to ensure compatibility at all times.  The game's touch and tap feature will make use of the native touch interface to both operating systems.  Player data will be assigned to a default name of Player 1 and Player 2 when multiplayer mode is being used.  The high scores for each will be saved in free memory space on the device itself.  Since the game is offline only currently, no network protocols will be needed; however, in later releases, bluetooth and wifi networking protocols will be implemented for local network play.
+  The app will be compatibile with the current iOS operating sytem as well as the current Android OS.  Updates for the app will be issued in line with new operating system releases from both Android and Apple to ensure compatibility at all times.  The game's touch and tap feature will make use of the native touch interface to both operating systems.  Player data will be assigned to a default name of Player 1 and Player 2 when multiplayer mode is being used.  The high scores for each will be saved in free memory space on the device itself.  Since the game is offline only currently, no network protocols will be needed; however, in later releases, bluetooth and wifi networking protocols will be implemented for local network play.
 
  
   **3.4**** Communications Interfaces**
@@ -367,6 +367,40 @@ REQ-17: The applcation must restart the game after displaying Player 1's score.
 
 REQ-18: The application must compare all of the player's scores.
 
+
+**4.5**** Pause Gameplay**
+
+_&lt;Don&#39;t really say &quot;System Feature 1.&quot; State the feature name in just a few words.&gt;_
+
+4.5.1        Description and Priority
+
+_&lt;Provide a short description of the feature and indicate whether it is of High, Medium, or Low priority. You could also include specific priority component ratings, such as benefit, penalty, cost, and risk (each rated on a relative scale from a low of 1 to a high of 9).&gt;_
+The application must pause gameplay upon player’s request.
+
+Priority Level: Low
+
+4.5.2        Stimulus/Response Sequences
+
+_&lt;List the sequences of user actions and system responses that stimulate the behavior defined for this feature. These will correspond to the dialog elements associated with use cases.&gt;_
+
+- User clicks the Play button
+- The game starts.
+- User clicks the pause button.
+- The game stops.
+- User clicks the resume button.
+- Game resumes.
+
+4.5.3        Functional Requirements
+
+_&lt;Itemize the detailed functional requirements associated with this feature. These are the software capabilities that must be present in order for the user to carry out the services provided by the feature, or to execute the use case. Include how the product should respond to anticipated error conditions or invalid inputs. Requirements should be concise, complete, unambiguous, verifiable, and necessary. Use &quot;TBD&quot; as a placeholder to indicate when necessary information is not yet available.&gt;_
+
+_&lt;Each requirement should be uniquely identified with a sequence number or a meaningful tag of some kind.&gt;_
+
+REQ-19: The application must have a Pause button so the User can pause the game.
+
+REQ-20: The application must start the game when the User clicks the resume button.
+
+
     **4.2**** System Feature 2 (and so on)**
    **5.**** Other Nonfunctional Requirements**
     **5.1**** Performance Requirements**
@@ -379,7 +413,7 @@ REQ-18: The application must compare all of the player's scores.
 
   **5.3**** Security Requirements**
 
-  The application would not keep a lot of data on the user besides in-game statistics for Player 1 and Player 2. Access to this application is given through logging into a secured mobile device with a passcode or some type of security enabled. Malicious parties will not be able to access the data that is contained within the application without the proper log-in information. If a user were to have their mobile device unlocked and the device is not in the possession of said user, the unknown user could potenially have full access to the data stored within the application. SY also has a multiplayer aspect to the game, where packets will be sent over the internet or bluetooth which contain game data. This data is not sensitive therefore it is not required to encrypt the game packets. The game packets would contain only data related to the game, this would only inculde what each user has spawned into the game world via tapping, or the deletion of game objects via tapping. A malicious user could potenially listen to the game packets however the only thing that they would be able to identify someone with would be a username. SY will not send location data over the internet, howvever it is possible someone could snoop around and find this data.
+  The application would not keep a lot of data on the user besides a username, and some of their in-game statistics. Access to this application is given through logging into a secured mobile device with a passcode or some type of security enabled. Malicious parties will not be able to access the data that is contained within the application without the proper log-in information. If a user were to have their mobile device unlocked and the device is not in the possession of said user, the unknown user could potenially have full access to the data stored within the application. SY also has a multiplayer aspect to the game, where packets will be sent over the internet or bluetooth which contain game data. This data is not sensitive therefore it is not required to encrypt the game packets. The game packets would contain only data related to the game, this would only inculde what each user has spawned into the game world via tapping, or the deletion of game objects via tapping. A malicious user could potenially listen to the game packets however the only thing that they would be able to identify someone with would be a username. SY will not send location data over the internet, howvever it is possible someone could snoop around and find this data.
 
   **5.4**** Software Quality Attributes**
 
@@ -400,8 +434,6 @@ _&lt;Define any other requirements not covered elsewhere in the SRS. This might 
 **Appendix A: Glossary**
 
 _&lt;Define all the terms necessary to properly interpret the SRS, including acronyms and abbreviations. You may wish to build a separate glossary that spans multiple projects or the entire organization, and just include terms specific to a single project in each SRS.&gt;_
-
-"User" and "Player" are used interchangeably.
 
 **Appendix B: Analysis Models**
 
