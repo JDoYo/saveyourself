@@ -387,5 +387,3 @@ Use Case Diagram:
 
 
 **Appendix C: To Be Determined List**
-
-_&lt;Collect a numbered list of the TBD (to be determined) references that remain in the SRS so they can be tracked to closure.&gt;_
