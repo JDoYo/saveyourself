@@ -379,8 +379,6 @@ It should be noted that the words "user" and "player" are used interchangably in
 
 **Appendix B: Analysis Models**
 
-_&lt;Optionally, include any pertinent analysis models, such as data flow diagrams, class diagrams, state-transition diagrams, or entity-relationship diagrams_.&gt;
-
 Use Case Diagram:
 ![alt-text](https://github.com/JDoYo/saveyourself/blob/master/Photo%20Oct%2021%2C%2010%2041%2006%20AM.jpg)
 
