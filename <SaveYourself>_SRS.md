@@ -107,7 +107,6 @@
    **1.**** Introduction**
      **1.1**** Purpose**
 
-
   The purpose of this Software Requirments Document(SRS) is to provide a full, detailed description of the "Save Yourself" application. The document will cover each feature as well as how each feature is used. It will show the complete design specifactions for our application. The document will contain an overview of everything down to design contraints, interaction with interfaces, system features, and so on. 
 
   **1.2**** Document Conventions**
@@ -120,7 +119,7 @@ Features here may be code named. Please refer to the glossary for the complete d
 
   **1.4**** Product Scope**
 
-  This application will be a mobile game which involves tapping at a screen to defeat enemies. These enemies will be moving toward the player's character located in the center of the screen, and in order to defeat these enemies, the player must tap them to defeat them. A user will load up the game and have an option to play against a simple AI or the option of playing against other players. Adding a social element to this game can be benifical to users who might be looking for a new social outlet or challenging entertainment. The application will be easy to use by incorporating a simple and effective interface.
+This application will be a mobile game which involves tapping at a screen to defeat enemies. These enemies will be moving toward the player's character located in the center of the screen, and in order to defeat these enemies, the player must tap them to defeat them. A user will load up the game and have an option to play against a simple AI or the option of playing against other players. Adding a social element to this game can be benifical to users who might be looking for a new social outlet or challenging entertainment. The application will be easy to use by incorporating a simple and effective interface.
 
   **1.5**** References**
   
@@ -138,7 +137,7 @@ The application is intended to follow Apple, Google and Unity guidelines, which 
    **2.**** Overall Description**
     **2.1**** Product Perspective**
 
-  The product specified in this document is a new, self-contained mobile game. It takes a gaming concept featured in previous games, and hopes to expand upon them with new features.
+The product specified in this document is a new, self-contained mobile game. It takes a gaming concept featured in previous games, and hopes to expand upon them with new features.
 
   **2.2**** Product Functions**
 
@@ -155,23 +154,23 @@ The following is a list summarizing the requirements our mobile game must featur
 
   **2.3**** User Classes and Characteristics**
 
-  The game will be appropriate for all ages. The game will be available for all users who own a mobile device running the featured operating systems specified in the following section (2.4) of this document through their respective mobile application stores. The game is intended to be played by all users who play mobile games with a device running those specified operating systems.
+The game will be appropriate for all ages. The game will be available for all users who own a mobile device running the featured operating systems specified in the following section (2.4) of this document through their respective mobile application stores. The game is intended to be played by all users who play mobile games with a device running those specified operating systems.
 
   **2.4**** Operating Environment**
 
-  The application will operate on Apple devices running iOS 8.0 or higher and Android devices running version 5.0 or higher. The game would not conflict with any features the mobile device provides to its users outside of the gaming environment.
+The application will operate on Apple devices running iOS 8.0 or higher and Android devices running version 5.0 or higher. The game would not conflict with any features the mobile device provides to its users outside of the gaming environment.
 
   **2.5**** Design and Implementation Constraints**
 
-  The design and implementation of the application will be limited to the tools, content, and programming languages that are available for use within the Unity environment. Potential updates to the game will be available through the mobile device's respective mobile appllication stores.
+The design and implementation of the application will be limited to the tools, content, and programming languages that are available for use within the Unity environment. Potential updates to the game will be available through the mobile device's respective mobile appllication stores.
 
   **2.6**** User Documentation**
 
-  On the main screen of the game, a "Help" button will navigate the user to a help section that will explain the basics of the gameplay and the use of the game. The description section for the game on the mobile application stores can be used to provide information to users on any update information of future releases. With our initial release, we will utilize the comments sections of the mobile application stores to observe user issues with the game.
+On the main screen of the game, a "Help" button will navigate the user to a help section that will explain the basics of the gameplay and the use of the game. The description section for the game on the mobile application stores can be used to provide information to users on any update information of future releases. With our initial release, we will utilize the comments sections of the mobile application stores to observe user issues with the game.
 
   **2.7**** Assumptions and Dependencies**
 
-  Since the application will be developed using Unity and made for Apple devices, once the implementation is complete, it will have to be transferred to Xcode to finish the final steps. If the application can't be moved to Xcode, it won't be able to reach those users.
+Since the application will be developed using Unity and made for Apple devices, once the implementation is complete, it will have to be transferred to Xcode to finish the final steps. If the application can't be moved to Xcode, it won't be able to reach those users.
 
   **3.**** External Interface Requirements**
     **3.1**** User Interfaces**
@@ -231,7 +230,7 @@ REQ-5: The application must save the User's score to their device.
 
 The application must allow the User to play alone.
 
-Priority Level: HIGH
+Priority Level: High
 
 4.2.2        Stimulus/Response Sequences
 
@@ -347,7 +346,9 @@ Priority Level: Low
 
 REQ-19: The application must have a Pause button so the User can pause the game.
 
-REQ-20: The application must start the game when the User clicks the resume button.
+REQ-20: The application must have a Resume button so the User can resume the game.
+
+REQ-21: The application must unpause the game when the User clicks the Resume button.
 
    **5.**** Other Nonfunctional Requirements**
     **5.1**** Performance Requirements**
@@ -381,9 +382,9 @@ It should be noted that the words "user" and "player" are used interchangably in
 **Appendix B: Analysis Models**
 
 Use Case Diagram:
-![alt-text](https://github.com/JDoYo/saveyourself/blob/master/Photo%20Oct%2021%2C%2010%2041%2006%20AM.jpg)
+![alt-text](https://github.com/JDoYo/saveyourself/blob/master/Use%20Case%20Diagram.png)
 
 
 **Appendix C: To Be Determined List**
 
-The game will eventually look to implement local network co-op mode, but that is a low priority and, if implemented, will be in a much later release.
+The game will eventually include local network co-op mode, but it's a low priority and will be in a much later release.
