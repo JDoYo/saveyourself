@@ -382,9 +382,10 @@ It should be noted that the words "user" and "player" are used interchangably in
 **Appendix B: Analysis Models**
 
 Use Case Diagram:
+
 ![alt-text](https://github.com/JDoYo/saveyourself/blob/master/Use%20Case%20Diagram.png)
 
 
 **Appendix C: To Be Determined List**
 
-The game will eventually include local network co-op mode, but it's a low priority and will be in a much later release.
+The game will eventually include local network co-op mode, but it has low priority and will be in a much later release.
