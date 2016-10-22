@@ -3,7 +3,7 @@
 #
 ## for
 
-# THIS TAPPING GAME
+# SAVE YOURSELF
 
 **Version 1.0 approved**
 
@@ -65,9 +65,15 @@
 
 **4.        System Features       **
 
-4.1        System Feature 1
+4.1        Save Scores
 
-4.2        System Feature 2 (and so on)
+4.2        Play Singleplayer
+
+4.3        Start New Round
+
+4.4        Play Turn-Based Multiplayer
+
+4.5        Pause Gameplay
 
 **5.        Other Nonfunctional Requirements       **
 
@@ -81,8 +87,6 @@
 
 5.5        Business Rules
 
-**6.        Other Requirements       **
-
 **Appendix A: Glossary       **
 
 **Appendix B: Analysis Models       **
@@ -94,6 +98,8 @@
 | **Name** | **Date** | **Reason For Changes** | **Version** |
 | --- | --- | --- | --- |
 | Tap to Win | 10/10 | Initial Commit | 1.0 |
+| Save Yourself | 10/20 | Make Edits | 1.0 |
+| Save Yourself | 10/21 | Make Finalizations | 1.0 |
 |   |   |   |   |
 
 
@@ -145,6 +151,7 @@ The following is a list summarizing the requirements our mobile game must featur
  - The game must allow for multiple players to play rounds on a turn-by-turn basis.
  - The game must save each player's score for a particular round to be used at a later time.
    - Used to compare player scores when multiple players are involved.
+ - The game must allow the player to pause the game at any point during the round.
 
   **2.3**** User Classes and Characteristics**
 
@@ -169,51 +176,36 @@ Since the application will be developed using Unity and made for Apple devices, 
   **3.**** External Interface Requirements**
     **3.1**** User Interfaces**
 
-_&lt;Describe the logical characteristics of each interface between the software product and the users. This may include sample screen images, any GUI standards or product family style guides that are to be followed, screen layout constraints, standard buttons and functions (e.g., help) that will appear on every screen, keyboard shortcuts, error message display standards, and so on. Define the software components for which a user interface is needed. Details of the user interface design should be documented in a separate user interface specification.&gt;_
-
 The following image is a prototype of what the invisioned gameplay as well as the homescreen could look like while in use, respectively:
 
 ![alt-text](https://github.com/JDoYo/saveyourself/blob/master/Save%20Yourself%20Gameplay%20Screengrab%20Prototype%20RESIZED%20BORDERED.png)
 
-![alt-text](https://github.com/JDoYo/saveyourself/blob/master/Save%20Yourself%20Homescreen%20Screengrab%20Prototype%20BORDERED.png)
+![alt-text](https://github.com/JDoYo/saveyourself/blob/master/Save%20Yourself%20Homescreen%20Screengrab%20Prototype%20NEW.png)
 
   **3.2**** Hardware Interfaces**
-
-_&lt;Describe the logical and physical characteristics of each interface between the software product and the hardware components of the system. This may include the supported device types, the nature of the data and control interactions between the software and the hardware, and communication protocols to be used.&gt;_
 
   Hardware interfacing will mostly be handled by the native operating system of the device in use.  Both iOS and Android natively support the touch screen feature, as well as intergrated graphics controllers, so additional features will not require additional software for hardware interfacing.  The physical storage of user data will be handled by the app itself to access physical store media on the device.
 
   **3.3**** Software Interfaces**
-
-_&lt;Describe the connections between this product and other specific software components (name and version), including databases, operating systems, tools, libraries, and integrated commercial components. Identify the data items or messages coming into the system and going out and describe the purpose of each. Describe the services needed and the nature of communications. Refer to documents that describe detailed application programming interface protocols. Identify data that will be shared across software components. If the data sharing mechanism must be implemented in a specific way (for example, use of a global data area in a multitasking operating system), specify this as an implementation constraint.&gt;_
 
   The app will be compatibile with the current iOS operating sytem as well as the current Android OS.  Updates for the app will be issued in line with new operating system releases from both Android and Apple to ensure compatibility at all times.  The game's touch and tap feature will make use of the native touch interface to both operating systems.  Player data will be assigned to a default name of Player 1 and Player 2 when multiplayer mode is being used.  The high scores for each will be saved in free memory space on the device itself.  Since the game is offline only currently, no network protocols will be needed; however, in later releases, bluetooth and wifi networking protocols will be implemented for local network play.
 
  
   **3.4**** Communications Interfaces**
 
-_&lt;Describe the requirements associated with any communications functions required by this product, including e-mail, web browser, network server communications protocols, electronic forms, and so on. Define any pertinent message formatting. Identify any communication standards that will be used, such as FTP or HTTP. Specify any communication security or encryption issues, data transfer rates, and synchronization mechanisms.&gt;_
-
 Save yourself is an offline mobile application. The application will only access and save data to the device. The application will not interface with a database or the internet.
 
   **4.**** System Features**
 
-_&lt;This template illustrates organizing the functional requirements for the product by system features, the major services provided by the product. You may prefer to organize this section by use case, mode of operation, user class, object class, functional hierarchy, or combinations of these, whatever makes the most logical sense for your product.&gt;_
-
   **4.1**** Save Scores**
-
-_&lt;Don&#39;t really say &quot;System Feature 1.&quot; State the feature name in just a few words.&gt;_
 
 4.1.1        Description and Priority
 
-_&lt;Provide a short description of the feature and indicate whether it is of High, Medium, or Low priority. You could also include specific priority component ratings, such as benefit, penalty, cost, and risk (each rated on a relative scale from a low of 1 to a high of 9).&gt;_
 The application must save the User's score so that it can be retrieved at a later time.
 
 Priority Level: High
 
 4.1.2        Stimulus/Response Sequences
-
-_&lt;List the sequences of user actions and system responses that stimulate the behavior defined for this feature. These will correspond to the dialog elements associated with use cases.&gt;_
 
 - User clicks the Play button
 - The game starts.
@@ -222,10 +214,6 @@ _&lt;List the sequences of user actions and system responses that stimulate the 
 - The Application saves the User's score on their device.
 
 4.1.3        Functional Requirements
-
-_&lt;Itemize the detailed functional requirements associated with this feature. These are the software capabilities that must be present in order for the user to carry out the services provided by the feature, or to execute the use case. Include how the product should respond to anticipated error conditions or invalid inputs. Requirements should be concise, complete, unambiguous, verifiable, and necessary. Use &quot;TBD&quot; as a placeholder to indicate when necessary information is not yet available.&gt;_
-
-_&lt;Each requirement should be uniquely identified with a sequence number or a meaningful tag of some kind.&gt;_
 
 REQ-1: The application must have a Play button so the User can start the game.
 
@@ -239,19 +227,13 @@ REQ-5: The application must save the User's score to their device.
 
 **4.2**** Play Singleplayer**
 
-_&lt;Don&#39;t really say &quot;System Feature 1.&quot; State the feature name in just a few words.&gt;_
-
 4.2.1        Description and Priority
-
-_&lt;Provide a short description of the feature and indicate whether it is of High, Medium, or Low priority. You could also include specific priority component ratings, such as benefit, penalty, cost, and risk (each rated on a relative scale from a low of 1 to a high of 9).&gt;_
 
 The application must allow the User to play alone.
 
 Priority Level: HIGH
 
 4.2.2        Stimulus/Response Sequences
-
-_&lt;List the sequences of user actions and system responses that stimulate the behavior defined for this feature. These will correspond to the dialog elements associated with use cases.&gt;_
 
 - User clicks the Play Single-Player button.
 - The Game starts.
@@ -261,10 +243,6 @@ _&lt;List the sequences of user actions and system responses that stimulate the 
 - Player is given the option to restart game or exit to main menu.
 
 4.2.3        Functional Requirements
-
-_&lt;Itemize the detailed functional requirements associated with this feature. These are the software capabilities that must be present in order for the user to carry out the services provided by the feature, or to execute the use case. Include how the product should respond to anticipated error conditions or invalid inputs. Requirements should be concise, complete, unambiguous, verifiable, and necessary. Use &quot;TBD&quot; as a placeholder to indicate when necessary information is not yet available.&gt;_
-
-_&lt;Each requirement should be uniquely identified with a sequence number or a meaningful tag of some kind.&gt;_
 
 REQ-6 The application must have a 'Single-Player' button so the user can play without another user.
 
@@ -280,19 +258,13 @@ REQ-10 The application must give the user the option to exit to the main menu wh
 
 **4.3**** Start New Round**
 
-_&lt;Don&#39;t really say &quot;System Feature 1.&quot; State the feature name in just a few words.&gt;_
-
 4.3.1        Description and Priority
-
-_&lt;Provide a short description of the feature and indicate whether it is of High, Medium, or Low priority. You could also include specific priority component ratings, such as benefit, penalty, cost, and risk (each rated on a relative scale from a low of 1 to a high of 9).&gt;_
 
 The application must allow the User to start a new round.
 
 Priority Level: High
 
 4.3.2        Stimulus/Response Sequences
-
-_&lt;List the sequences of user actions and system responses that stimulate the behavior defined for this feature. These will correspond to the dialog elements associated with use cases.&gt;_
 
 - User clicks the Play button.
 - The game starts.
@@ -301,10 +273,6 @@ _&lt;List the sequences of user actions and system responses that stimulate the 
 - User clicks the Start Over button.
 
 4.3.3        Functional Requirements
-
-_&lt;Itemize the detailed functional requirements associated with this feature. These are the software capabilities that must be present in order for the user to carry out the services provided by the feature, or to execute the use case. Include how the product should respond to anticipated error conditions or invalid inputs. Requirements should be concise, complete, unambiguous, verifiable, and necessary. Use &quot;TBD&quot; as a placeholder to indicate when necessary information is not yet available.&gt;_
-
-_&lt;Each requirement should be uniquely identified with a sequence number or a meaningful tag of some kind.&gt;_
 
 REQ-1 from 4.1.3 Functional Requirements.
 
@@ -318,19 +286,13 @@ REQ-12: The application must start another round when the User clicks the Start 
 
   **4.4**** Play Turn-Based Multiplayer**
 
-_&lt;Don&#39;t really say &quot;System Feature 1.&quot; State the feature name in just a few words.&gt;_
-
 4.4.1        Description and Priority
-
-_&lt;Provide a short description of the feature and indicate whether it is of High, Medium, or Low priority. You could also include specific priority component ratings, such as benefit, penalty, cost, and risk (each rated on a relative scale from a low of 1 to a high of 9).&gt;_
 
 The application must allow users to play against each other with a turn-by-turn system. The users must be able to play against each other on one device and compare their final scores.
 
 Priority Level: Medium
 
 4.4.2        Stimulus/Response Sequences
-
-_&lt;List the sequences of user actions and system responses that stimulate the behavior defined for this feature. These will correspond to the dialog elements associated with use cases.&gt;_
 
 - User clicks the Play Multiplayer button.
 - The game asks for the number of players.
@@ -349,10 +311,6 @@ _&lt;List the sequences of user actions and system responses that stimulate the 
 
 4.4.3        Functional Requirements
 
-_&lt;Itemize the detailed functional requirements associated with this feature. These are the software capabilities that must be present in order for the user to carry out the services provided by the feature, or to execute the use case. Include how the product should respond to anticipated error conditions or invalid inputs. Requirements should be concise, complete, unambiguous, verifiable, and necessary. Use &quot;TBD&quot; as a placeholder to indicate when necessary information is not yet available.&gt;_
-
-_&lt;Each requirement should be uniquely identified with a sequence number or a meaningful tag of some kind.&gt;_
-
 REQ-13: The application must have a Play Multiplayer button so multiple players can play on one device.
 
 REQ-14: The application must ask for the number of players when the User clicks the Play Multiplayer button.
@@ -370,18 +328,13 @@ REQ-18: The application must compare all of the player's scores.
 
 **4.5**** Pause Gameplay**
 
-_&lt;Don&#39;t really say &quot;System Feature 1.&quot; State the feature name in just a few words.&gt;_
-
 4.5.1        Description and Priority
 
-_&lt;Provide a short description of the feature and indicate whether it is of High, Medium, or Low priority. You could also include specific priority component ratings, such as benefit, penalty, cost, and risk (each rated on a relative scale from a low of 1 to a high of 9).&gt;_
 The application must pause gameplay upon player’s request.
 
 Priority Level: Low
 
 4.5.2        Stimulus/Response Sequences
-
-_&lt;List the sequences of user actions and system responses that stimulate the behavior defined for this feature. These will correspond to the dialog elements associated with use cases.&gt;_
 
 - User clicks the Play button
 - The game starts.
@@ -392,16 +345,10 @@ _&lt;List the sequences of user actions and system responses that stimulate the 
 
 4.5.3        Functional Requirements
 
-_&lt;Itemize the detailed functional requirements associated with this feature. These are the software capabilities that must be present in order for the user to carry out the services provided by the feature, or to execute the use case. Include how the product should respond to anticipated error conditions or invalid inputs. Requirements should be concise, complete, unambiguous, verifiable, and necessary. Use &quot;TBD&quot; as a placeholder to indicate when necessary information is not yet available.&gt;_
-
-_&lt;Each requirement should be uniquely identified with a sequence number or a meaningful tag of some kind.&gt;_
-
 REQ-19: The application must have a Pause button so the User can pause the game.
 
 REQ-20: The application must start the game when the User clicks the resume button.
 
-
-    **4.2**** System Feature 2 (and so on)**
    **5.**** Other Nonfunctional Requirements**
     **5.1**** Performance Requirements**
 
@@ -427,13 +374,9 @@ The primary non-functional requirments that Save Yourself will focus on are reli
   
 Save Yourself is a gaming application that will be a similar experience for all users that play this game. Each user has full control over the application and are welcome to modify and use each of the game's features to its fullest. One of our main non-functional requirments stated in section 5.4 is usability. With that being said, there is no function that will be disabled to any user, at any time.
 
-  **6.**** Other Requirements**
-
-_&lt;Define any other requirements not covered elsewhere in the SRS. This might include database requirements, internationalization requirements, legal requirements, reuse objectives for the project, and so on. Add any new sections that are pertinent to the project.&gt;_
-
 **Appendix A: Glossary**
 
-_&lt;Define all the terms necessary to properly interpret the SRS, including acronyms and abbreviations. You may wish to build a separate glossary that spans multiple projects or the entire organization, and just include terms specific to a single project in each SRS.&gt;_
+It should be noted that the words "user" and "player" are used interchangably in this document, as anyone who uses the app does so in such a fashion that they are a player of the mobile game.
 
 **Appendix B: Analysis Models**
 
