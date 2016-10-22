@@ -187,6 +187,8 @@ _&lt;Describe the logical and physical characteristics of each interface between
 
 _&lt;Describe the connections between this product and other specific software components (name and version), including databases, operating systems, tools, libraries, and integrated commercial components. Identify the data items or messages coming into the system and going out and describe the purpose of each. Describe the services needed and the nature of communications. Refer to documents that describe detailed application programming interface protocols. Identify data that will be shared across software components. If the data sharing mechanism must be implemented in a specific way (for example, use of a global data area in a multitasking operating system), specify this as an implementation constraint.&gt;_
 
+  The app will be compatibile with the current iOS operating sytem as well as the current Android OS.  Updates for the app will be issued in line with new operating system releases from both Android and Apple to ensure compatibility at all times.  The game's touch and tap feature will make use of the native touch interface to both operating systems.  
+
  
   **3.4**** Communications Interfaces**
 
