@@ -173,7 +173,8 @@ On the main screen of the game, a "Help" button will navigate the user to a help
 Since the application will be developed using Unity and made for Apple devices, once the implementation is complete, it will have to be transferred to Xcode to finish the final steps. If the application can't be moved to Xcode, it won't be able to reach those users.
 
   **3.**** External Interface Requirements**
-    **3.1**** User Interfaces**
+
+**3.1**** User Interfaces**
 
 The following image is a prototype of what the invisioned gameplay as well as the homescreen could look like while in use, respectively:
 
