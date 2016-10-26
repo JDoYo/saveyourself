@@ -76,10 +76,10 @@
 # 1. Introduction
 
 1.1 Purpose
-
+    This Software Design Document is designed and intended to detail the implementation of the requirments  as defined in the Software Requirments Specification for the Save Yourself mobile game. The document is intended to fully explore the user experience as well as explore features for full utilization of the application.
 
 1.2 Intended Audience
-
+    This software design document is specifically intended for those who are stakeholders for the mobile game application, Save Yourself. **need to add more here about what stakeholders should go to what section?**
 
 1.3 Scope
 
@@ -90,16 +90,16 @@
 # 2. Design Considerations
 
 2.1 Assumptions
-
+    We, the designers, assume that all users are in possetion of either and iPhone or Android device which has been updated to iOS8 or (Android version numbers go here idk them rn). Without that, many of our application features would not be possible or the phone will be too outdated to it.
 
 2.2 Constraints
-
+The application will be contrained to only users who have an iPhone or Android.
 
 2.3 System Environment
-
+The application will reside within the user's mobile device. Both iPhone and Android devices will store the various statistics that are accumulated from the game into a simple database. Unity will take care of a lot of the porting to each of the devices. While we're not sure what kind of database we're using, we will most likely be using a SQL database.
 
 2.4 Risks and Volatile Areas
-
+There could be possible secruity risks using this software. Any undocumented OS risks could potentially cause a data leak or a memory leak. If implemented, the multiplayer aspect of the game could be a risk of a potential risk from a third party.
 
 # 3. Conceptual System Architecture
 
