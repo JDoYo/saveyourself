@@ -45,7 +45,36 @@ Our project schedule also falls in line with our group tasks, as this is also to
 
 __Meetings Summary__
 --------------------
-To be added at a later time.
+October 3, 2016
+•	meeting after class
+•	Agreed to make the game multi player
+•	Agreed to meet in sub groups then meet together after class.
+o	Will figure out a schedule on groupme.
+•	Agreed to do everything on Google docs first then transfer to Git Hub
+•	Main leader will be Jody, sub leaders will be based off of sub groups
+
+October 12, 2016
+•	App Name: SAVE YOURSELF
+•	The game should be passable, where as player 1 and player 2 can compete against each other.
+o	Simultaneously play at the same time
+•	While protecting yourself, try to kill the other player.
+•	No login feature 
+•	May have multiple things to fit the user
+o	May use upgrades to have more options of themes 
+•	ex. skins
+•	Can’t unlock things until you use multiplayer, to encourage social interaction
+•	May need a mock drawing of the app/game for the SRS document,
+•	The vision of this project is to create a mobile game that encourages social interaction with another person
+•	Time lengths
+o	10/12-10/21: SRS Document
+o	10/24: Start building the app
+•	Agreed to complete SRS on google docs- everyone inputs and edit.
+
+October 26, 2016
+•	Josh started the SDD 
+•	Agreed to start coding for the app
+o	All coding will be on Unity and then transferred to Git Hub as changes are made.
+
 
 
 
