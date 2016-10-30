@@ -152,7 +152,7 @@ The user can choose to view the help screen by selecting the Help option availab
 
 5.2 Physical View
 
-![alt-text] (https://github.com/JDoYo/saveyourself/blob/master/Physical%20View%20Diagram.png)
+![alt-text] (https://github.com/JDoYo/saveyourself/blob/master/Physical%20View%20Diagram%20NEW.png)
  
 5.3 Development View
 
