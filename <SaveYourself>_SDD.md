@@ -100,7 +100,7 @@
 
 2.1 Assumptions
    
-   We, the designers, assume that all users are in possetion of either and iPhone or Android device which has been updated to iOS8 or (Android version numbers go here idk them rn). Without that, many of our application features would not be possible or the phone will be too outdated to it.
+   We, the designers, assume that all users are in possesion of either an iPhone updated to iOS8 or higher or an Android device which has been updated to 5.0 or higher. Without that, many of our application features would not be possible or the phone will be too outdated to it.
 
 2.2 Constraints
 
