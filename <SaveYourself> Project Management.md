@@ -46,6 +46,10 @@ Our project schedule also falls in line with our group tasks, as this is also to
 __Meetings Summary__
 --------------------
 October 3, 2016
+
+Start Time: 5:47 PM
+
+End Time: 5:55 PM
 *	Meeting after class
 *	Agreed to make the game multi player
 *	Agreed to meet in sub groups then meet together after class.
@@ -54,6 +58,10 @@ October 3, 2016
 *	Main leader will be Jody, sub leaders will be based off of sub groups
 
 October 12, 2016
+
+Start Time: 5:09 PM
+
+End Time: 5:38 PM
 *	App Name: SAVE YOURSELF
 *	The game should be passable, where as player 1 and player 2 can compete against each other.
   * Simultaneously play at the same time
@@ -71,6 +79,10 @@ October 12, 2016
 *	Agreed to complete SRS on google docs- everyone inputs and edit.
 
 October 26, 2016
+
+Start Time: 5:46 PM
+
+End Time: 5:54 PM
 *	Josh started the SDD 
 *	Agreed to start coding for the app
   *	All coding will be on Unity and then transferred to Git Hub as changes are made.
