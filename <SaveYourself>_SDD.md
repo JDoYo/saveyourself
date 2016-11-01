@@ -175,6 +175,8 @@ The following two sections provide a description of the User Interface flow and 
 
 7.2 Database Diagram
 
+![alt-text] (https://github.com/JDoYo/saveyourself/blob/master/user%20interface.png)
+
 
 # 8. Element Catalog
 
