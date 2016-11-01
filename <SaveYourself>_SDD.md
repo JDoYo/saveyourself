@@ -165,18 +165,18 @@ The following two sections provide a description of the User Interface flow and 
 
 6.1 User Interfaces Description
 
+Once the user opens the system, they are approached by three options. Those options are single player, multiplayer and start new round. Choosing Single Player will start the game where the player will have the option to tap to kill the enemies that approach them and to pause the game. Choosing Multiplayer will start the game with the same features as single player but it will also have a pass play option. Lastly, if the user picks new round it starts the game over leading the user to once again pick either single player or multiplayer.
+
 6.2 User Interface Diagram
+
+![alt-text] (https://github.com/JDoYo/saveyourself/blob/master/user%20interface.png)
 
 
 # 7. Database Design
 
 7.1 Database Description
 
-
 7.2 Database Diagram
-
-![alt-text] (https://github.com/JDoYo/saveyourself/blob/master/user%20interface.png)
-
 
 # 8. Element Catalog
 
