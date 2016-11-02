@@ -49,7 +49,7 @@
 
     4.1 Overview
 
-    4.2 Accounts
+    4.2 ...
 
 5. Application Views
 
@@ -74,6 +74,18 @@
     7.2 Database Diagram
 
 8. Element Catalog
+    
+    8.1 Logical View Diagram
+    
+    8.2 Physical View Diagram
+    
+    8.3 Development View Diagram
+    
+    8.4 Work-Assignment View Diagram (IF WE DO ONE)
+    
+    8.5 User Interface Diagram
+    
+    8.6 Database Diagram
 
 
 
@@ -118,7 +130,7 @@
 
 3.1 Overview
 
-Save Yourself is a mobile game with a concept and playstyle that is easy for the user to learn and partake in. The mobile game is a tap-survival game similar to others available on various mobile application stores, but offers new features to encourage one-on-one social interaction with its users. The mobile game will have a homescreen that allows the user to select from several playstyles. The user can choose to play the game by themselves by selecting the Single-Player option on the homescreen. The user can also play the game with others (maximum of four players at once) by selecting the Multi-Player option on the homescreen. The basics of how to play the game as well as how to take advantage of its features will be outlined on a page accessible by selecting the Help option on the homescreen.
+Save Yourself is a mobile game with a concept and playstyle that is easy for the user to learn and partake in. The mobile game is a tap-survival game similar to others available on various mobile application stores, but offers new features to encourage one-on-one social interaction with its users. The mobile game will have a homescreen that allows the user to select from several playstyles. The user can choose to play the game by themselves by selecting the Single-Player option on the homescreen. The user can also play the game with others (maximum of four players) by selecting the Multi-Player option on the homescreen. The basics of how to play the game as well as how to take advantage of its features will be outlined on a page accessible by selecting the Help option on the homescreen as well.
 
 3.2 Playstyle
 
@@ -130,7 +142,7 @@ The user can play alone by selecting the Single-Player option available on the m
 
 3.4 Multi-Player
 
-The user can choose to play with other by selecting the Multi-Player option available to them on the mobile game's homescreen. This option will allow the user to play with others against the mobile game's AI. Once this option is selected, the user is presented with a screen that will allow them to select the number of players that will be participating. With Save Yourself's initial release, the maximum number of players allowed with this feature will be four. The user as Player 1 then plays a round of the game as outlined in 3.2. Once Player One's round has ended and the score has been displayed, their score is then saved to be used later. Control of the game then moves over to Player Two, which repeats the same process as with Player One. This process also repeats for Players Three and Four depending on the user's player count selected at the beginning of the match. Once each player has played one round, each of the player's scores are displayed on screen from highest to lowest. The players will then be presented the option of restarting the match, or exiting to the mobile game's homescreen.
+The user can choose to play with others by selecting the Multi-Player option available to them on the mobile game's homescreen. This option will allow the user to play with others against the mobile game's AI. Once this option is selected, the user is presented with a screen that will allow them to select the number of players that will be participating. With Save Yourself's initial release, the maximum number of players allowed with this feature will be four. The user as Player One then plays a round of the game as outlined in 3.2. Once Player One's round has ended and the score has been displayed, their score is then saved to be used later. Control of the game then moves over to Player Two, which repeats the same process as with Player One. This process also repeats for Players Three and Four depending on the user's player count selected at the beginning of the match. Once each player has played one round, each of the player's scores are displayed on screen from highest to lowest. The players will then be presented the option of restarting the match, or exiting to the mobile game's homescreen.
 >Note: The description above will make up the Multi-Player feature of Save Yourself's initial release. In the future, it is possible that Save Yourself will take advantage of WiFi or Bluetooth connectivity to link multiple devices together. With this version of Multi-Player, each player can play a match against each other simultaneously by allowing one player to launch enemy avatar's at the other player while trying to defend themselves from the other.
 
 3.5 Help
@@ -142,7 +154,7 @@ The user can choose to view the help screen by selecting the Help option availab
 4.1 Overview
 
 
-4.2 Accounts
+4.2 ...
 
 
 # 5. Application Views
@@ -180,3 +192,18 @@ Once the user opens the system, they are approached by three options. Those opti
 
 # 8. Element Catalog
 
+8.1 Logical View Diagram
+    
+8.2 Physical View Diagram
+
+![alt-text] (https://github.com/JDoYo/saveyourself/blob/master/ELEMENTS%20Physical%20View%20Diagram.PNG)
+    
+8.3 Development View Diagram
+    
+8.4 Work-Assignment View Diagram (IF WE DO ONE)
+    
+8.5 User Interface Diagram
+
+![alt-text] (https://github.com/JDoYo/saveyourself/blob/master/ELEMENTS%20User%20Interface%20Diagram.PNG)
+
+8.6 Database Diagram
