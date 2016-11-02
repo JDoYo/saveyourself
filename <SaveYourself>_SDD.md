@@ -160,7 +160,7 @@ The user can choose to view the help screen by selecting the Help option availab
 # 5. Application Views
 
 5.1 Logical View
-
+![alt-text] (https://github.com/JDoYo/saveyourself/blob/master/4330_logicalview.PNG)
 
 5.2 Physical View
 
