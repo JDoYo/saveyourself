@@ -81,11 +81,9 @@
     
     8.3 Development View Diagram
     
-    8.4 Work-Assignment View Diagram (IF WE DO ONE)
+    8.4 User Interface Diagram
     
-    8.5 User Interface Diagram
-    
-    8.6 Database Diagram
+    8.5 Database Diagram
 
 
 
@@ -216,3 +214,7 @@ The database is a pretty basic game database. Unity will be handling most of the
 8.4 User Interface Diagram
 
 ![alt-text] (https://github.com/JDoYo/saveyourself/blob/master/ELEMENTS%20User%20Interface%20Diagram.PNG)
+
+8.5 Database Diagram
+
+![alt-text] (https://github.com/JDoYo/saveyourself/blob/master/ELEMENTS%20Database%20Diagram.PNG)
