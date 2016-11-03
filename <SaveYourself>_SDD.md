@@ -220,6 +220,8 @@ The database is a pretty basic game database. Unity will be handling most of the
     
 8.3 Development View Diagram
     
+The yellow and white icons represent the folders that make up the folders and subfolders in this diagram. The arrows represent the associations between said folders.
+    
 8.4 User Interface Diagram
 
 ![alt-text] (https://github.com/JDoYo/saveyourself/blob/master/ELEMENTS%20User%20Interface%20Diagram.PNG)
