@@ -157,7 +157,7 @@ Since the game will be programmed in the Unity environment, much of the technica
 
 4.2 Design
 
-The design will be loosely object oriented, but as mentioned earlier, integration betwen all objects is handled within Unity.
+The design will be loosely object oriented, but as mentioned earlier, integration between all objects is handled within Unity.
 
 4.3 Database and Objects
 
@@ -219,8 +219,6 @@ The database is a pretty basic game database. Unity will be handling most of the
 ![alt-text] (https://github.com/JDoYo/saveyourself/blob/master/ELEMENTS%20Physical%20View%20Diagram.PNG)
     
 8.3 Development View Diagram
-    
-The yellow and white icons represent the folders that make up the folders and subfolders in this diagram. The arrows represent the associations between said folders.
     
 8.4 User Interface Diagram
 
