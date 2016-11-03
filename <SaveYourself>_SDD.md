@@ -151,7 +151,13 @@ The user can choose to view the help screen by selecting the Help option availab
 
 Since the game will be programmed in the Unity environment, much of the technical system architecture is handled internally within this environment itself.
 
+4.2 Design
 
+The design will be loosely object oriented, but as mentioned earlier, integration betwen all objects is handled within Unity.
+
+4.3 Database and Objects
+
+These are all naturally integrated parts of the Unity environment and we will be using that which is already in place.
 
 # 5. Application Views
 
