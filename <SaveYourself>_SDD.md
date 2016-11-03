@@ -151,8 +151,8 @@ The user can choose to view the help screen by selecting the Help option availab
 
 4.1 Overview
 
+Since the game will be programmed in the Unity environment, much of the technical system architecture is handled internally within this environment itself.
 
-4.2 ...
 
 
 # 5. Application Views
