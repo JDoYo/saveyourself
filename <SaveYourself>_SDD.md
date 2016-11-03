@@ -195,11 +195,11 @@ Once the user opens the system, they are approached by three options. Those opti
 
 7.1 Database Description
 
-When the user scores in the game, their score will save on the database.
+The database is a pretty basic game database. Unity will be handling most of the database design by itself. For the game data, Unity has a function that allows us to store game data such as high scores or specific things like kills.
 
 7.2 Database Diagram
 
-![alt-text] (https://github.com/JDoYo/saveyourself/blob/master/database%20design.png)
+![alt-text] (https://github.com/JDoYo/saveyourself/blob/master/Database.png)
 
 # 8. Element Catalog
 
