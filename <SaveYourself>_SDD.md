@@ -48,6 +48,10 @@
 4. Technical System Architecture
 
     4.1 Overview
+    
+    4.2 Design
+
+    4.3 Database and Objects
 
 5. Application Views
 
