@@ -98,7 +98,7 @@ This Software Design Document is designed and intended to detail the implementat
 
 1.2 Intended Audience
     
-This software design document is specifically intended for those who are stakeholders for the mobile game application, Save Yourself. "need to add more here about what stakeholders should go to what section?"
+This software design document is specifically intended for those who are stakeholders for the mobile game application, Save Yourself. For any potential stakeholders, we included section 2, which is a section dedicated to design considerations for anyone who is interested in possibly investing in Save Yourself. Section 3 is about the conceptual system architecture, which would be for any team that isn't apart of the actual development of the application, such as a support team. Section 4 is about the technical system architecture, this section is intended for the developevers of the application. There's section 5, 6 and 8 which contain various diagrams as well as the design views, these would be intented for all steakholders in the application. Finally section 7 is about databse design which would be intended for the core design team as well as the database team.
 
 1.3 Scope
 
@@ -172,12 +172,6 @@ The user can choose to view the help screen by selecting the Help option availab
 
 5.4 Work-Assignment View
 
-The delegation of work will be as follows:
- * User Interface Design: Kristofer Oubre, Jody Toms
- * Implementation: Kristofer Oubre, Tyler Baronet
- * Integration: Melva Matthews, Kalyn Odom
- * Documentation: Jody Toms, Joshua Do
- 
 # 6. User Interface Design
 
 The following two sections provide a description of the User Interface flow and an example diagram of the interface.
