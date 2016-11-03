@@ -94,19 +94,19 @@
 
 1.1 Purpose
     
-This Software Design Document is designed and intended to detail the implementation of the requirments  as defined in the Software Requirments Specification for the Save Yourself mobile game. The document is intended to fully explore the user experience as well as explore features for full utilization of the application.
+This Software Design Document is designed and intended to detail the implementation of the requirements as defined in the Software Requirments Specification for the Save Yourself mobile game. The document is intended to fully explore the user experience as well as explore features for full utilization of the application.
 
 1.2 Intended Audience
     
-This software design document is specifically intended for those who are stakeholders for the mobile game application, Save Yourself. For any potential stakeholders, we included section 2, which is a section dedicated to design considerations for anyone who is interested in possibly investing in Save Yourself. Section 3 is about the conceptual system architecture, which would be for any team that isn't apart of the actual development of the application, such as a support team. Section 4 is about the technical system architecture, this section is intended for the developevers of the application. There's section 5, 6 and 8 which contain various diagrams as well as the design views, these would be intented for all steakholders in the application. Finally section 7 is about databse design which would be intended for the core design team as well as the database team.
+This software design document is specifically intended for those who are stakeholders for the mobile game application, Save Yourself. For any potential stakeholders, we included Section 2, which is a section dedicated to design considerations for anyone who is interested in possibly investing in Save Yourself. Section 3 is about the conceptual system architecture, which would be for any team that isn't apart of the actual development of the application, such as a support team. Section 4 is about the technical system architecture; this section is intended for the developevers of the application. There's section 5, 6 and 8 which contain various diagrams as well as the design views; these would be intented for all stakeholders in the application. Finally Section 7 is about database design which would be intended for the core design team as well as the database team.
 
 1.3 Scope
 
-The scope of the SDD was creatd to give the people who are working closely with the application to get an in-depth idea of the concept. Everything the conceptual architecture, to the design views, to the database design will be contained within this document. The application is intended for users who want to have an enjoyable mobile game experience without any problem. 
+The scope of the SDD was created to give the people who are working closely with the application to get an in-depth idea of the concept. Everything from conceptual architecture, to the design views, to the database design will be contained within this document. The application is intended for users who want to have an enjoyable mobile game experience without any problems. 
 
 1.4 Design Summary
 
-At its core, Save Yourself is a simple and addicting mobile game that will give users an escape from their lives. We want users to feel like the game isn't going to cheat them with overly expensive in-game purchases that don't do a lot for you. With a simple concept of tapping a screen you're able to enjoy a fun and custom experience. Time permitting, we intend to make different senarios to fight different types of foes. Also in the backlog is the multiplayer feature which would let you and a friend join together to defeat enimemies, or play against them. We intend to make this a rather simple concept idea at first and then from there this idea can be fully fleshed out adding more subsystems, time permitting. Unity will be our primary building tool, allowing us to control everything to our exact design specifications.
+At its core, Save Yourself is a simple and addicting mobile game that will give users an escape from their everyday lives. We want users to feel like the game isn't going to cheat them with overly expensive in-game purchases that don't do a lot for them. With a simple concept of tapping a screen, you're able to enjoy a fun and custom experience. Time permitting, we intend to make different senarios to fight different types of foes. Also in the backlog is a variation on the Multi-Player feature which would let you and a friend join together to defeat enimemies, or play against them. We intend to make this a rather simple concept idea at first and then from there this idea can be fully fleshed out adding more subsystems, time permitting. Unity will be our primary building tool, allowing us to control everything to our exact design specifications.
 
 # 2. Design Considerations
 
@@ -116,7 +116,7 @@ We, the designers, assume that all users are in possesion of either an iPhone up
 
 2.2 Constraints
 
-The application will be contrained to only users who have an iPhone, iPad, or Android mobile device.
+The application will be contrained to only users who have a mobile device running the operating systems specified in 2.1.
 
 2.3 System Environment
 
@@ -124,7 +124,7 @@ The application will reside within the user's mobile device. Both iPhone and And
 
 2.4 Risks and Volatile Areas
 
-There could be possible secruity risks using this software. Any undocumented OS risks could potentially cause a data leak or a memory leak. If implemented, the multiplayer aspect of the game could be a risk of a potential risk from a third party.
+There could be possible secruity risks using this software. Any undocumented OS risks could potentially cause a data leak or a memory leak. If implemented, the Multi-Player aspect of the game could be a risk of a potential risk from a third party.
 
 # 3. Conceptual System Architecture
 
@@ -153,7 +153,7 @@ The user can choose to view the help screen by selecting the Help option availab
 
 4.1 Overview
 
-Since the game will be programmed in the Unity environment, much of the technical system architecture is handled internally within this environment itself.
+Since the game will be programmed in the Unity environment, much of the technical system architecture is handled internally within the environment itself.
 
 4.2 Design
 
@@ -179,11 +179,11 @@ These are all naturally integrated parts of the Unity environment and we will be
 
 5.4 Work-Assignment View
 
--The delegation of work will be as follows:
- - * User Interface Design: Kristofer Oubre, Jody Toms
- - * Implementation: Kristofer Oubre, Tyler Baronet
- - * Integration: Melva Matthews, Kalyn Odom
- - * Documentation: Jody Toms, Joshua Do
+The delegation of work will be as follows:
+ - User Interface Design: Kristofer Oubre, Jody Toms
+ - Implementation: Kristofer Oubre, Tyler Baronet
+ - Integration: Melva Matthews, Kalyn Odom
+ - Documentation: Jody Toms, Joshua Do
 
 # 6. User Interface Design
 
@@ -191,7 +191,7 @@ The following two sections provide a description of the User Interface flow and 
 
 6.1 User Interfaces Description
 
-Once the user opens the system, they are approached by three options. Those options are single player, multiplayer and start new round. Choosing Single Player will start the game where the player will have the option to tap to kill the enemies that approach them and to pause the game. Choosing Multiplayer will start the game with the same features as single player but it will also have a pass play option. Lastly, if the user picks new round it starts the game over leading the user to once again pick either single player or multiplayer.
+Once the user opens the system, they are approached by three options. Those options are Single-Player, Multi-Player, and start new round once the user has have finished one. Choosing Single-Player will start the game where the player will have the option to tap to kill (destroy) the enemies that approach them and to pause the game. Choosing Multi-Player will start the game with the same features as Single-Player but it will also have a pass play option. Lastly, if the user picks new round it starts the game over leading the user to once again pick either Single-Player or Multi-Player.
 
 6.2 User Interface Diagram
 
