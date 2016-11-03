@@ -49,8 +49,6 @@
 
     4.1 Overview
 
-    4.2 ...
-
 5. Application Views
 
     5.1 Logical View
