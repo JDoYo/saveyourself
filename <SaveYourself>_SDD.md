@@ -195,7 +195,11 @@ Once the user opens the system, they are approached by three options. Those opti
 
 7.1 Database Description
 
+When the user scores in the game, their score will save on the database.
+
 7.2 Database Diagram
+
+![alt-text] (https://github.com/JDoYo/saveyourself/blob/master/database%20design.png)
 
 # 8. Element Catalog
 
@@ -216,3 +220,5 @@ Once the user opens the system, they are approached by three options. Those opti
 ![alt-text] (https://github.com/JDoYo/saveyourself/blob/master/ELEMENTS%20User%20Interface%20Diagram.PNG)
 
 8.6 Database Diagram
+
+![alt-text] (https://github.com/JDoYo/saveyourself/blob/master/database%20design.png)
