@@ -172,6 +172,12 @@ The user can choose to view the help screen by selecting the Help option availab
 
 5.4 Work-Assignment View
 
+The delegation of work will be as follows:
+ * User Interface Design: Kristofer Oubre, Jody Toms
+ * Implementation: Kristofer Oubre, Tyler Baronet
+ * Integration: Melva Matthews, Kalyn Odom
+ * Documentation: Jody Toms, Joshua Do
+ 
 # 6. User Interface Design
 
 The following two sections provide a description of the User Interface flow and an example diagram of the interface.
