@@ -35,7 +35,11 @@ Our project development team consists of the following members:
 * Melva Matthews
 * Jody Toms
 
-Each group member's tasks are to-be-determined as soon as Midterms are finished and time can more effectively be allocated for them. The team style also is yet to be determined.
+Each group member's tasks are as follows:
+* User Interface Design: Kristofer Oubre, Jody Toms
+* Implementation: Kristofer Oubre, Tyler Baronet
+* Integration: Melva Matthews, Kalyn Odom
+* Documentation: Jody Toms, Joshua Do
 
 
 __Project Schedule__
