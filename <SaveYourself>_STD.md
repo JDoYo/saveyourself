@@ -39,6 +39,9 @@
 
 
 *************TEMPLATE TEST**************************
+
+| | | |
+|-|-|-|
 |    Test Case #:    | aaa | Test Case Name  |   |
 | System:            |     | Subsystem       |   |
 | Designed by:       |     | Design Date:    |   |
