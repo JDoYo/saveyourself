@@ -38,10 +38,13 @@
 8.) Apendix
 
 
+
+## 1.) Introduction
+
+## 2.) Test Items
 *************TEMPLATE TEST**************************
 
-| | | |
-|:---:|---|---|
+|:---:|---|---|---|
 |    Test Case #:    | aaa | Test Case Name  |   |
 | System:            |     | Subsystem       |   |
 | Designed by:       |     | Design Date:    |   |
@@ -59,7 +62,13 @@ Pre-condtions:
 Post-conditions:
 ********************************************************
 
-6.) Responsibilities 
+## 3.) Features Not to be Tested
+
+## 4.) Approach
+
+## 5.) Test Deliverables
+
+## 6.) Responsibilities 
 
 -While all parties in the group will assist with the various parts of testing through the entire testing process, specific parts have been dedicated to certain persons:
 Test Execution (Unit Testing, Integration Testing)
@@ -77,5 +86,7 @@ Responsible Members:
 Hardware & Software
 Responsible Members:
 
+## 7.) Risks and Contigencies
 
+## 8.) Apendix
 
