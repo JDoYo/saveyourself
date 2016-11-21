@@ -206,20 +206,17 @@ Post-conditions: Post condition would be the end result of what the feature shou
 | | | | |
 |---|:---|:---|:---|
 |    Test Case #: 6   | aaa | Test Case Name: View Scores  |   |
-| System:            |     | Subsystem       |   |
-| Designed by:       |     | Design Date:    |   |
-| Executed by:       |     | Execution Date: |   |
+| System:  Mobile App|     | Subsystem:       |   |
+| Designed by:Kristopher Oubre       |     | Design Date:  11/01/2016  |   |
+| Executed by: Kalyn Odom       |     | Execution Date: 11/21/2016|   |
 | Short Description: |     |                 |   |
 
-Pre-condtions: I'm guessing precondition would be something along the lines of what needs to occur before the test happens.
+Pre-condtions:
+The player has a compatible mobile device.
 
-| Step | Action | Expected System Response | Pass/Fail | Comment |
-|:----:|--------|--------------------------|-----------|---------|
-| 1    |        |                          |           |         |
-| 2    |        |                          |           |         |
-| 3... |        |                          |           |         |
-
-Post-conditions: Post condition would be the end result of what the feature should do
+| Step| Action| Expected System Response| Pass/Fail| Comment|
+|:---:|:---|:---|:---:|:---|
+|1| Player clicks "Achievements"| View the best time and score| Pass| |
 
 
 ********************************************************
