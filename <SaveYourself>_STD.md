@@ -23,7 +23,6 @@
 
 1.) Introduction
 
-This Software Testing Document is designed and intended to test all of the features for the Save Yourself mobile game. The document is intended to fully explore the user experience as well as explore features for full utilization of the application.
 2.) Test Items
 
 3.) Features Not to be Tested
@@ -41,6 +40,8 @@ This Software Testing Document is designed and intended to test all of the featu
 
 
 ## 1.) Introduction
+
+This Software Testing Document is designed and intended to test all of the features for the Save Yourself mobile game. The document is intended to fully explore the user experience as well as explore features for full utilization of the application.
 
 ## 2.) Test Items
 *************TEMPLATE TEST**************************
