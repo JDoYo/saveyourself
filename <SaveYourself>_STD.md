@@ -121,7 +121,7 @@ The player score is saved.
 |---|:---|:---|:---|
 | Test Case #: 3    | | Test Case Name: Play Turn-Based Multiplayer |   |
 | System:  Mobile App|     | Subsystem:       |   |
-| Designed by:Kristopher Oubre       |     | Design Date:  11/01/2016  |   |
+| Designed by:Kristofer Oubre       |     | Design Date:  11/01/2016  |   |
 | Executed by: Kalyn Odom       |     | Execution Date: 11/21/2016|   |
 | Short Description: Test Game's Multiplayer Feature|     |   |   |
 
@@ -155,7 +155,7 @@ Both players scores are saved.
 |---|:---|:---|:---|
 |    Test Case #: 4   | aaa | Test Case Name: Pause Gameplay  |   |
 | System:  Mobile App|     | Subsystem:       |   |
-| Designed by:Kristopher Oubre       |     | Design Date:  11/01/2016  |   |
+| Designed by:Kristofer Oubre       |     | Design Date:  11/01/2016  |   |
 | Executed by: Kalyn Odom       |     | Execution Date: 11/21/2016|   |
 | Short Description: |     |                 |   |
 
@@ -171,10 +171,11 @@ The player clicks "Single Play"/"Multi Play".
 |2 | Tap Rocks| Rocks disappear when player taps them before the rocks reach the car|Pass | |
 |3| Allow car value to decrease| The player's car should start to emite smoke when the 'Value' decreases below $10000, then emit fire when 'Value' decreases below $4000, and game sends when 'Value' equals $0  | Pass| |
 |4|Clicks "Pause"| Pauses the game|Pass| |
-|5|Clicks "Play"| The game resumes|Pass| |
-|6| Allow car value to decrease| The player's car should start to emite smoke when the 'Value' decreases below $10000, then emit fire when 'Value' decreases below $4000, and game sends when 'Value' equals $0  | Pass| |
-|7| Game Ends| The system displays 'Game Over' screen. Player 2 turn is over | Pass| 
-|8| Check post-condition 1| | | |                  |           |         |
+|5| Game paused| Player should not be able to play while game is paused|Fail| |
+|6|Clicks "Play"| The game resumes|Pass| |
+|7| Allow car value to decrease| The player's car should start to emite smoke when the 'Value' decreases below $10000, then emit fire when 'Value' decreases below $4000, and game sends when 'Value' equals $0  | Pass| |
+|8| Game Ends| The system displays 'Game Over' screen. Player 2 turn is over | Pass| 
+|9| Check post-condition 1| | | |                  |           |         |
 
 Post-conditions: 
 The player score is saved.
@@ -207,7 +208,7 @@ Post-conditions: Post condition would be the end result of what the feature shou
 |---|:---|:---|:---|
 |    Test Case #: 6   | aaa | Test Case Name: View Scores  |   |
 | System:  Mobile App|     | Subsystem:       |   |
-| Designed by:Kristopher Oubre       |     | Design Date:  11/01/2016  |   |
+| Designed by:Kristofer Oubre       |     | Design Date:  11/01/2016  |   |
 | Executed by: Kalyn Odom       |     | Execution Date: 11/21/2016|   |
 | Short Description: |     |                 |   |
 
