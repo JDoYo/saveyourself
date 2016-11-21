@@ -103,15 +103,16 @@ The system displays the 'Select Your Car' screen.
 
 | Step| Action| Expected System Response| Pass/Fail| Comment|
 |:---:|:---|:---|:---:|:---|
-|1 | Click 'Single Play' button| The system starts gameplay mode| Pass | |
-|2| Game begins| Rocks gravitate towards player's car| Pass| |
-|3 | Tap Rocks| Rocks disappear when player taps them before the rocks reach the car|Pass | |
-|4| Allow car value to decrease| The player's car should start to emite smoke when the 'Value' decreases below $10000, then emit fire when 'Value' decreases below $4000, and game sends when 'Value' equals $0  | Pass| |
-|5| Game Ends| The system displays 'Game Over' screen | Pass| |
-|6| Check post-condition 1| | | |
+|1 | Click onscreen arrow| The screen navigates through an option of cars| Pass| |
+|2 | Click 'Single Play' button| The system starts gameplay mode| Pass | |
+|3| Game begins| Rocks gravitate towards player's car| Pass| |
+|4 | Tap Rocks| Rocks disappear when player taps them before the rocks reach the car|Pass | |
+|5| Allow car value to decrease| The player's car should start to emite smoke when the 'Value' decreases below $10000, then emit fire when 'Value' decreases below $4000, and game sends when 'Value' equals $0  | Pass| |
+|6| Game Ends| The system displays 'Game Over' screen | Pass| |
+|7| Check post-condition 1| | | |
 
 ####Post-conditions:
-1. IDK
+The player score is saved.
 
 
 ********************************************************
@@ -120,18 +121,30 @@ The system displays the 'Select Your Car' screen.
 |---|:---|:---|:---|
 | Test Case #: 3    | | Test Case Name: Play Turn-Based Multiplayer |   |
 | System:  Mobile App|     | Subsystem:       |   |
-| Designed by:       |     | Design Date:  11/21/2016  |   |
-| Executed by:       |     | Execution Date: |   |
+| Designed by:Kristopher Oubre       |     | Design Date:  11/01/2016  |   |
+| Executed by: Kalyn Odom       |     | Execution Date: 11/21/2016|   |
 | Short Description: Test Game's Multiplayer Feature|     |   |   |
 
 ####Preconditions:
+The player has a compatible mobile device.
+The player clicks the 'Play' button.
+The system displays the 'Select Your Car' screen. 
+The player clicks "Multi Play"
  
 
-| Step | Action | Expected System Response | Pass/Fail | Comment |
-|:----:|--------|--------------------------|-----------|---------|
-| 1    |        |                          |           |         |
-| 2    |        |                          |           |         |
-| 3... |        |                          |           |         |
+| Step| Action| Expected System Response| Pass/Fail| Comment|
+|:---:|:---|:---|:---:|:---|
+|1 | Click onscreen arrow| The screen navigates through an option of cars| Pass| |
+|2 | Click 'Multi Play' button| The system starts gameplay mode| Pass | |
+|3| Game begins| Rocks gravitate towards player's car| Pass| |
+|4 | Tap Rocks| Rocks disappear when player taps them before the rocks reach the car|Pass | |
+|5| Allow car value to decrease| The player's car should start to emite smoke when the 'Value' decreases below $10000, then emit fire when 'Value' decreases below $4000, and game sends when 'Value' equals $0  | Pass| |
+|6| Game Ends| The system displays 'Game Over' screen. Player 1 turn is over | Pass| |
+|7| Click "Play Button"| The system starts gameplay mode for player 2| Pass| |
+|8 | Tap Rocks| Rocks disappear when player taps them before the rocks reach the car|Pass | |
+|9| Allow car value to decrease| The player's car should start to emite smoke when the 'Value' decreases below $10000, then emit fire when 'Value' decreases below $4000, and game sends when 'Value' equals $0  | Pass| |
+|10| Game Ends| The system displays 'Game Over' screen. Player 2 turn is over | Pass| |
+|11| Check post-condition 1| | | |                  |           |         |
 
 ####Post-conditions:
 
