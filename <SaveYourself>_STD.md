@@ -69,11 +69,32 @@ Post-conditions: Post condition would be the end result of what the feature shou
 
 | | | | |
 |---|:---|:---|:---|
-| Test Case #: 1    | | Test Case Name: SinglePlayer Mode |   |
+|    Test Case #: 1   | aaa | Test Case Name: Select Car  |   |
+| System:            |     | Subsystem       |   |
+| Designed by:       |     | Design Date:    |   |
+| Executed by:       |     | Execution Date: |   |
+| Short Description: |     |                 |   |
+
+Pre-condtions: I'm guessing precondition would be something along the lines of what needs to occur before the test happens.
+
+| Step | Action | Expected System Response | Pass/Fail | Comment |
+|:----:|--------|--------------------------|-----------|---------|
+| 1    |        |                          |           |         |
+| 2    |        |                          |           |         |
+| 3... |        |                          |           |         |
+
+Post-conditions: Post condition would be the end result of what the feature should do
+
+
+********************************************************
+
+| | | | |
+|---|:---|:---|:---|
+| Test Case #: 2    | | Test Case Name: Play Singleplayer |   |
 | System:  Mobile App|     | Subsystem:       |   |
 | Designed by:       |     | Design Date:  11/21/2016  |   |
 | Executed by:       |     | Execution Date: |   |
-| Short Description: Test Game's Singplayer Feature|     |   |   |
+| Short Description: Test Game's Singleplayer Feature|     |   |   |
 
 ####Preconditions:
 The player has a compatible mobile device.
@@ -86,12 +107,121 @@ The system displays the 'Select Your Car' screen.
 |2 | Click 'Single Play' button| The system starts gameplay mode| Pass | |
 |3| Game begins| Rocks gravitate towards player's car| Pass| |
 |4 | Tap Rocks| Rocks disappear when player taps them before the rocks reach the car| | Some Rocks do no not disappear upon tapping them|
-|5| Allow car value to decrease| The player's car should start to emite smoke when the 'Value' decreases below $1000, then emit fire when 'Value' decreases below $4000, and game sends when 'Value' equals $0  | Pass| |
+|5| Allow car value to decrease| The player's car should start to emite smoke when the 'Value' decreases below $10000, then emit fire when 'Value' decreases below $4000, and game sends when 'Value' equals $0  | Pass| |
 |6| Game Ends| The system displays 'Game Over' screen | Pass| |
 |7| Check post-condition 1| | | |
 
 ####Post-conditions:
 1. IDK
+
+
+********************************************************
+
+| | | | |
+|---|:---|:---|:---|
+| Test Case #: 3    | | Test Case Name: Play Turn-Based Multiplayer |   |
+| System:  Mobile App|     | Subsystem:       |   |
+| Designed by:       |     | Design Date:  11/21/2016  |   |
+| Executed by:       |     | Execution Date: |   |
+| Short Description: Test Game's Multiplayer Feature|     |   |   |
+
+####Preconditions:
+ 
+
+| Step | Action | Expected System Response | Pass/Fail | Comment |
+|:----:|--------|--------------------------|-----------|---------|
+| 1    |        |                          |           |         |
+| 2    |        |                          |           |         |
+| 3... |        |                          |           |         |
+
+####Post-conditions:
+
+
+********************************************************
+
+| | | | |
+|---|:---|:---|:---|
+|    Test Case #: 4   | aaa | Test Case Name: Pause Gameplay  |   |
+| System:            |     | Subsystem       |   |
+| Designed by:       |     | Design Date:    |   |
+| Executed by:       |     | Execution Date: |   |
+| Short Description: |     |                 |   |
+
+Pre-condtions: I'm guessing precondition would be something along the lines of what needs to occur before the test happens.
+
+| Step | Action | Expected System Response | Pass/Fail | Comment |
+|:----:|--------|--------------------------|-----------|---------|
+| 1    |        |                          |           |         |
+| 2    |        |                          |           |         |
+| 3... |        |                          |           |         |
+
+Post-conditions: Post condition would be the end result of what the feature should do
+
+
+********************************************************
+
+| | | | |
+|---|:---|:---|:---|
+|    Test Case #: 5   | aaa | Test Case Name: Save Scores  |   |
+| System:            |     | Subsystem       |   |
+| Designed by:       |     | Design Date:    |   |
+| Executed by:       |     | Execution Date: |   |
+| Short Description: |     |                 |   |
+
+Pre-condtions: I'm guessing precondition would be something along the lines of what needs to occur before the test happens.
+
+| Step | Action | Expected System Response | Pass/Fail | Comment |
+|:----:|--------|--------------------------|-----------|---------|
+| 1    |        |                          |           |         |
+| 2    |        |                          |           |         |
+| 3... |        |                          |           |         |
+
+Post-conditions: Post condition would be the end result of what the feature should do
+
+
+********************************************************
+
+| | | | |
+|---|:---|:---|:---|
+|    Test Case #: 6   | aaa | Test Case Name: View Scores  |   |
+| System:            |     | Subsystem       |   |
+| Designed by:       |     | Design Date:    |   |
+| Executed by:       |     | Execution Date: |   |
+| Short Description: |     |                 |   |
+
+Pre-condtions: I'm guessing precondition would be something along the lines of what needs to occur before the test happens.
+
+| Step | Action | Expected System Response | Pass/Fail | Comment |
+|:----:|--------|--------------------------|-----------|---------|
+| 1    |        |                          |           |         |
+| 2    |        |                          |           |         |
+| 3... |        |                          |           |         |
+
+Post-conditions: Post condition would be the end result of what the feature should do
+
+
+********************************************************
+
+| | | | |
+|---|:---|:---|:---|
+|    Test Case #: 7   | aaa | Test Case Name: Change Volume  |   |
+| System:            |     | Subsystem       |   |
+| Designed by:       |     | Design Date:    |   |
+| Executed by:       |     | Execution Date: |   |
+| Short Description: |     |                 |   |
+
+Pre-condtions: I'm guessing precondition would be something along the lines of what needs to occur before the test happens.
+
+| Step | Action | Expected System Response | Pass/Fail | Comment |
+|:----:|--------|--------------------------|-----------|---------|
+| 1    |        |                          |           |         |
+| 2    |        |                          |           |         |
+| 3... |        |                          |           |         |
+
+Post-conditions: Post condition would be the end result of what the feature should do
+
+
+********************************************************
   
 
 ## 3.) Features Not to be Tested
