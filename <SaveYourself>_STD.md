@@ -227,20 +227,19 @@ The player has a compatible mobile device.
 | | | | |
 |---|:---|:---|:---|
 |    Test Case #: 7   | aaa | Test Case Name: Change Volume  |   |
-| System:            |     | Subsystem       |   |
-| Designed by:       |     | Design Date:    |   |
-| Executed by:       |     | Execution Date: |   |
+| System:  Mobile App|     | Subsystem:       |   |
+| Designed by:Kristofer Oubre       |     | Design Date:  11/01/2016  |   |
+| Executed by: Kalyn Odom       |     | Execution Date: 11/21/2016|   |
 | Short Description: |     |                 |   |
 
-Pre-condtions: I'm guessing precondition would be something along the lines of what needs to occur before the test happens.
+Pre-condtions: 
+The player has a compatible mobile device.
 
-| Step | Action | Expected System Response | Pass/Fail | Comment |
-|:----:|--------|--------------------------|-----------|---------|
-| 1    |        |                          |           |         |
-| 2    |        |                          |           |         |
-| 3... |        |                          |           |         |
+| Step| Action| Expected System Response| Pass/Fail| Comment|
+|:---:|:---|:---|:---:|:---|
+|1| Player clicks "Options"| View music and souncds option| Pass| |
+|2| Player moves bar for Music/Sounds| Changes the volume for music/sounds|Pass|  |
 
-Post-conditions: Post condition would be the end result of what the feature should do
 
 
 ********************************************************
