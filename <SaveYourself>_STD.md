@@ -103,13 +103,12 @@ The system displays the 'Select Your Car' screen.
 
 | Step| Action| Expected System Response| Pass/Fail| Comment|
 |:---:|:---|:---|:---:|:---|
-|1 | Click onscreen arrow| The screen navigates through an option of cars| Pass| |
-|2 | Click 'Single Play' button| The system starts gameplay mode| Pass | |
-|3| Game begins| Rocks gravitate towards player's car| Pass| |
-|4 | Tap Rocks| Rocks disappear when player taps them before the rocks reach the car|Pass | |
-|5| Allow car value to decrease| The player's car should start to emite smoke when the 'Value' decreases below $10000, then emit fire when 'Value' decreases below $4000, and game sends when 'Value' equals $0  | Pass| |
-|6| Game Ends| The system displays 'Game Over' screen | Pass| |
-|7| Check post-condition 1| | | |
+|1 | Click 'Single Play' button| The system starts gameplay mode| Pass | |
+|2| Game begins| Rocks gravitate towards player's car| Pass| |
+|3 | Tap Rocks| Rocks disappear when player taps them before the rocks reach the car|Pass | |
+|4| Allow car value to decrease| The player's car should start to emite smoke when the 'Value' decreases below $10000, then emit fire when 'Value' decreases below $4000, and game sends when 'Value' equals $0  | Pass| |
+|5| Game Ends| The system displays 'Game Over' screen | Pass| |
+|6| Check post-condition 1| | | |
 
 ####Post-conditions:
 1. IDK
