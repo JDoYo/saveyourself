@@ -129,7 +129,6 @@ The player score is saved.
 The player has a compatible mobile device.
 The player clicks the 'Play' button.
 The system displays the 'Select Your Car' screen. 
-The player clicks "Multi Play"
  
 
 | Step| Action| Expected System Response| Pass/Fail| Comment|
@@ -147,6 +146,7 @@ The player clicks "Multi Play"
 |11| Check post-condition 1| | | |                  |           |         |
 
 ####Post-conditions:
+Both players scores are saved.
 
 
 ********************************************************
@@ -154,20 +154,30 @@ The player clicks "Multi Play"
 | | | | |
 |---|:---|:---|:---|
 |    Test Case #: 4   | aaa | Test Case Name: Pause Gameplay  |   |
-| System:            |     | Subsystem       |   |
-| Designed by:       |     | Design Date:    |   |
-| Executed by:       |     | Execution Date: |   |
+| System:  Mobile App|     | Subsystem:       |   |
+| Designed by:Kristopher Oubre       |     | Design Date:  11/01/2016  |   |
+| Executed by: Kalyn Odom       |     | Execution Date: 11/21/2016|   |
 | Short Description: |     |                 |   |
 
-Pre-condtions: I'm guessing precondition would be something along the lines of what needs to occur before the test happens.
+Pre-condtions: 
+The player has a compatible mobile device.
+The player clicks the 'Play' button.
+The system displays the 'Select Your Car' screen. 
+The player clicks "Single Play"/"Multi Play".
 
-| Step | Action | Expected System Response | Pass/Fail | Comment |
-|:----:|--------|--------------------------|-----------|---------|
-| 1    |        |                          |           |         |
-| 2    |        |                          |           |         |
-| 3... |        |                          |           |         |
+| Step| Action| Expected System Response| Pass/Fail| Comment|
+|:---:|:---|:---|:---:|:---|
+|1| Game begins| Rocks gravitate towards player's car| Pass| |
+|2 | Tap Rocks| Rocks disappear when player taps them before the rocks reach the car|Pass | |
+|3| Allow car value to decrease| The player's car should start to emite smoke when the 'Value' decreases below $10000, then emit fire when 'Value' decreases below $4000, and game sends when 'Value' equals $0  | Pass| |
+|4|Clicks "Pause"| Pauses the game|Pass| |
+|5|Clicks "Play"| The game resumes|Pass| |
+|6| Allow car value to decrease| The player's car should start to emite smoke when the 'Value' decreases below $10000, then emit fire when 'Value' decreases below $4000, and game sends when 'Value' equals $0  | Pass| |
+|7| Game Ends| The system displays 'Game Over' screen. Player 2 turn is over | Pass| 
+|8| Check post-condition 1| | | |                  |           |         |
 
-Post-conditions: Post condition would be the end result of what the feature should do
+Post-conditions: 
+The player score is saved.
 
 
 ********************************************************
