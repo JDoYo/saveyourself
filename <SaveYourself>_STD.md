@@ -187,19 +187,21 @@ The player score is saved.
 
 | | | | |
 |---|:---|:---|:---|
-|    Test Case #: 5   | aaa | Test Case Name: Save Scores  |   |
-| System:            |     | Subsystem       |   |
-| Designed by:       |     | Design Date:    |   |
-| Executed by:       |     | Execution Date: |   |
-| Short Description: |     |                 |   |
+|    Test Case #: 5   |  | Test Case Name: Save Scores  |   |
+| System: Mobile Device           |     | Subsystem       |   |
+| Designed by: Kristofer Oubre    |     | Design Date: 11/01/2016    |   |
+| Executed by: Melva Matthews     |     | Execution Date: 11/21/2016 |   |
+| Short Description: Test 'Save Score' feature |     |                 |   |
 
-Pre-condtions: I'm guessing precondition would be something along the lines of what needs to occur before the test happens.
+Pre-condtions: 
+Player has compatible device.
+Player has begun gameplay in either Single-Player or Multi-Player mode.
 
 | Step | Action | Expected System Response | Pass/Fail | Comment |
-|:----:|--------|--------------------------|-----------|---------|
-| 1    |        |                          |           |         |
+|:----:|--------|--------------------------|:-----------:|---------|
+| 1    |Taps rocks | The system increments score by one per rock tapped | Pass          |         |
 | 2    |        |                          |           |         |
-| 3... |        |                          |           |         |
+| 3    |        |                          |           |         |
 
 Post-conditions: Post condition would be the end result of what the feature should do
 
