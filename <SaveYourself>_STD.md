@@ -92,8 +92,8 @@ Post-conditions: Post condition would be the end result of what the feature shou
 |---|:---|:---|:---|
 | Test Case #: 2    | | Test Case Name: Play Singleplayer |   |
 | System:  Mobile App|     | Subsystem:       |   |
-| Designed by:       |     | Design Date:  11/21/2016  |   |
-| Executed by:       |     | Execution Date: |   |
+| Designed by: Kristofer Oubre       |     | Design Date:  11/01/2016  |   |
+| Executed by: Melva Mathhews      |     | Execution Date: 11/21/2016|   |
 | Short Description: Test Game's Singleplayer Feature|     |   |   |
 
 ####Preconditions:
@@ -106,7 +106,7 @@ The system displays the 'Select Your Car' screen.
 |1 | Click onscreen arrow| The screen navigates through an option of cars| Pass| |
 |2 | Click 'Single Play' button| The system starts gameplay mode| Pass | |
 |3| Game begins| Rocks gravitate towards player's car| Pass| |
-|4 | Tap Rocks| Rocks disappear when player taps them before the rocks reach the car| | Some Rocks do no not disappear upon tapping them|
+|4 | Tap Rocks| Rocks disappear when player taps them before the rocks reach the car|Pass | |
 |5| Allow car value to decrease| The player's car should start to emite smoke when the 'Value' decreases below $10000, then emit fire when 'Value' decreases below $4000, and game sends when 'Value' equals $0  | Pass| |
 |6| Game Ends| The system displays 'Game Over' screen | Pass| |
 |7| Check post-condition 1| | | |
