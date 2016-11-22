@@ -74,7 +74,7 @@ The mobile game is installed on the mobile device.
 | | | | |
 |---|:---|:---|:---|
 | Test Case #:     | 2| Test Case Name:  |   Play Singleplayer|
-| System:  |     Mobile App| Subsystem:       |   |
+| System:  |     Mobile App| Subsystem:       |   Gameplay|
 | Designed by:        |     Kristofer Oubre| Design Date:    |   11/01/2016|
 | Executed by:       |     Melva Mathhews| Execution Date: |   11/21/2016|
 | Short Description: |     Test game's Singleplayer Feature.|   |   |
@@ -112,7 +112,7 @@ The system displays the 'Select Your Car' screen.
 | | | | |
 |---|:---|:---|:---|
 | Test Case #:     | 3| Test Case Name:  |   Play Turn-Based Multiplayer|
-| System:  |     Mobile App| Subsystem:       |   |
+| System:  |     Mobile App| Subsystem:       |   Gameplay|
 | Designed by:       |     Kristofer Oubre| Design Date:    |   11/01/2016|
 | Executed by:        |     Kalyn Odom| Execution Date: |   11/21/2016|
 | Short Description: |     Test game's Multiplayer feature.|   |   |
@@ -154,7 +154,7 @@ The system displays the 'Select Your Car' screen.
 | | | | |
 |---|:---|:---|:---|
 |    Test Case #:    |  4| Test Case Name: Pause Gameplay  |   Pause Gameplay|
-| System:  |     Mobile App| Subsystem:       |   |
+| System:  |     Mobile App| Subsystem:       |   Gameplay|
 | Designed by:       |     Kristofer Oubre| Design Date:    |   11/01/2016|
 | Executed by:        |     Kalyn Odom| Execution Date: |   11/21/2016|
 | Short Description: | Test the pause feature.    |                 |   |
@@ -191,7 +191,7 @@ The player clicks "Single Play"/"Multi Play".
 | | | | |
 |---|:---|:---|:---|
 |    Test Case #:    |  5| Test Case Name:   |   Save Scores|
-| System:            |     Mobile Device| Subsystem       |   |
+| System:            |     Mobile App| Subsystem       |   Gameplay|
 | Designed by:     |     Kristofer Oubre| Design Date:     |   11/01/2016|
 | Executed by:      |     Melva Matthews| Execution Date:  |   11/21/2016|
 | Short Description:  |     Test 'Save Score' feature.|                 |   |
@@ -223,7 +223,7 @@ The player has begun gameplay in either Singleplayer or Multiplayer mode.
 | | | | |
 |---|:---|:---|:---|
 |    Test Case #:    |  6| Test Case Name:   |   View Scores|
-| System:  |     Mobile Device| Subsystem:       |   |
+| System:  |     Mobile App| Subsystem:       |   |
 | Designed by:       |     Kristofer Oubre| Design Date:    |   11/01/2016|
 | Executed by:        |     Kalyn Odom| Execution Date: |   11/21/2016|
 | Short Description: | Test the view score feature.    |                 |   |
@@ -251,7 +251,7 @@ The mobile game is installed and loaded on the mobile device.
 | | | | |
 |---|:---|:---|:---|
 |    Test Case #:    |  7| Test Case Name:   |  Change Volume |
-| System: |      Mobile App| Subsystem:       |   |
+| System: |      Mobile App| Subsystem:       |   Options|
 | Designed by:       |     Kristofer Oubre| Design Date:  11/01/2016  |   11/01/2016|
 | Executed by:        |     Kalyn Odom| Execution Date: |   11/21/2016|
 | Short Description: | Test the volume controls. |               |   |
