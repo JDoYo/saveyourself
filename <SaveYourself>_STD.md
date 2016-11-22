@@ -155,7 +155,7 @@ Both players scores are saved.
 
 | | | | |
 |---|:---|:---|:---|
-|    Test Case #: 4   | aaa | Test Case Name: Pause Gameplay  |   |
+|    Test Case #: 4   |  | Test Case Name: Pause Gameplay  |   |
 | System:  Mobile App|     | Subsystem:       |   |
 | Designed by:Kristofer Oubre       |     | Design Date:  11/01/2016  |   |
 | Executed by: Kalyn Odom       |     | Execution Date: 11/21/2016|   |
@@ -180,7 +180,7 @@ The player clicks "Single Play"/"Multi Play".
 |9| Check post-condition 1| | | |                  |           |         |
 
 Post-conditions: 
-The player score is saved.
+1. The player score is saved.
 
 
 ********************************************************
@@ -249,7 +249,7 @@ The player has a compatible mobile device.
 
 | | | | |
 |---|:---|:---|:---|
-|    Test Case #: 8   | aaa | Test Case Name: Help Screen  |   |
+|    Test Case #: 8   |  | Test Case Name: Help Screen  |   |
 | System:  Mobile App|     | Subsystem       |   |
 | Designed by:  Kristofer Oubre|     | Design Date:  11/01/2016|   |
 | Executed by:  Jody Toms|     | Execution Date: 11/21/2016|   |
@@ -261,17 +261,16 @@ The player has a compatible mobile device.
 | Step| Action| Expected System Response| Pass/Fail| Comment|
 |:---:|:---|:---|:---:|:---|
 |1| Player clicks "Help"| Help Screen is displayed.| Pass| |
-|2| Check Post-condition 1| | | |
 
 Post-conditions: 
-1.) The player is displayed a "help screen" that explains the gameplay and gamestyles of the mobile game.
+1. The player is displayed a "help screen" that explains the gameplay and gamestyles of the mobile game.
 
 
 ********************************************************
   
 ## 3.) Features Not to be Tested
 
-Unity libraries
+
 
 ## 4.) Approach
 
