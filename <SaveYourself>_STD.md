@@ -318,7 +318,7 @@ Testing Save Yourself will be low risk. Some of the risks associated with the te
 
 Data Modification - 
 
-During testing, data that should be otherwise never accessed by a function or library could be inadvertently modified, causeing the application to slow, compute taps incorrectly, or crash.
+During testing, data that should be otherwise never accessed by a function or library could be inadvertently modified, causing the application to slow, compute taps incorrectly, or crash.
 Our contingency plan here would be to reset the mobile device as well as the application, it is very unlikely this occurs however.
 
 System Crashing -
