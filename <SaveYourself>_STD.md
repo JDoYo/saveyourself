@@ -245,8 +245,27 @@ The player has a compatible mobile device.
 
 
 ********************************************************
-  
 
+| | | | |
+|---|:---|:---|:---|
+|    Test Case #: 8   | aaa | Test Case Name: Help Screen  |   |
+| System:  Mobile App|     | Subsystem       |   |
+| Designed by:  Kristofer Oubre|     | Design Date:  11/01/2016|   |
+| Executed by:  Jody Toms|     | Execution Date: 11/21/2016|   |
+| Short Description: |     |                 |   |
+
+Pre-condtions: 
+The player has a compatible mobile device.
+
+| Step| Action| Expected System Response| Pass/Fail| Comment|
+|:---:|:---|:---|:---:|:---|
+|1| Player clicks "Help"| Help Screen is displayed.| Pass| |
+
+Post-conditions: The player is displayed a "help screen" that explains the gameplay and gamestyles of the mobile game.
+
+
+********************************************************
+  
 ## 3.) Features Not to be Tested
 
 Unity libraries
