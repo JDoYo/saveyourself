@@ -268,12 +268,13 @@ The player has a compatible mobile device.
 
 ********************************************************
 
+| | | | |
 |---|:---|:---|:---|
-|    Test Case #:    |  8| Test Case Name: |   Help Screen|
+|    Test Case #:    |  8| Test Case Name:   |   Help Screen|
 | System:  |     Mobile App| Subsystem       |   |
-| Designed by:  |     Kristofer Oubre| Design Date: |    11/01/2016|
+| Designed by:  |     Kristofer Oubre| Design Date:  |   11/01/2016|
 | Executed by:  |     Jody Toms| Execution Date: |   11/21/2016|
-| Short Description: |     Test the Help screen button on the home screen.|                 |   |
+| Short Description: |     Test the Help Screen button. |                 |   |
 
 ####Pre-condtions: 
 
