@@ -191,7 +191,7 @@ The player clicks "Single Play"/"Multi Play".
 | | | | |
 |---|:---|:---|:---|
 |    Test Case #:    |  5| Test Case Name:   |   Save Scores|
-| System:            |     Mobile App| Subsystem       |   Gameplay|
+| System:            |     Mobile App| Subsystem:       |   Gameplay|
 | Designed by:     |     Kristofer Oubre| Design Date:     |   11/01/2016|
 | Executed by:      |     Melva Matthews| Execution Date:  |   11/21/2016|
 | Short Description:  |     Test 'Save Score' feature.|                 |   |
@@ -280,7 +280,7 @@ The mobile game is installed and loaded on the mobile device.
 | | | | |
 |---|:---|:---|:---|
 |    Test Case #:    |  8| Test Case Name:   |   Help Screen|
-| System:  |     Mobile App| Subsystem       |   Help|
+| System:  |     Mobile App| Subsystem:       |   Help|
 | Designed by:  |     Kristofer Oubre| Design Date:  |   11/01/2016|
 | Executed by:  |     Jody Toms| Execution Date: |   11/21/2016|
 | Short Description: |     Test the Help Screen button. |                 |   |
