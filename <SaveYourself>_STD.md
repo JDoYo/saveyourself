@@ -283,6 +283,7 @@ The player has a compatible mobile device.
 | Step| Action| Expected System Response| Pass/Fail| Comment|
 |:---:|:---|:---|:---:|:---|
 |1| Player clicks "Help"| Help Screen is displayed.| Pass| |
+|2| Check Post-condition 1| | |
 
 ####Post-conditions: 
 
