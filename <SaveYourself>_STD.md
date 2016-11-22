@@ -208,7 +208,7 @@ The player clicks "Single Play"/"Multi Play".
 | Step| Action| Expected System Response| Pass/Fail| Comment|
 |:---:|:---|:---|:---:|:---|
 |1|Clicks "Pause"| Pauses the game|Pass| |
-|2| Game paused| Player should not be able to play while game is paused|Fail| |
+|2| Game paused| Player should not be able to play while game is paused|Pass| |
 |3|Clicks "Play"| The game resumes|Pass| |
 |4| Check Post-condition 1| | | |                  |           |         |
 
