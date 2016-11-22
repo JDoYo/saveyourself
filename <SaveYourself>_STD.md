@@ -50,7 +50,7 @@ This Software Testing Document is designed and intended to test all of the featu
 
 | | | | |
 |:---:|---|---|---|
-|    Test Case #:    | aaa | Test Case Name  |   |
+|    Test Case #:    |     | Test Case Name  |   |
 | System:            |     | Subsystem       |   |
 | Designed by:       |     | Design Date:    |   |
 | Executed by:       |     | Execution Date: |   |
@@ -71,7 +71,7 @@ Post-conditions: Post condition would be the end result of what the feature shou
 
 | | | | |
 |---|:---|:---|:---|
-|    Test Case #: 1   | aaa | Test Case Name: Select Car  |   |
+|    Test Case #: 1   |  | Test Case Name: Select Car  |   |
 | System:            |     | Subsystem       |   |
 | Designed by:       |     | Design Date:    |   |
 | Executed by:       |     | Execution Date: |   |
@@ -211,7 +211,7 @@ Post-conditions:
 
 | | | | |
 |---|:---|:---|:---|
-|    Test Case #: 6   | aaa | Test Case Name: View Scores  |   |
+|    Test Case #: 6   |  | Test Case Name: View Scores  |   |
 | System:  Mobile Device|     | Subsystem:       |   |
 | Designed by:Kristofer Oubre       |     | Design Date:  11/01/2016  |   |
 | Executed by: Kalyn Odom       |     | Execution Date: 11/21/2016|   |
@@ -229,7 +229,7 @@ The player has a compatible mobile device.
 
 | | | | |
 |---|:---|:---|:---|
-|    Test Case #: 7   | aaa | Test Case Name: Change Volume  |   |
+|    Test Case #: 7   |  | Test Case Name: Change Volume  |   |
 | System:  Mobile App|     | Subsystem:       |   |
 | Designed by:Kristofer Oubre       |     | Design Date:  11/01/2016  |   |
 | Executed by: Kalyn Odom       |     | Execution Date: 11/21/2016|   |
