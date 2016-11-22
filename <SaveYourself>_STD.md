@@ -82,12 +82,17 @@ Post-conditions: Post condition would be the end result of what the feature shou
 ####Pre-condtions: 
 
 The player has a compatible mobile device.
+
 The mobile game is installed on the mobile device.
+
+
 
 | Step | Action | Expected System Response | Pass/Fail | Comment |
 |:----:|--------|--------------------------|-----------|---------|
 | 1| Click on app icon on phone app menu.| Mobile app loads on device.| Pass|         |
 | 2| Check Post-condition 1| | | |
+
+
 
 ####Post-conditions: 
 
@@ -102,14 +107,19 @@ The mobile game is installed on the mobile device.
 | System:  |     Mobile App| Subsystem:       |   |
 | Designed by:        |     Kristofer Oubre| Design Date:    |   11/01/2016|
 | Executed by:       |     Melva Mathhews| Execution Date: |   11/21/2016|
-| Short Description: |     Test Game's Singleplayer Feature.|   |   |
+| Short Description: |     Test game's Singleplayer Feature.|   |   |
 
-####Preconditions:
+####Pre-conditions:
 
 The player has a compatible mobile device.
+
 The mobile game is installed and loaded on the mobile device.
+
 The player clicks the 'Play' button.
+
 The system displays the 'Select Your Car' screen.  
+
+
 
 | Step| Action| Expected System Response| Pass/Fail| Comment|
 |:---:|:---|:---|:---:|:---|
@@ -120,6 +130,8 @@ The system displays the 'Select Your Car' screen.
 |5| Allow car value to decrease| The player's car should start to emite smoke when the 'Value' decreases below $10000, then emit fire when 'Value' decreases below $4000, and game sends when 'Value' equals $0  | Pass| |
 |6| Game Ends| The system displays 'Game Over' screen | Pass| |
 |7| Check Post-condition 1| | | |
+
+
 
 ####Post-conditions:
 
@@ -134,15 +146,19 @@ The system displays the 'Select Your Car' screen.
 | System:  |     Mobile App| Subsystem:       |   |
 | Designed by:       |     Kristofer Oubre| Design Date:    |   11/01/2016|
 | Executed by:        |     Kalyn Odom| Execution Date: |   11/21/2016|
-| Short Description: |     Test Game's Multiplayer Feature.|   |   |
+| Short Description: |     Test game's Multiplayer feature.|   |   |
 
 ####Preconditions:
 
 The player has a compatible mobile device.
+
 The mobile game is installed and loaded on the mobile device.
+
 The player clicks the 'Play' button.
+
 The system displays the 'Select Your Car' screen. 
- 
+
+
 
 | Step| Action| Expected System Response| Pass/Fail| Comment|
 |:---:|:---|:---|:---:|:---|
@@ -157,6 +173,8 @@ The system displays the 'Select Your Car' screen.
 |9| Allow car value to decrease| The player's car should start to emite smoke when the 'Value' decreases below $10000, then emit fire when 'Value' decreases below $4000, and game sends when 'Value' equals $0  | Pass| |
 |10| Game Ends| The system displays 'Game Over' screen. Player 2 turn is over | Pass| |
 |11| Check post-condition 1| | | |                  |           |         |
+
+
 
 ####Post-conditions:
 
@@ -176,10 +194,16 @@ The system displays the 'Select Your Car' screen.
 ####Pre-conditions: 
 
 The player has a compatible mobile device.
+
 The mobile game is installed and loaded on the mobile device.
+
 The player clicks the 'Play' button.
+
 The system displays the 'Select Your Car' screen. 
+
 The player clicks "Single Play"/"Multi Play".
+
+
 
 | Step| Action| Expected System Response| Pass/Fail| Comment|
 |:---:|:---|:---|:---:|:---|
@@ -192,6 +216,8 @@ The player clicks "Single Play"/"Multi Play".
 |7| Allow car value to decrease| The player's car should start to emite smoke when the 'Value' decreases below $10000, then emit fire when 'Value' decreases below $4000, and game sends when 'Value' equals $0  | Pass| |
 |8| Game Ends| The system displays 'Game Over' screen. Player 2 turn is over | Pass| 
 |9| Check Post-condition 1| | | |                  |           |         |
+
+
 
 ####Post-conditions: 
 
@@ -211,14 +237,20 @@ The player clicks "Single Play"/"Multi Play".
 ####Pre-conditions: 
 
 The player has a compatible device.
+
 The mobile game is installed and loaded on the mobile device.
+
 The player has begun gameplay in either Singleplayer or Multiplayer mode.
+
+
 
 | Step | Action | Expected System Response | Pass/Fail | Comment |
 |:----:|--------|--------------------------|:-----------:|---------|
 | 1    |Taps rocks | The system increments score by one per rock tapped | Pass          |         |
 | 2    | End Game  | The sytem saves final score on device|Pass |         |
 | 3    | Check Post-condition 1|                          |           |         |
+
+
 
 ####Post-conditions: 
 
@@ -238,12 +270,16 @@ The player has begun gameplay in either Singleplayer or Multiplayer mode.
 ####Pre-conditions:
 
 The player has a compatible mobile device.
+
 The mobile game is installed and loaded on the mobile device.
+
+
 
 | Step| Action| Expected System Response| Pass/Fail| Comment|
 |:---:|:---|:---|:---:|:---|
 |1| Player clicks "Achievements"| View the best time and score| Pass| |
 |2| Check Post-condition 1| | | |
+
 
 
 ####Post-conditions:
@@ -263,13 +299,18 @@ The mobile game is installed and loaded on the mobile device.
 ####Pre-condtions: 
 
 The player has a compatible mobile device.
+
 The mobile game is installed and loaded on the mobile device.
+
+
 
 | Step| Action| Expected System Response| Pass/Fail| Comment|
 |:---:|:---|:---|:---:|:---|
 |1| Player clicks "Options"| View music and souncds option| Pass| |
 |2| Player moves bar for Music/Sounds| Changes the volume for music/sounds|Pass|  |
 |3| Check Post-condition 1| | | |
+
+
 
 ####Post-conditions:
 
@@ -288,12 +329,17 @@ The mobile game is installed and loaded on the mobile device.
 ####Pre-condtions: 
 
 The player has a compatible mobile device.
+
 The mobile game is installed and loaded on the mobile device.
+
+
 
 | Step| Action| Expected System Response| Pass/Fail| Comment|
 |:---:|:---|:---|:---:|:---|
 |1| Player clicks "Help"| Help Screen is displayed.| Pass| |
 |2| Check Post-condition 1| | | |
+
+
 
 ####Post-conditions: 
 
