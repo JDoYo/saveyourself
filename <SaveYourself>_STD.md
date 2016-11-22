@@ -82,6 +82,7 @@ Post-conditions: Post condition would be the end result of what the feature shou
 ####Pre-condtions: 
 
 The player has a compatible mobile device.
+
 The mobile game is installed on the mobile device.
 
 | Step | Action | Expected System Response | Pass/Fail | Comment |
@@ -102,14 +103,18 @@ The mobile game is installed on the mobile device.
 | System:  |     Mobile App| Subsystem:       |   |
 | Designed by:        |     Kristofer Oubre| Design Date:    |   11/01/2016|
 | Executed by:       |     Melva Mathhews| Execution Date: |   11/21/2016|
-| Short Description: |     Test Game's Singleplayer Feature.|   |   |
+| Short Description: |     Test game's Singleplayer Feature.|   |   |
 
 ####Preconditions:
 
 The player has a compatible mobile device.
+
 The mobile game is installed and loaded on the mobile device.
+
 The player clicks the 'Play' button.
+
 The system displays the 'Select Your Car' screen.  
+
 
 | Step| Action| Expected System Response| Pass/Fail| Comment|
 |:---:|:---|:---|:---:|:---|
@@ -134,14 +139,18 @@ The system displays the 'Select Your Car' screen.
 | System:  |     Mobile App| Subsystem:       |   |
 | Designed by:       |     Kristofer Oubre| Design Date:    |   11/01/2016|
 | Executed by:        |     Kalyn Odom| Execution Date: |   11/21/2016|
-| Short Description: |     Test Game's Multiplayer Feature.|   |   |
+| Short Description: |     Test game's Multiplayer feature.|   |   |
 
 ####Preconditions:
 
 The player has a compatible mobile device.
+
 The mobile game is installed and loaded on the mobile device.
+
 The player clicks the 'Play' button.
+
 The system displays the 'Select Your Car' screen. 
+
  
 
 | Step| Action| Expected System Response| Pass/Fail| Comment|
@@ -176,10 +185,15 @@ The system displays the 'Select Your Car' screen.
 ####Pre-conditions: 
 
 The player has a compatible mobile device.
+
 The mobile game is installed and loaded on the mobile device.
+
 The player clicks the 'Play' button.
+
 The system displays the 'Select Your Car' screen. 
+
 The player clicks "Single Play"/"Multi Play".
+
 
 | Step| Action| Expected System Response| Pass/Fail| Comment|
 |:---:|:---|:---|:---:|:---|
@@ -211,8 +225,11 @@ The player clicks "Single Play"/"Multi Play".
 ####Pre-conditions: 
 
 The player has a compatible device.
+
 The mobile game is installed and loaded on the mobile device.
+
 The player has begun gameplay in either Singleplayer or Multiplayer mode.
+
 
 | Step | Action | Expected System Response | Pass/Fail | Comment |
 |:----:|--------|--------------------------|:-----------:|---------|
@@ -238,7 +255,9 @@ The player has begun gameplay in either Singleplayer or Multiplayer mode.
 ####Pre-conditions:
 
 The player has a compatible mobile device.
+
 The mobile game is installed and loaded on the mobile device.
+
 
 | Step| Action| Expected System Response| Pass/Fail| Comment|
 |:---:|:---|:---|:---:|:---|
@@ -263,7 +282,9 @@ The mobile game is installed and loaded on the mobile device.
 ####Pre-condtions: 
 
 The player has a compatible mobile device.
+
 The mobile game is installed and loaded on the mobile device.
+
 
 | Step| Action| Expected System Response| Pass/Fail| Comment|
 |:---:|:---|:---|:---:|:---|
@@ -288,7 +309,9 @@ The mobile game is installed and loaded on the mobile device.
 ####Pre-condtions: 
 
 The player has a compatible mobile device.
+
 The mobile game is installed and loaded on the mobile device.
+
 
 | Step| Action| Expected System Response| Pass/Fail| Comment|
 |:---:|:---|:---|:---:|:---|
