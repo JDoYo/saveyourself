@@ -41,6 +41,10 @@
 
 This Software Testing Document is designed and intended to test all of the features for the Save Yourself mobile game. The document is intended to fully explore the user experience as well as explore features for full utilization of the application.
 
+For more information regarding the Software Requirements Specification (SRS), please see the document. The SRS document to provide full descriptions for Save Yourself, the document also features descriptions on how to utilize each feature within the application.
+
+For more information regarding the Software Design Document (SDD), please see the document. The Software Design Document (SDD) document was intended to help with user experiences as well as explore features for full utilization.  
+
 ## 2.) Test Items
 *************TEMPLATE TEST**************************
 
@@ -289,7 +293,9 @@ The player has a compatible mobile device.
   
 ## 3.) Features Not to be Tested
 
+Unity Libraries -
 
+All Unity libraries used in the Gainz application have been thoroughly tested by Unity itself as well as other developers and as such, there is no reason to test anything involving their libraries.
 
 ## 4.) Approach
 
@@ -297,7 +303,7 @@ The player has a compatible mobile device.
 
 ## 6.) Responsibilities 
 
--While all parties in the group will assist with the various parts of testing through the entire testing process, specific parts have been dedicated to certain persons:
+While all parties in the group will assist with the various parts of testing through the entire testing process, specific parts have been dedicated to certain persons:
 Test Execution (Unit Testing, Integration Testing)
 Responsible Members:
 
