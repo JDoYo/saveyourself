@@ -153,7 +153,7 @@ The system displays the 'Select Your Car' screen.
 
 | | | | |
 |---|:---|:---|:---|
-|    Test Case #:    |  4| Test Case Name: Pause Gameplay  |   Pause Gameplay|
+|    Test Case #:    |  4| Test Case Name:  |   Pause Gameplay|
 | System:  |     Mobile App| Subsystem:       |   Gameplay|
 | Designed by:       |     Kristofer Oubre| Design Date:    |   11/01/2016|
 | Executed by:        |     Kalyn Odom| Execution Date: |   11/21/2016|
