@@ -261,8 +261,10 @@ The player has a compatible mobile device.
 | Step| Action| Expected System Response| Pass/Fail| Comment|
 |:---:|:---|:---|:---:|:---|
 |1| Player clicks "Help"| Help Screen is displayed.| Pass| |
+|2| Check Post-condition 1| | | |
 
-Post-conditions: The player is displayed a "help screen" that explains the gameplay and gamestyles of the mobile game.
+Post-conditions: 
+1.) The player is displayed a "help screen" that explains the gameplay and gamestyles of the mobile game.
 
 
 ********************************************************
