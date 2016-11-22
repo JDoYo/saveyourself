@@ -199,7 +199,7 @@ The player clicks "Single Play"/"Multi Play".
 
 | | | | |
 |---|:---|:---|:---|
-|    Test Case #:    |  6| Test Case Name:   |   Save Scores|
+|    Test Case #:    |  5| Test Case Name:   |   Save Scores|
 | System:            |     Mobile Device| Subsystem       |   |
 | Designed by:     |     Kristofer Oubre| Design Date:     |   11/01/2016|
 | Executed by:      |     Melva Matthews| Execution Date:  |   11/21/2016|
