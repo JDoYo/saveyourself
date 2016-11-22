@@ -200,10 +200,11 @@ Player has begun gameplay in either Single-Player or Multi-Player mode.
 | Step | Action | Expected System Response | Pass/Fail | Comment |
 |:----:|--------|--------------------------|:-----------:|---------|
 | 1    |Taps rocks | The system increments score by one per rock tapped | Pass          |         |
-| 2    |        |                          |           |         |
-| 3    |        |                          |           |         |
+| 2    | End Game  | The sytem saves final score on device|Pass |         |
+| 3    | Check post-condition 1|                          |           |         |
 
-Post-conditions: Post condition would be the end result of what the feature should do
+Post-conditions: 
+1. Scores are now viewable by clicking the 'Achievements' button. 
 
 
 ********************************************************
@@ -211,7 +212,7 @@ Post-conditions: Post condition would be the end result of what the feature shou
 | | | | |
 |---|:---|:---|:---|
 |    Test Case #: 6   | aaa | Test Case Name: View Scores  |   |
-| System:  Mobile App|     | Subsystem:       |   |
+| System:  Mobile Device|     | Subsystem:       |   |
 | Designed by:Kristofer Oubre       |     | Design Date:  11/01/2016  |   |
 | Executed by: Kalyn Odom       |     | Execution Date: 11/21/2016|   |
 | Short Description: |     |                 |   |
