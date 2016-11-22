@@ -98,11 +98,11 @@ Post condition would be the end result of what the feature should do
 
 | | | | |
 |---|:---|:---|:---|
-| Test Case #: 2    | | Test Case Name: Play Singleplayer |   |
-| System:  Mobile App|     | Subsystem:       |   |
-| Designed by: Kristofer Oubre       |     | Design Date:  11/01/2016  |   |
-| Executed by: Melva Mathhews      |     | Execution Date: 11/21/2016|   |
-| Short Description: Test Game's Singleplayer Feature|     |   |   |
+| Test Case #:     | 2| Test Case Name:  |   Play Singleplayer|
+| System:  |     Mobile App| Subsystem:       |   |
+| Designed by:        |     Kristofer Oubre| Design Date:    |   11/01/2016|
+| Executed by:       |     Melva Mathhews| Execution Date: |   11/21/2016|
+| Short Description: |     Test Game's Singleplayer Feature.|   |   |
 
 ####Preconditions:
 
@@ -118,7 +118,7 @@ The system displays the 'Select Your Car' screen.
 |4 | Tap Rocks| Rocks disappear when player taps them before the rocks reach the car|Pass | |
 |5| Allow car value to decrease| The player's car should start to emite smoke when the 'Value' decreases below $10000, then emit fire when 'Value' decreases below $4000, and game sends when 'Value' equals $0  | Pass| |
 |6| Game Ends| The system displays 'Game Over' screen | Pass| |
-|7| Check post-condition 1| | | |
+|7| Check Post-condition 1| | | |
 
 ####Post-conditions:
 
@@ -165,10 +165,10 @@ The system displays the 'Select Your Car' screen.
 
 | | | | |
 |---|:---|:---|:---|
-|    Test Case #: 4   |  | Test Case Name: Pause Gameplay  |   |
-| System:  Mobile App|     | Subsystem:       |   |
-| Designed by:Kristofer Oubre       |     | Design Date:  11/01/2016  |   |
-| Executed by: Kalyn Odom       |     | Execution Date: 11/21/2016|   |
+|    Test Case #:    |  4| Test Case Name: Pause Gameplay  |   Pause Gameplay|
+| System:  |     Mobile App| Subsystem:       |   |
+| Designed by:       |     Kristofer Oubre| Design Date:    |   11/01/2016|
+| Executed by:        |     Kalyn Odom| Execution Date: |   11/21/2016|
 | Short Description: |     |                 |   |
 
 ####Pre-conditions: 
@@ -188,7 +188,7 @@ The player clicks "Single Play"/"Multi Play".
 |6|Clicks "Play"| The game resumes|Pass| |
 |7| Allow car value to decrease| The player's car should start to emite smoke when the 'Value' decreases below $10000, then emit fire when 'Value' decreases below $4000, and game sends when 'Value' equals $0  | Pass| |
 |8| Game Ends| The system displays 'Game Over' screen. Player 2 turn is over | Pass| 
-|9| Check post-condition 1| | | |                  |           |         |
+|9| Check Post-condition 1| | | |                  |           |         |
 
 ####Post-conditions: 
 
@@ -199,11 +199,11 @@ The player clicks "Single Play"/"Multi Play".
 
 | | | | |
 |---|:---|:---|:---|
-|    Test Case #: 5   |  | Test Case Name: Save Scores  |   |
-| System: Mobile Device           |     | Subsystem       |   |
-| Designed by: Kristofer Oubre    |     | Design Date: 11/01/2016    |   |
-| Executed by: Melva Matthews     |     | Execution Date: 11/21/2016 |   |
-| Short Description: Test 'Save Score' feature |     |                 |   |
+|    Test Case #:    |  6| Test Case Name:   |   Save Scores|
+| System:            |     Mobile Device| Subsystem       |   |
+| Designed by:     |     Kristofer Oubre| Design Date:     |   11/01/2016|
+| Executed by:      |     Melva Matthews| Execution Date:  |   11/21/2016|
+| Short Description:  |     Test 'Save Score' feature.|                 |   |
 
 ####Pre-conditions: 
 
@@ -214,7 +214,7 @@ Player has begun gameplay in either Single-Player or Multi-Player mode.
 |:----:|--------|--------------------------|:-----------:|---------|
 | 1    |Taps rocks | The system increments score by one per rock tapped | Pass          |         |
 | 2    | End Game  | The sytem saves final score on device|Pass |         |
-| 3    | Check post-condition 1|                          |           |         |
+| 3    | Check Post-condition 1|                          |           |         |
 
 ####Post-conditions: 
 
@@ -225,10 +225,10 @@ Player has begun gameplay in either Single-Player or Multi-Player mode.
 
 | | | | |
 |---|:---|:---|:---|
-|    Test Case #: 6   |  | Test Case Name: View Scores  |   |
-| System:  Mobile Device|     | Subsystem:       |   |
-| Designed by:Kristofer Oubre       |     | Design Date:  11/01/2016  |   |
-| Executed by: Kalyn Odom       |     | Execution Date: 11/21/2016|   |
+|    Test Case #:    |  6| Test Case Name:   |   View Scores|
+| System:  |     Mobile Device| Subsystem:       |   |
+| Designed by:       |     Kristofer Oubre| Design Date:    |   11/01/2016|
+| Executed by:        |     Kalyn Odom| Execution Date: |   11/21/2016|
 | Short Description: |     |                 |   |
 
 ####Pre-conditions:
@@ -238,6 +238,8 @@ The player has a compatible mobile device.
 | Step| Action| Expected System Response| Pass/Fail| Comment|
 |:---:|:---|:---|:---:|:---|
 |1| Player clicks "Achievements"| View the best time and score| Pass| |
+|2| Check Post-condition 1| | | |
+
 
 ####Post-conditions:
 
@@ -247,10 +249,10 @@ The player has a compatible mobile device.
 
 | | | | |
 |---|:---|:---|:---|
-|    Test Case #: 7   |  | Test Case Name: Change Volume  |   |
-| System:  Mobile App|     | Subsystem:       |   |
-| Designed by:Kristofer Oubre       |     | Design Date:  11/01/2016  |   |
-| Executed by: Kalyn Odom       |     | Execution Date: 11/21/2016|   |
+|    Test Case #:    |  7| Test Case Name:   |  Change Volume |
+| System: |      Mobile App| Subsystem:       |   |
+| Designed by:       |     Kristofer Oubre| Design Date:  11/01/2016  |   11/01/2016|
+| Executed by:        |     Kalyn Odom| Execution Date: |   11/21/2016|
 | Short Description: |     |                 |   |
 
 ####Pre-condtions: 
@@ -261,6 +263,7 @@ The player has a compatible mobile device.
 |:---:|:---|:---|:---:|:---|
 |1| Player clicks "Options"| View music and souncds option| Pass| |
 |2| Player moves bar for Music/Sounds| Changes the volume for music/sounds|Pass|  |
+|3| Check Post-condition 1| | | |
 
 ####Post-conditions:
 
@@ -283,7 +286,7 @@ The player has a compatible mobile device.
 | Step| Action| Expected System Response| Pass/Fail| Comment|
 |:---:|:---|:---|:---:|:---|
 |1| Player clicks "Help"| Help Screen is displayed.| Pass| |
-|2| Check Post-condition 1| | |
+|2| Check Post-condition 1| | | |
 
 ####Post-conditions: 
 
