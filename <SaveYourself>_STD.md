@@ -191,7 +191,7 @@ The player clicks "Single Play"/"Multi Play".
 | | | | |
 |---|:---|:---|:---|
 |    Test Case #:    |  5| Test Case Name:   |   Save Scores|
-| System:            |     Mobile App| Subsystem:       |   Gameplay|
+| System:            |     Mobile App| Subsystem       |   Gameplay|
 | Designed by:     |     Kristofer Oubre| Design Date:     |   11/01/2016|
 | Executed by:      |     Melva Matthews| Execution Date:  |   11/21/2016|
 | Short Description:  |     Test 'Save Score' feature.|                 |   |
@@ -280,7 +280,7 @@ The mobile game is installed and loaded on the mobile device.
 | | | | |
 |---|:---|:---|:---|
 |    Test Case #:    |  8| Test Case Name:   |   Help Screen|
-| System:  |     Mobile App| Subsystem:       |   Help|
+| System:  |     Mobile App| Subsystem       |   Help|
 | Designed by:  |     Kristofer Oubre| Design Date:  |   11/01/2016|
 | Executed by:  |     Jody Toms| Execution Date: |   11/21/2016|
 | Short Description: |     Test the Help Screen button. |                 |   |
@@ -308,15 +308,15 @@ The mobile game is installed and loaded on the mobile device.
   
 ## 3.) Features Not to be Tested
 
-Unity Libraries -
+####Unity Libraries
 
 All Unity libraries used in the Gainz application have been thoroughly tested by Unity itself as well as other developers and as such, there is no reason to test anything involving their libraries.
 
-OS Compatibility -
+####OS Compatibility
 
 The game is coded in libraries that are recognized by the operating system so that all files are readable in the fist place.
 
-Distribution -
+####Distribution
 
 The user's ability to download the app from our source is not to be tested in this release as that issue will be addressed later in the software lifecycle.
 
@@ -324,12 +324,12 @@ The user's ability to download the app from our source is not to be tested in th
 
 Testing Save Yourself will be low risk. Some of the risks associated with the testing are below.
 
-Data Modification - 
+####Data Modification
 
 During testing, data that should be otherwise never accessed by a function or library could be inadvertently modified, causing the application to slow, compute taps incorrectly, or crash.
 Our contingency plan here would be to reset the mobile device as well as the application, it is very unlikely this occurs however.
 
-System Crashing -
+####System Crashing
 
 Due to unforeseen circumstances, the application may crash due to an error.
 Our contingency plan would be to find a resolution accordingly. There could be many errors, and as such, we would have to find a resolution depending on the kind of critical error encountered.
