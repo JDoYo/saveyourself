@@ -169,7 +169,7 @@ The system displays the 'Select Your Car' screen.
 | System:  |     Mobile App| Subsystem:       |   |
 | Designed by:       |     Kristofer Oubre| Design Date:    |   11/01/2016|
 | Executed by:        |     Kalyn Odom| Execution Date: |   11/21/2016|
-| Short Description: |     |                 |   |
+| Short Description: | Test the pause feature.    |                 |   |
 
 ####Pre-conditions: 
 
@@ -229,7 +229,7 @@ Player has begun gameplay in either Single-Player or Multi-Player mode.
 | System:  |     Mobile Device| Subsystem:       |   |
 | Designed by:       |     Kristofer Oubre| Design Date:    |   11/01/2016|
 | Executed by:        |     Kalyn Odom| Execution Date: |   11/21/2016|
-| Short Description: |     |                 |   |
+| Short Description: | Test the view score feature.    |                 |   |
 
 ####Pre-conditions:
 
@@ -253,7 +253,7 @@ The player has a compatible mobile device.
 | System: |      Mobile App| Subsystem:       |   |
 | Designed by:       |     Kristofer Oubre| Design Date:  11/01/2016  |   11/01/2016|
 | Executed by:        |     Kalyn Odom| Execution Date: |   11/21/2016|
-| Short Description: |     |                 |   |
+| Short Description: | Test the volume controls. |               |   |
 
 ####Pre-condtions: 
 
