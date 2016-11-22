@@ -129,11 +129,11 @@ The system displays the 'Select Your Car' screen.
 
 | | | | |
 |---|:---|:---|:---|
-| Test Case #: 3    | | Test Case Name: Play Turn-Based Multiplayer |   |
-| System:  Mobile App|     | Subsystem:       |   |
-| Designed by:Kristofer Oubre       |     | Design Date:  11/01/2016  |   |
-| Executed by: Kalyn Odom       |     | Execution Date: 11/21/2016|   |
-| Short Description: Test Game's Multiplayer Feature|     |   |   |
+| Test Case #:     | 3| Test Case Name:  |   Play Turn-Based Multiplayer|
+| System:  |     Mobile App| Subsystem:       |   |
+| Designed by:       |     Kristofer Oubre| Design Date:    |   11/01/2016|
+| Executed by:        |     Kalyn Odom| Execution Date: |   11/21/2016|
+| Short Description: |     Test Game's Multiplayer Feature.|   |   |
 
 ####Preconditions:
 
