@@ -207,15 +207,10 @@ The player clicks "Single Play"/"Multi Play".
 
 | Step| Action| Expected System Response| Pass/Fail| Comment|
 |:---:|:---|:---|:---:|:---|
-|1| Game begins| Rocks gravitate towards player's car| Pass| |
-|2 | Tap Rocks| Rocks disappear when player taps them before the rocks reach the car|Pass | |
-|3| Allow car value to decrease| The player's car should start to emite smoke when the 'Value' decreases below $10000, then emit fire when 'Value' decreases below $4000, and game sends when 'Value' equals $0  | Pass| |
-|4|Clicks "Pause"| Pauses the game|Pass| |
-|5| Game paused| Player should not be able to play while game is paused|Fail| |
-|6|Clicks "Play"| The game resumes|Pass| |
-|7| Allow car value to decrease| The player's car should start to emite smoke when the 'Value' decreases below $10000, then emit fire when 'Value' decreases below $4000, and game sends when 'Value' equals $0  | Pass| |
-|8| Game Ends| The system displays 'Game Over' screen. Player 2 turn is over | Pass| 
-|9| Check Post-condition 1| | | |                  |           |         |
+|1|Clicks "Pause"| Pauses the game|Pass| |
+|2| Game paused| Player should not be able to play while game is paused|Fail| |
+|3|Clicks "Play"| The game resumes|Pass| |
+|4| Check Post-condition 1| | | |                  |           |         |
 
 
 
