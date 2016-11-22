@@ -35,8 +35,6 @@
 
 7.) Risks and Contigencies
 
-8.) Apendix
-
 
 
 ## 1.) Introduction
@@ -317,5 +315,15 @@ Responsible Members:
 
 ## 7.) Risks and Contigencies
 
-## 8.) Apendix
+Testing Save Yourself will be low risk. Some of the risks associated with the testing are below.
+
+Data Modification - 
+
+During testing, data that should be otherwise never accessed by a function or library could be inadvertently modified, causeing the application to slow, compute taps incorrectly, or crash.
+Our contingency plan here would be to reset the mobile device as well as the application, it is very unlikely this occurs however.
+
+System Crashing -
+
+Due to unforeseen circumstances, the application may crash due to an error.
+Our contingency plan would be to find a resolution accordingly. There could be many errors, and as such, we would have to find a resolution depending on the kind of critical error encountered.
 
