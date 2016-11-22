@@ -267,7 +267,7 @@ The player has a compatible mobile device.
 ********************************************************
 
 | | | | |
-|---|:---|:---|:---|
+|---|:---|
 |    Test Case #: 8   | Test Case Name: Help Screen  |
 | System:  Mobile App| Subsystem       |
 | Designed by:  Kristofer Oubre| Design Date:  11/01/2016|
