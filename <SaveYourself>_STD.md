@@ -27,13 +27,7 @@
 
 3.) Features Not to be Tested
 
-4.) Approach
-
-5.) Test Deliverables
-
-6.) Responsiblities
-
-7.) Risks and Contigencies
+4.) Risks and Contigencies
 
 
 
@@ -46,30 +40,7 @@ For more information regarding the Software Requirements Specification (SRS), pl
 For more information regarding the Software Design Document (SDD), please see the document. The Software Design Document (SDD) document was intended to help with user experiences as well as explore features for full utilization.  
 
 ## 2.) Test Items
-*************TEMPLATE TEST**************************
 
-(Use this as template for now, unless I find an alternative to it(I prolly won't) just use this for the test cases. Yeah there's nothing in the header, when you put something in the header it bolds it and bumps the size up and I dont want that for the first table so that's why that's there...)
-
-| | | | |
-|:---:|---|---|---|
-|    Test Case #:    |     | Test Case Name  |   |
-| System:            |     | Subsystem       |   |
-| Designed by:       |     | Design Date:    |   |
-| Executed by:       |     | Execution Date: |   |
-| Short Description: |     |                 |   |
-
-Pre-condtions: I'm guessing precondition would be something along the lines of what needs to occur before the test happens.
-
-| Step | Action | Expected System Response | Pass/Fail | Comment |
-|:----:|--------|--------------------------|-----------|---------|
-| 1    |        |                          |           |         |
-| 2    |        |                          |           |         |
-| 3... |        |                          |           |         |
-
-Post-conditions: Post condition would be the end result of what the feature should do
-
-
-********************************************************
 
 | | | | |
 |---|:---|:---|:---|
@@ -90,7 +61,6 @@ The mobile game is installed on the mobile device.
 | Step | Action | Expected System Response | Pass/Fail | Comment |
 |:----:|--------|--------------------------|-----------|---------|
 | 1| Click on app icon on phone app menu.| Mobile app loads on device.| Pass|         |
-| 2| Check Post-condition 1| | | |
 
 
 
@@ -129,7 +99,6 @@ The system displays the 'Select Your Car' screen.
 |4 | Tap Rocks| Rocks disappear when player taps them before the rocks reach the car|Pass | |
 |5| Allow car value to decrease| The player's car should start to emite smoke when the 'Value' decreases below $10000, then emit fire when 'Value' decreases below $4000, and game sends when 'Value' equals $0  | Pass| |
 |6| Game Ends| The system displays 'Game Over' screen | Pass| |
-|7| Check Post-condition 1| | | |
 
 
 
@@ -172,7 +141,6 @@ The system displays the 'Select Your Car' screen.
 |8 | Tap Rocks| Rocks disappear when player taps them before the rocks reach the car|Pass | |
 |9| Allow car value to decrease| The player's car should start to emite smoke when the 'Value' decreases below $10000, then emit fire when 'Value' decreases below $4000, and game sends when 'Value' equals $0  | Pass| |
 |10| Game Ends| The system displays 'Game Over' screen. Player 2 turn is over | Pass| |
-|11| Check post-condition 1| | | |                  |           |         |
 
 
 
@@ -210,7 +178,6 @@ The player clicks "Single Play"/"Multi Play".
 |1|Clicks "Pause"| Pauses the game|Pass| |
 |2| Game paused| Player should not be able to play while game is paused|Pass| |
 |3|Clicks "Play"| The game resumes|Pass| |
-|4| Check Post-condition 1| | | |                  |           |         |
 
 
 
@@ -243,7 +210,6 @@ The player has begun gameplay in either Singleplayer or Multiplayer mode.
 |:----:|--------|--------------------------|:-----------:|---------|
 | 1    |Taps rocks | The system increments score by one per rock tapped | Pass          |         |
 | 2    | End Game  | The sytem saves final score on device|Pass |         |
-| 3    | Check Post-condition 1|                          |           |         |
 
 
 
@@ -273,7 +239,6 @@ The mobile game is installed and loaded on the mobile device.
 | Step| Action| Expected System Response| Pass/Fail| Comment|
 |:---:|:---|:---|:---:|:---|
 |1| Player clicks "Achievements"| View the best time and score| Pass| |
-|2| Check Post-condition 1| | | |
 
 
 
@@ -303,13 +268,12 @@ The mobile game is installed and loaded on the mobile device.
 |:---:|:---|:---|:---:|:---|
 |1| Player clicks "Options"| View music and souncds option| Pass| |
 |2| Player moves bar for Music/Sounds| Changes the volume for music/sounds|Pass|  |
-|3| Check Post-condition 1| | | |
 
 
 
 ####Post-conditions:
 
-1.) 
+1.) The game will properly change the volume.
 
 ********************************************************
 
@@ -332,7 +296,6 @@ The mobile game is installed and loaded on the mobile device.
 | Step| Action| Expected System Response| Pass/Fail| Comment|
 |:---:|:---|:---|:---:|:---|
 |1| Player clicks "Help"| Help Screen is displayed.| Pass| |
-|2| Check Post-condition 1| | | |
 
 
 
@@ -349,29 +312,7 @@ Unity Libraries -
 
 All Unity libraries used in the Gainz application have been thoroughly tested by Unity itself as well as other developers and as such, there is no reason to test anything involving their libraries.
 
-## 4.) Approach
-
-## 5.) Test Deliverables
-
-## 6.) Responsibilities 
-
-While all parties in the group will assist with the various parts of testing through the entire testing process, specific parts have been dedicated to certain persons:
-Test Execution (Unit Testing, Integration Testing)
-Responsible Members:
-
-Test Execution (“User” Acceptance testing)
-Responsible Members:
-
-Test Execution (Load Testing, Operational Testing)
-Responsible Members:
-
-Test Analysis (Analysis of test log information, Determination of defect severity)
-Responsible Members:
-
-Hardware & Software
-Responsible Members:
-
-## 7.) Risks and Contigencies
+## 4.) Risks and Contigencies
 
 Testing Save Yourself will be low risk. Some of the risks associated with the testing are below.
 
