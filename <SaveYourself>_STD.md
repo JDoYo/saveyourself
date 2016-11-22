@@ -77,7 +77,9 @@ Post-conditions: Post condition would be the end result of what the feature shou
 | Executed by:       |     | Execution Date: |   |
 | Short Description: |     |                 |   |
 
-Pre-condtions: I'm guessing precondition would be something along the lines of what needs to occur before the test happens.
+Pre-condtions: 
+
+I'm guessing precondition would be something along the lines of what needs to occur before the test happens.
 
 | Step | Action | Expected System Response | Pass/Fail | Comment |
 |:----:|--------|--------------------------|-----------|---------|
@@ -85,7 +87,9 @@ Pre-condtions: I'm guessing precondition would be something along the lines of w
 | 2    |        |                          |           |         |
 | 3... |        |                          |           |         |
 
-Post-conditions: Post condition would be the end result of what the feature should do
+Post-conditions: 
+
+Post condition would be the end result of what the feature should do
 
 
 ********************************************************
@@ -99,6 +103,7 @@ Post-conditions: Post condition would be the end result of what the feature shou
 | Short Description: Test Game's Singleplayer Feature|     |   |   |
 
 ####Preconditions:
+
 The player has a compatible mobile device.
 The player clicks the 'Play' button.
 The system displays the 'Select Your Car' screen.  
@@ -114,7 +119,8 @@ The system displays the 'Select Your Car' screen.
 |7| Check post-condition 1| | | |
 
 ####Post-conditions:
-The player score is saved.
+
+1.) The player score is saved.
 
 
 ********************************************************
@@ -128,6 +134,7 @@ The player score is saved.
 | Short Description: Test Game's Multiplayer Feature|     |   |   |
 
 ####Preconditions:
+
 The player has a compatible mobile device.
 The player clicks the 'Play' button.
 The system displays the 'Select Your Car' screen. 
@@ -148,7 +155,8 @@ The system displays the 'Select Your Car' screen.
 |11| Check post-condition 1| | | |                  |           |         |
 
 ####Post-conditions:
-Both players scores are saved.
+
+1.) Both players scores are saved.
 
 
 ********************************************************
@@ -161,7 +169,8 @@ Both players scores are saved.
 | Executed by: Kalyn Odom       |     | Execution Date: 11/21/2016|   |
 | Short Description: |     |                 |   |
 
-Pre-condtions: 
+####Pre-conditions: 
+
 The player has a compatible mobile device.
 The player clicks the 'Play' button.
 The system displays the 'Select Your Car' screen. 
@@ -179,8 +188,9 @@ The player clicks "Single Play"/"Multi Play".
 |8| Game Ends| The system displays 'Game Over' screen. Player 2 turn is over | Pass| 
 |9| Check post-condition 1| | | |                  |           |         |
 
-Post-conditions: 
-1. The player score is saved.
+####Post-conditions: 
+
+1.) The player score is saved.
 
 
 ********************************************************
@@ -193,7 +203,8 @@ Post-conditions:
 | Executed by: Melva Matthews     |     | Execution Date: 11/21/2016 |   |
 | Short Description: Test 'Save Score' feature |     |                 |   |
 
-Pre-condtions: 
+####Pre-conditions: 
+
 Player has compatible device.
 Player has begun gameplay in either Single-Player or Multi-Player mode.
 
@@ -203,8 +214,9 @@ Player has begun gameplay in either Single-Player or Multi-Player mode.
 | 2    | End Game  | The sytem saves final score on device|Pass |         |
 | 3    | Check post-condition 1|                          |           |         |
 
-Post-conditions: 
-1. Scores are now viewable by clicking the 'Achievements' button. 
+####Post-conditions: 
+
+1.) Scores are now viewable by clicking the 'Achievements' button. 
 
 
 ********************************************************
@@ -217,13 +229,17 @@ Post-conditions:
 | Executed by: Kalyn Odom       |     | Execution Date: 11/21/2016|   |
 | Short Description: |     |                 |   |
 
-Pre-condtions:
+####Pre-conditions:
+
 The player has a compatible mobile device.
 
 | Step| Action| Expected System Response| Pass/Fail| Comment|
 |:---:|:---|:---|:---:|:---|
 |1| Player clicks "Achievements"| View the best time and score| Pass| |
 
+####Post-conditions:
+
+1.) The best time and score is displayed on screen.
 
 ********************************************************
 
@@ -235,7 +251,8 @@ The player has a compatible mobile device.
 | Executed by: Kalyn Odom       |     | Execution Date: 11/21/2016|   |
 | Short Description: |     |                 |   |
 
-Pre-condtions: 
+####Pre-condtions: 
+
 The player has a compatible mobile device.
 
 | Step| Action| Expected System Response| Pass/Fail| Comment|
@@ -243,27 +260,31 @@ The player has a compatible mobile device.
 |1| Player clicks "Options"| View music and souncds option| Pass| |
 |2| Player moves bar for Music/Sounds| Changes the volume for music/sounds|Pass|  |
 
+####Post-conditions:
 
+1.) 
 
 ********************************************************
 
 | | | | |
 |---|:---|:---|:---|
-|    Test Case #: 8   |  | Test Case Name: Help Screen  |   |
-| System:  Mobile App|     | Subsystem       |   |
-| Designed by:  Kristofer Oubre|     | Design Date:  11/01/2016|   |
-| Executed by:  Jody Toms|     | Execution Date: 11/21/2016|   |
-| Short Description: |     |                 |   |
+|    Test Case #: 8   | Test Case Name: Help Screen  |
+| System:  Mobile App| Subsystem       |
+| Designed by:  Kristofer Oubre| Design Date:  11/01/2016|
+| Executed by:  Jody Toms| Execution Date: 11/21/2016|
+| Short Description:                 |
 
-Pre-condtions: 
+####Pre-condtions: 
+
 The player has a compatible mobile device.
 
 | Step| Action| Expected System Response| Pass/Fail| Comment|
 |:---:|:---|:---|:---:|:---|
 |1| Player clicks "Help"| Help Screen is displayed.| Pass| |
 
-Post-conditions: 
-1. The player is displayed a "help screen" that explains the gameplay and gamestyles of the mobile game.
+####Post-conditions: 
+
+1.) The player is displayed a "help screen" that explains the gameplay and gamestyles of the mobile game.
 
 
 ********************************************************
