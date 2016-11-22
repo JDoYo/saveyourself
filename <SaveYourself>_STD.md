@@ -312,6 +312,14 @@ Unity Libraries -
 
 All Unity libraries used in the Gainz application have been thoroughly tested by Unity itself as well as other developers and as such, there is no reason to test anything involving their libraries.
 
+OS Compatibility -
+
+The game is coded in libraries that are recognized by the operating system so that all files are readable in the fist place.
+
+Distribution -
+
+The user's ability to download the app from our source is not to be tested in this release as that issue will be addressed later in the software lifecycle.
+
 ## 4.) Risks and Contigencies
 
 Testing Save Yourself will be low risk. Some of the risks associated with the testing are below.
