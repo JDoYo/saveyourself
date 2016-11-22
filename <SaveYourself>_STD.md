@@ -45,7 +45,7 @@ For more information regarding the Software Design Document (SDD), please see th
 | | | | |
 |---|:---|:---|:---|
 |    Test Case #:    |  1| Test Case Name:   |   Start Mobile Game|
-| System:            |     Mobile App| Subsystem:       |   |
+| System:            |     Mobile App| Subsystem:       |   None|
 | Designed by:       |     Kristofer Oubre| Design Date:    |   11/01/16|
 | Executed by:       |     Jody Toms| Execution Date: |   11/21/16|
 | Short Description: |     Test if game starts.|                 |   |
@@ -223,7 +223,7 @@ The player has begun gameplay in either Singleplayer or Multiplayer mode.
 | | | | |
 |---|:---|:---|:---|
 |    Test Case #:    |  6| Test Case Name:   |   View Scores|
-| System:  |     Mobile App| Subsystem:       |   |
+| System:  |     Mobile App| Subsystem:       |   Achievements|
 | Designed by:       |     Kristofer Oubre| Design Date:    |   11/01/2016|
 | Executed by:        |     Kalyn Odom| Execution Date: |   11/21/2016|
 | Short Description: | Test the view score feature.    |                 |   |
@@ -280,7 +280,7 @@ The mobile game is installed and loaded on the mobile device.
 | | | | |
 |---|:---|:---|:---|
 |    Test Case #:    |  8| Test Case Name:   |   Help Screen|
-| System:  |     Mobile App| Subsystem       |   |
+| System:  |     Mobile App| Subsystem       |   Help|
 | Designed by:  |     Kristofer Oubre| Design Date:  |   11/01/2016|
 | Executed by:  |     Jody Toms| Execution Date: |   11/21/2016|
 | Short Description: |     Test the Help Screen button. |                 |   |
