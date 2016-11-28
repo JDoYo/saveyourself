@@ -1,14 +1,14 @@
-﻿/******************************************************************************/
+﻿/************************************************************************************/
 /*	
 /*	FILE NAME: LoseValue.cs
 /* 
-/*	DESCRIPTION: Controls the car value that is displayed during the game and
-/* 				 when the smoke and fire should be shown.
+/*	DESCRIPTION: Controls the car value that is displayed during the game and when
+/* 	             the smoke and fire should be shown.
 /* 			     
-/* 	   DATE			   BY						   DESCRIPTION
+/* 	   DATE		       BY	                      DESCRIPTION
 /* 	==========	 ===============	=======================================
 /* 	10/21/2016	 Kristofer Oubre	Created the class and added all methods
-/******************************************************************************/
+/*************************************************************************************/
 
 using UnityEngine;
 using UnityEngine.UI;
