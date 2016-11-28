@@ -1,14 +1,14 @@
-﻿/******************************************************************************/
+﻿/*************************************************************************************/
 /*	
 /*	FILE NAME: ChangeScenes.cs
 /* 
 /*	DESCRIPTION: Changes the scenes, or screens, enables multiplayer, and exits
-/* 				 the app.
+/* 		     the app.
 /* 			     
-/* 	   DATE			   BY						   DESCRIPTION
+/* 	   DATE		       BY	                      DESCRIPTION
 /* 	==========	 ===============	=======================================
 /* 	10/22/2016	 Kristofer Oubre	Created the class and added all methods
-/******************************************************************************/
+/**************************************************************************************/
 
 using UnityEngine;
 using System.Collections;
