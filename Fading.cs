@@ -1,14 +1,14 @@
-﻿/******************************************************************************/
+﻿/************************************************************************************/
 /*	
 /*	FILE NAME: Fading.cs
 /* 
 /*	DESCRIPTION: Controls the fade in that appears when a new scene, or screen,
-/*               is loaded.
+/*                   is loaded.
 /* 			     
-/* 	   DATE			   BY						   DESCRIPTION
+/* 	   DATE		        BY	                    DESCRIPTION
 /* 	==========	 ===============	=======================================
 /* 	10/30/2016	 Kristofer Oubre	Created the class and added all methods
-/******************************************************************************/
+/*************************************************************************************/
 
 using UnityEngine;
 using System.Collections;
