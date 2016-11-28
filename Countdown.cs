@@ -1,13 +1,13 @@
-﻿/******************************************************************************/
+﻿/**************************************************************************************/
 /*	
 /*	FILE NAME: Countdown.cs
 /* 
 /*	DESCRIPTION: Controls the countdown that is displayed before the game starts.
 /* 			     
-/* 	   DATE			   BY						   DESCRIPTION
+/* 	   DATE		       BY			      DESCRIPTION
 /* 	==========	 ===============	=======================================
 /* 	10/26/2016	 Kristofer Oubre	Created the class and added all methods
-/******************************************************************************/
+/***************************************************************************************/
 
 using UnityEngine;
 using UnityEngine.UI;
