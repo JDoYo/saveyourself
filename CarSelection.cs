@@ -1,15 +1,15 @@
-﻿/******************************************************************************/
+﻿/************************************************************************************/
 /*	
 /*	FILE NAME: CarSelection.cs
 /* 
 /*	DESCRIPTION: Controls which cars are shown on the CarSelection screen, saves
-/* 				 the car that the user selects, and controls the help box on the
-/* 				 CarSelection screen.
+/* 		     the car that the user selects, and controls the help box on the
+/* 		     CarSelection screen.
 /* 			     
-/* 	   DATE			   BY						   DESCRIPTION
+/* 	   DATE		      BY			     DESCRIPTION
 /* 	==========	 ===============	=======================================
 /* 	10/22/2016	 Kristofer Oubre	Created the class and added all methods
-/******************************************************************************/
+/*************************************************************************************/
 
 using UnityEngine;
 using System.Collections;
