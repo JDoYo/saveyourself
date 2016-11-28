@@ -1,14 +1,14 @@
-﻿/******************************************************************************/
+﻿/*************************************************************************************/
 /*	
 /*	FILE NAME: MusicVolume.cs
 /* 
 /*	DESCRIPTION: Controls the volume of the game music based upon the user's
- * 				 settings.
+/* 	             settings.
 /* 			     
-/* 	   DATE			   BY						   DESCRIPTION
+/* 	   DATE		       BY		              DESCRIPTION
 /* 	==========	 ===============	=======================================
 /* 	11/1/2016	 Kristofer Oubre	Created the class and added all methods
-/******************************************************************************/
+/**************************************************************************************/
 
 using UnityEngine;
 using UnityEngine.SceneManagement;
