@@ -1,14 +1,14 @@
-﻿/******************************************************************************/
+﻿/*************************************************************************************/
 /*	
 /*	FILE NAME: ClickToDestroy.cs
 /* 
 /*	DESCRIPTION: Removes rocks from the game when they're clicked, creates a
-/* 				 clone of them, and updates the score after the removal.
+/* 		     clone of them, and updates the score after the removal.
 /* 			     
-/* 	   DATE			   BY						   DESCRIPTION
+/* 	   DATE		       BY			     DESCRIPTION
 /* 	==========	 ===============	=======================================
 /* 	10/21/2016	 Kristofer Oubre	Created the class and added all methods
-/******************************************************************************/
+/*************************************************************************************/
 
 using UnityEngine;
 using System.Collections;
