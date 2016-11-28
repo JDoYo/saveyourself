@@ -1,14 +1,14 @@
-﻿/******************************************************************************/
+﻿/*************************************************************************************/
 /*	
 /*	FILE NAME: ShowCar.cs
 /* 
 /*	DESCRIPTION: Controls which car is shown during the game based upon the car
-/* 				 that the user selected.
+/* 	             that the user selected.
 /* 			     
-/* 	   DATE			   BY						   DESCRIPTION
+/* 	   DATE		        BY			     DESCRIPTION
 /* 	==========	 ===============	=======================================
 /* 	10/22/2016	 Kristofer Oubre	Created the class and added all methods
-/******************************************************************************/
+/**************************************************************************************/
 
 using UnityEngine;
 using System.Collections;
