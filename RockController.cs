@@ -1,14 +1,14 @@
-﻿/******************************************************************************/
+﻿/*************************************************************************************/
 /*	
 /*	FILE NAME: RockController.cs
 /* 
 /*	DESCRIPTION: Controls the speed, direction, and location of the rocks. It
- * 				 also determines the amount to decrement the car value by.
+/* 		     also determines the amount to decrement the car value by.
 /* 			     
-/* 	   DATE			   BY						   DESCRIPTION
+/* 	   DATE		        BY			     DESCRIPTION
 /* 	==========	 ===============	=======================================
 /* 	10/21/2016	 Kristofer Oubre	Created the class and added all methods
-/******************************************************************************/
+/**************************************************************************************/
 
 using UnityEngine;
 using UnityEngine.UI;
