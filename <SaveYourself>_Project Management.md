@@ -75,16 +75,67 @@ Our project development team consists of the following members:
 
 Each group member's contributions are as follows:
 
-Tyler Baronet:
+**Tyler Baronet:**
 
-Joshua Do:
+Program Management:
 
-Kristofer Oubre:
+SRS:
 
-Melva Matthews:
+SDD:
 
-Jody Toms:
+STD:
 
+Meetings:
+
+**Joshua Do:**
+
+Program Management:
+
+SRS:
+
+SDD:
+
+STD:
+
+Meetings:
+
+**Kristofer Oubre:**
+
+Program Management:
+
+SRS:
+
+SDD:
+
+STD:
+
+Code:
+
+Meetings:
+
+**Melva Matthews:**
+
+Program Management:
+
+SRS:
+
+SDD:
+
+STD:
+
+Meetings:
+
+**Jody Toms:**
+
+Program Management: Created the document and began each section (prior to Midterms), added contributions made to each project deliverable, miscellaneous typo and formatting fixes.
+
+SRS: Wrote Sections 2.1 through 2.4, edited Section 1.5, added prototype images of the app to Section 3.1, made edits in various parts of Sections 2 and 3, added term in Appendix A (Glossary), miscellaneous typo and formatting fixes.
+
+SDD: Completed the entirety of Sections 3 and 8, added and updated the Physical View diagram in Section 5.2, miscellaneous typo and formatting fixes.
+
+STD: Tested and documented opening the app on a compatible mobile device (Test Case 1), tested and documented help screen (Test Case 8), added the subsystems to each test case, miscellaneous typo and formatting fixes.
+
+Meetings: All meetings held were attended.
 
 __7.) Project Schedule__
 --------------------
