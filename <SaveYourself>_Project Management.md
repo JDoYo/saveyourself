@@ -1,31 +1,69 @@
-__Vision__
+# **Software Testing Document**
+
+## for
+
+# SAVE YOURSELF
+
+**Version 1.0 approved**
+
+**Prepared by 
+* Tyler Baronet
+* Joshua Do
+* Kalyn Odom
+* Kristofer Oubre
+* Melva Matthews
+* Jody Toms
+
+**Tap2Win Inc.**
+
+**12/01/16**
+
+**Table of Contents**
+
+1.) Vision
+
+2.) Configuration Plan
+
+3.) Process Model
+
+4.) Deliverables
+
+5.) Potential Risks
+
+6.) Project Personnel
+
+7.) Project Schedule
+
+8.) Meetings Summary
+
+__1.) Vision__
 ------
 The ultimate goal of this project is to develop a mobile game that encourages one-on-one social interaction between its players.
 
 
-__Configuration Plan__
+__2.) Configuration Plan__
 ------------------
-The project will be developed using the Unity Game Engine. We will be using GitHub for both the required documentation as well as version control for this project. Other tools such as Google Docs may be used to allow for group collaboration, but as instructed by this course's instructor, GitHub will be our primary tool.
+The project was developed using the Unity Game Engine. GitHub was used for both the required documentation as well as version control for this project. Other tools such as Google Drive were used to allow for group collaboration on such things as the final presentation, but as instructed by this course's instructor, GitHub was our primary tool.
 
 
-__Process Model__
+__3.) Process Model__
 -----------------
 Agile Method.
 
 
-__Deliverables__
+__4.) Deliverables__
 ----------------
-The deliverables will be available to the instructor and grader via the GitHub repository as specified by the instructor.
+All current deliverables are available to the instructor and grader via the GitHub repository as specified by the course's instructor.
 
 
-__Potential Risks__
+__5.) Potential Risks__
 -------------------
 The possible risks that pose a problem during the development of this project are as follows:
 * Time constraints brought upon by factors such as school, work, and family commitments.
-* Other risks...
+* Possible incompatiblility of the mobile application with one of our devices (for testing purposes).
 
 
-__Team Members__
+__6.) Project Personnel__
 ----------------
 Our project development team consists of the following members:
 * Tyler Baronet
@@ -35,19 +73,25 @@ Our project development team consists of the following members:
 * Melva Matthews
 * Jody Toms
 
-Each group member's tasks are as follows:
-* User Interface Design: Kristofer Oubre, Jody Toms
-* Implementation: Kristofer Oubre, Tyler Baronet
-* Integration: Melva Matthews, Kalyn Odom
-* Documentation: Jody Toms, Joshua Do
+Each group member's contributions are as follows:
+
+Tyler Baronet:
+
+Joshua Do:
+
+Kristofer Oubre:
+
+Melva Matthews:
+
+Jody Toms:
 
 
-__Project Schedule__
+__7.) Project Schedule__
 --------------------
 Our project schedule also falls in line with our group tasks, as this is also to-be-determined after Midterms.
 
 
-__Meetings Summary__
+__8.) Meetings Summary__
 --------------------
 October 3, 2016
 
