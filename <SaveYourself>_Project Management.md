@@ -156,7 +156,7 @@ Our project schedule also falls in line with our group tasks, as this is also to
 
 __8.) Meetings Summary__
 --------------------
-######September 6, 2016
+**September 6, 2016**
 
 Start Time: 1:30 PM
 
@@ -165,14 +165,14 @@ End Time: 2:03 PM
 *	Agreed to make the game off of unity
 * Made PowerPoint to present to the class what our project will be about
 
-######September 7, 2016
+**September 7, 2016**
 
 Start Time: 3:30 PM
 
 End Time: 4:30 PM
 *	Prepared to present PowerPoint to the class.
 
-######October 3, 2016
+**October 3, 2016**
 
 Start Time: 5:47 PM
 
@@ -184,7 +184,7 @@ End Time: 5:55 PM
 *	Agreed to do everything on Google docs first then transfer to Git Hub
 *	Main leader will be Jody, sub leaders will be based off of sub groups
 
-######October 12, 2016
+**October 12, 2016**
 
 Start Time: 5:09 PM
 
@@ -205,7 +205,7 @@ End Time: 5:38 PM
   *	10/24: Start building the app
 *	Agreed to complete SRS on google docs- everyone inputs and edit.
 
-######October 26, 2016
+**October 26, 2016**
 
 Start Time: 5:46 PM
 
@@ -214,7 +214,7 @@ End Time: 5:54 PM
 *	Agreed to start coding for the app
   *	All coding will be on Unity and then transferred to Git Hub as changes are made.
 
-######November 21, 2016
+**November 21, 2016**
 
 Start Time: 3:00
 
@@ -224,7 +224,7 @@ End Time: 5:00
 * Changed the code to fix the errors.
 * Started working on the STD.
 
-######November 27, 2016
+**November 27, 2016**
 
 Start Time: 6:00
 
@@ -233,5 +233,7 @@ End Time: 8:30
 * Made a script to go along with the presentaion.
 * Created a demo video of our app.
 * Practiced for the presentation.
+
+* A lot of decisons for our project were made through communication on GroupME
 
 
