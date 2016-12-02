@@ -1,4 +1,4 @@
-# **Software Testing Document**
+# **Project Management Document**
 
 ## for
 
@@ -101,17 +101,17 @@ Meetings:
 
 **Kristofer Oubre:**
 
-Program Management:
+Program Management: Fixed the title and also contributed to Section 6.
 
-SRS:
+SRS: Contributed to Sections 2.4, 2.5, 2.7, 4.1, 4.3, and 4.4. Also, worked on formatting, error checking, and created the Use Case Diagram in Appendix B. 
 
-SDD:
+SDD: Contributed to last minute error checking of the document before the deadline.
 
-STD:
+STD: Created an outline for each of the test cases that needed to be covered in Section 2. Also, contributed to last minute error checking of the document before the deadline.
 
-Code:
+Code: Wrote all of the code that was required to create the application.
 
-Meetings:
+Meetings: Attended all of the meetings held.
 
 **Melva Matthews:**
 
