@@ -99,6 +99,18 @@ STD:
 
 Meetings:
 
+**Kalyn Odom:**
+
+Program Management: Contibuted to Section 6 and Section 8.
+
+SRS: Made the Use Case Diagram.
+
+SDD: Contributed to Section 6 and made minor edits to the document.
+
+STD: Tested and documented for Multiplayer feature (Test Case 3), Pause feature (Test Case 4), View Score feature (Test Case 6), and Voulme Controls (Test Case 7). Checked for minor edits to the documents.
+
+Meetings:Attended all of the meetings held.
+
 **Kristofer Oubre:**
 
 Program Management: Fixed the title and also contributed to Section 6.
