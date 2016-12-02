@@ -129,13 +129,13 @@ Meetings: Attended all of the meetings held.
 
 Program Management:
 
-SRS:
+SRS: Contributted to sections three (3.2, 3.4) and four (4.2, 4.5) of the document
 
-SDD:
+SDD: Created logical view diagram and completed work-assignment view.
 
-STD:
+STD: Tested and documented Single-player and 'Save Score'feature. Fixed small formatting mistakes.
 
-Meetings:
+Meetings: Arranged most meetings for the group, and attended all meetings held.
 
 **Jody Toms:**
 
