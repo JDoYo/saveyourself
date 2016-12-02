@@ -73,6 +73,7 @@ Our project development team consists of the following members:
 * Melva Matthews
 * Jody Toms
 
+Our group followed the Egoless approach with each member held equally responsible.
 Each group member's contributions are as follows:
 
 **Tyler Baronet:**
@@ -127,7 +128,7 @@ Meetings: Attended all of the meetings held.
 
 **Melva Matthews:**
 
-Program Management:
+Program Management: Contributted to section 6.
 
 SRS: Contributted to sections three (3.2, 3.4) and four (4.2, 4.5) of the document
 
