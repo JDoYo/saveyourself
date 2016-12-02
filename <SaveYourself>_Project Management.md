@@ -234,6 +234,6 @@ End Time: 8:30
 * Created a demo video of our app.
 * Practiced for the presentation.
 
-* A lot of decisons for our project were made through communication on GroupME
+** *A lot of decisons for our project were made through communication on GroupME **
 
 
