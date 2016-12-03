@@ -90,15 +90,15 @@ Meetings:
 
 **Joshua Do:**
 
-Program Management:
+Program Management: Conteibuted to section 6.
 
-SRS:
+SRS: Created the template for the SRS. Also completed all of sections 1 and 5.
 
-SDD:
+SDD: Created the template for the SDD. Completed sections 1 and 2 as well as most of section 7.
 
-STD:
+STD: Created the template for the STD. Completed sections 1, 3 and 4. Also contributed to the formatting of the document.
 
-Meetings:
+Meetings: Attended all of the meetings that were held.
 
 **Kalyn Odom:**
 
