@@ -43,17 +43,16 @@ The ultimate goal of this project is to develop a mobile game that encourages on
 
 __2.) Configuration Plan__
 ------------------
-The project was developed using the Unity Game Engine. GitHub was used for both the required documentation as well as version control for this project. Other tools such as Google Drive were used to allow for group collaboration on such things as the final presentation, but as instructed by this course's instructor, GitHub was our primary tool.
+The project was developed using the Unity Game Engine. GitHub was used for both the required documentation as well as version control for this project. Google Drive was used to allow for group collaboration on such things as the final presentation, but as instructed by this course's instructor, GitHub was our primary tool for documentation. GroupMe and email was used for group communication outside of meetings.
 
 
 __3.) Process Model__
 -----------------
-Agile Method.
-
+During the development of this project, we used the Agile Method. This allowed us to make changes to the central theme of our application as needed during its development. It also allowed us to divide up the work based on individual team member strengths. Due to the documentation expectations, each of us had to contribute in some form on each document.
 
 __4.) Deliverables__
 ----------------
-All current deliverables are available to the instructor and grader via the GitHub repository as specified by the course's instructor.
+All current documentation and C# code from Unity are available for the course's instructor and grader via the GitHub repository as specified by the course's instructor.
 
 
 __5.) Potential Risks__
@@ -73,7 +72,7 @@ Our project development team consists of the following members:
 * Melva Matthews
 * Jody Toms
 
-Our group followed the Egoless approach with each member held equally responsible.
+Our group followed the Egoless approach, with each member held equally responsible.
 Each group member's contributions are as follows:
 
 **Tyler Baronet:**
@@ -140,7 +139,7 @@ Meetings: Arranged most meetings for the group, and attended all meetings held.
 
 **Jody Toms:**
 
-Project Management: Created the document and began each section, added header and table of contents, added contributions made to each project deliverable, miscellaneous typo and formatting fixes.
+Project Management: Created the document and began each section, added header and table of contents, added contributions made to each project deliverable, edited Sections 2 and 4 as well as 6, added to Sections 3 and 7, miscellaneous typo and formatting fixes.
 
 SRS: Wrote Sections 2.1 through 2.4, edited Section 1.5, added prototype images of the app to Section 3.1, made edits in various parts of Sections 2 and 3, added term in Appendix A, miscellaneous typo and formatting fixes.
 
@@ -148,7 +147,7 @@ SDD: Completed the entirety of Sections 3 and 8, added and updated the Physical 
 
 STD: Tested and documented opening the app on a compatible mobile device (Test Case 1), tested and documented help screen usage (Test Case 8), added the subsystems to each test case, miscellaneous typo and formatting fixes.
 
-Meetings: All meetings held were attended.
+Meetings: Attended all of the meetings held.
 
 __7.) Project Schedule__
 --------------------
@@ -157,13 +156,13 @@ __7.) Project Schedule__
 
 All documentation for the project began as instructions for how to complete them were given during class, and completed in the time frame specified by the course instructor. The start date and due dates for each document are as follows:
 
+Project Management: November 01, 2016 - December 02, 2016
+
 SRS: October 12, 2016 - October 21, 2016
 
 SDD: October 26, 2016 - November 02, 2016
 
 STD: November 21, 2016 - November 21, 2016
-
-Project Management: 
 
 __8.) Meetings Summary__
 --------------------
