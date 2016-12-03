@@ -171,9 +171,9 @@ __8.) Meetings Summary__
 Start Time: 1:30 PM
 
 End Time: 2:03 PM
-*	Agreed to make a tap based game
-*	Agreed to make the game off of unity
-* Made PowerPoint to present to the class what our project will be about
+*	Agreed to make a tap-based game.
+*	Agreed to make the game using Unity.
+* Made a PowerPoint to show the class what our project will be.
 
 **September 7, 2016**
 
@@ -187,12 +187,12 @@ End Time: 4:30 PM
 Start Time: 5:47 PM
 
 End Time: 5:55 PM
-*	Meeting after class
-*	Agreed to make the game multi player
-*	Agreed to meet in sub groups then meet together after class.
-*	Will figure out a schedule on groupme.
-*	Agreed to do everything on Google docs first then transfer to Git Hub
-*	Main leader will be Jody, sub leaders will be based off of sub groups
+*	Meeting after class.
+*	Agreed to make the game multiplayer.
+*	Agreed to meet in sub groups and then meet together after class.
+*	Will figure out a schedule on GroupMe.
+*	Agreed to do everything on Google docs first and then transfer to GitHub.
+*	Main leader will be Jody, while the sub leaders will be based off of sub groups.
 
 **October 12, 2016**
 
@@ -201,28 +201,28 @@ Start Time: 5:09 PM
 End Time: 5:38 PM
 *	App Name: SAVE YOURSELF
 *	The game should be passable, where as player 1 and player 2 can compete against each other.
-  * Simultaneously play at the same time
+  * Simultaneously play at the same time.
 *	While protecting yourself, try to kill the other player.
-* No login feature 
-*	May have multiple things to fit the user
-  *	May use upgrades to have more options of themes 
+* No login feature. 
+*	May have multiple things to fit the user.
+  *	May use upgrades to have more options of themes. 
   *	ex. skins
-*	Can’t unlock things until you use multiplayer, to encourage social interaction
-*	May need a mock drawing of the app/game for the SRS document,
-*	The vision of this project is to create a mobile game that encourages social interaction with another person
+*	Can’t unlock things until you use multiplayer, to encourage social interaction.
+*	May need a mock drawing of the app/game for the SRS document.
+*	The vision of this project is to create a mobile game that encourages social interaction with another person.
 *	Time lengths
   *	10/12-10/21: SRS Document
   *	10/24: Start building the app
-*	Agreed to complete SRS on google docs- everyone inputs and edit.
+*	Agreed to complete the SRS on Google Docs and everyone will work on it.
 
 **October 26, 2016**
 
 Start Time: 5:46 PM
 
 End Time: 5:54 PM
-*	Josh started the SDD 
-*	Agreed to start coding for the app
-  *	All coding will be on Unity and then transferred to Git Hub as changes are made.
+*	Josh started the SDD. 
+*	Agreed to start writing code for the app.
+  *	All code will be on Unity and then transferred to GitHub as changes are made.
 
 **November 21, 2016**
 
