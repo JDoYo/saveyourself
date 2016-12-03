@@ -102,7 +102,7 @@ Meetings: Attended all of the meetings that were held.
 
 **Kalyn Odom:**
 
-Program Management: Contibuted to Section 6 and Section 8.
+Program Management: Contibuted to Sections 6-8.
 
 SRS: Made the Use Case Diagram.
 
@@ -153,7 +153,8 @@ Meetings: All meetings held were attended.
 __7.) Project Schedule__
 --------------------
 Our project schedule also falls in line with our group tasks, as this is also to-be-determined after Midterms.
-
+####Gantt Chart
+![alt-text] (https://github.com/JDoYo/saveyourself/blob/master/ganttchart.png)
 
 __8.) Meetings Summary__
 --------------------
