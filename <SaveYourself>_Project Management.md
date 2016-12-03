@@ -43,22 +43,22 @@ The ultimate goal of this project is to develop a mobile game that encourages on
 
 __2.) Configuration Plan__
 ------------------
-The project was developed using the Unity Game Engine. GitHub was used for both the required documentation as well as version control for this project. Google Drive was used to allow for group collaboration on such things as the final presentation, but as instructed by this course's instructor, GitHub was our primary tool for documentation. GroupMe and email was used for group communication outside of meetings.
+The project was developed using the Unity Game Engine. GitHub was used for both the required documentation as well as version control for this project. Google Drive was used to allow for group collaboration on such things as the final presentation, while GroupMe and email were used for group communication outside of our meetings.
 
 
 __3.) Process Model__
 -----------------
-During the development of this project, we used the Agile Method. This allowed us to make changes to the central theme of our application as needed during its development. It also allowed us to divide up the work based on individual team member strengths. Due to the documentation expectations, each of us had to contribute in some form on each document.
+During the development of this project, we used the Agile Method. This allowed us to make changes to the central theme of our application as needed during its development. It also allowed us to divide up the work based on each team member's strengths. Due to the documentation expectations, each member had to contribute in some form on each document.
 
 __4.) Deliverables__
 ----------------
-All current documentation and C# code from Unity are available for the course's instructor and grader via the GitHub repository as specified by the course's instructor.
+All current documentation and C# code from Unity are available for the course's instructor and grader via the GitHub repository, as specified by the course's instructor.
 
 
 __5.) Potential Risks__
 -------------------
 The possible risks that pose a problem during the development of this project are as follows:
-* Time constraints brought upon by factors such as school, work, and family commitments.
+* Time constraints brought upon by factors such as school, work, and personal commitments.
 * Possible incompatiblility of the mobile application with one of our devices (for testing purposes).
 
 
@@ -72,7 +72,7 @@ Our project development team consists of the following members:
 * Melva Matthews
 * Jody Toms
 
-Our group followed the Egoless approach, with each member held equally responsible.
+Our group followed the Egoless approach, with each member being held equally responsible.
 Each group member's contributions are as follows:
 
 **Tyler Baronet:**
@@ -85,7 +85,7 @@ SDD: Completed Section 4 and provided grammatical editing for the document.
 
 STD: Provided overall editing for the document.
 
-Meetings: Attended all meetings that were held.
+Meetings: Attended all of the meetings that were held.
 
 **Joshua Do:**
 
@@ -109,11 +109,11 @@ SDD: Contributed to Section 6 and made minor edits to the document.
 
 STD: Tested and documented for Multiplayer feature (Test Case 3), Pause feature (Test Case 4), View Score feature (Test Case 6), and Voulme Controls (Test Case 7). Checked for minor edits to the documents.
 
-Meetings: Attended all of the meetings held.
+Meetings: Attended all of the meetings that were held.
 
 **Kristofer Oubre:**
 
-Project Management: Fixed the title and also contributed to Section 6.
+Project Management: Fixed the title, contributed to Section 6, and did last minute error checking.
 
 SRS: Contributed to Sections 2.4, 2.5, 2.7, 4.1, 4.3, and 4.4. Also, worked on formatting, error checking, and created the Use Case Diagram in Appendix B. 
 
@@ -123,7 +123,7 @@ STD: Created an outline for each of the test cases that needed to be covered in 
 
 Code: Wrote all of the code that was required to create the application.
 
-Meetings: Attended all of the meetings held.
+Meetings: Attended all of the meetings that were held.
 
 **Melva Matthews:**
 
@@ -135,7 +135,7 @@ SDD: Created logical view diagram and completed work-assignment view.
 
 STD: Tested and documented Single-player and 'Save Score'feature. Fixed small formatting mistakes.
 
-Meetings: Arranged most meetings for the group, and attended all meetings held.
+Meetings: Arranged most meetings for the group, and attended all of the meetings that were held.
 
 **Jody Toms:**
 
@@ -147,14 +147,14 @@ SDD: Completed the entirety of Sections 3 and 8, added and updated the Physical 
 
 STD: Tested and documented opening the app on a compatible mobile device (Test Case 1), tested and documented help screen usage (Test Case 8), added the subsystems to each test case, miscellaneous typo and formatting fixes.
 
-Meetings: Attended all of the meetings held.
+Meetings: Attended all of the meetings that were held.
 
 __7.) Project Schedule__
 --------------------
 ####Gantt Chart
 ![alt-text] (https://github.com/JDoYo/saveyourself/blob/master/ganttchart.png)
 
-All documentation for the project began as instructions for how to complete them were given during class, and completed in the time frame specified by the course instructor. The start date and due dates for each document are as follows:
+All of the documentation for the project was completed in the time frame specified by the course instructor. The start date and due dates for each document are as follows:
 
 Project Management: November 01, 2016 - December 02, 2016
 
