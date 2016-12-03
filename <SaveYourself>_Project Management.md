@@ -135,7 +135,7 @@ SDD: Created logical view diagram and completed work-assignment view.
 
 STD: Tested and documented Single-player and 'Save Score'feature. Fixed small formatting mistakes.
 
-Meetings: Arranged most meetings for the group, and attended all of the meetings that were held.
+Meetings: Arranged most meetings for the group and attended all of the meetings that were held.
 
 **Jody Toms:**
 
