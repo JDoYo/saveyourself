@@ -152,9 +152,18 @@ Meetings: All meetings held were attended.
 
 __7.) Project Schedule__
 --------------------
-Our project schedule also falls in line with our group tasks, as this is also to-be-determined after Midterms.
 ####Gantt Chart
 ![alt-text] (https://github.com/JDoYo/saveyourself/blob/master/ganttchart.png)
+
+All documentation for the project began as instructions for how to complete them were given during class, and completed in the time frame specified by the course instructor. The start date and due dates for each document are as follows:
+
+SRS: October 12, 2016 - October 21, 2016
+
+SDD: October 26, 2016 - November 02, 2016
+
+STD: November 21, 2016 - November 21, 2016
+
+Project Management: 
 
 __8.) Meetings Summary__
 --------------------
