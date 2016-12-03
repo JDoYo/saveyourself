@@ -78,7 +78,7 @@ Each group member's contributions are as follows:
 
 **Tyler Baronet:**
 
-Program Management: Contributed to section 6 and provided grammatical editing.
+Project Management: Contributed to section 6 and provided grammatical editing.
 
 SRS: Completed Section 3 and provided grammatical editing for the document.
 
@@ -90,7 +90,7 @@ Meetings: Attended all meetings that were held.
 
 **Joshua Do:**
 
-Program Management: Contributed to section 6.
+Project Management: Contributed to section 6.
 
 SRS: Created the template for the SRS. Also completed all of sections 1 and 5.
 
@@ -102,7 +102,7 @@ Meetings: Attended all of the meetings that were held.
 
 **Kalyn Odom:**
 
-Program Management: Contibuted to Sections 6-8.
+Project Management: Contibuted to Sections 6-8.
 
 SRS: Made the Use Case Diagram.
 
@@ -114,7 +114,7 @@ Meetings: Attended all of the meetings held.
 
 **Kristofer Oubre:**
 
-Program Management: Fixed the title and also contributed to Section 6.
+Project Management: Fixed the title and also contributed to Section 6.
 
 SRS: Contributed to Sections 2.4, 2.5, 2.7, 4.1, 4.3, and 4.4. Also, worked on formatting, error checking, and created the Use Case Diagram in Appendix B. 
 
@@ -128,7 +128,7 @@ Meetings: Attended all of the meetings held.
 
 **Melva Matthews:**
 
-Program Management: Contributted to section 6.
+Project Management: Contributted to section 6.
 
 SRS: Contributted to sections three (3.2, 3.4) and four (4.2, 4.5) of the document
 
@@ -140,7 +140,7 @@ Meetings: Arranged most meetings for the group, and attended all meetings held.
 
 **Jody Toms:**
 
-Program Management: Created the document and began each section, added header and table of contents, added contributions made to each project deliverable, miscellaneous typo and formatting fixes.
+Project Management: Created the document and began each section, added header and table of contents, added contributions made to each project deliverable, miscellaneous typo and formatting fixes.
 
 SRS: Wrote Sections 2.1 through 2.4, edited Section 1.5, added prototype images of the app to Section 3.1, made edits in various parts of Sections 2 and 3, added term in Appendix A, miscellaneous typo and formatting fixes.
 
