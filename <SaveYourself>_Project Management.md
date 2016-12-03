@@ -78,19 +78,19 @@ Each group member's contributions are as follows:
 
 **Tyler Baronet:**
 
-Program Management:
+Program Management: Contributed to section 6 and provided grammatical editing.
 
-SRS:
+SRS: Completed Section 3 and provided grammatical editing for the document.
 
-SDD:
+SDD: Completed Section 4 and provided grammatical editing for the document.
 
-STD:
+STD: Provided overall editing for the document.
 
-Meetings:
+Meetings: Attended all meetings that were held.
 
 **Joshua Do:**
 
-Program Management: Conteibuted to section 6.
+Program Management: Contributed to section 6.
 
 SRS: Created the template for the SRS. Also completed all of sections 1 and 5.
 
