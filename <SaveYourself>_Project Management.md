@@ -129,7 +129,7 @@ Meetings: Attended all of the meetings that were held.
 
 Project Management: Contributted to section 6.
 
-SRS: Contributted to sections three (3.2, 3.4) and four (4.2, 4.5) of the document
+SRS: Contributted to sections three (3.2, 3.4) and four (4.2, 4.5) of the document.
 
 SDD: Created logical view diagram and completed work-assignment view.
 
