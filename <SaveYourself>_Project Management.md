@@ -133,7 +133,7 @@ SRS: Contributted to sections three (3.2, 3.4) and four (4.2, 4.5) of the docume
 
 SDD: Created logical view diagram and completed work-assignment view.
 
-STD: Tested and documented Single-player and 'Save Score'feature. Fixed small formatting mistakes.
+STD: Tested and documented Single-player and 'Save Score' feature. Fixed small formatting mistakes.
 
 Meetings: Arranged most meetings for the group and attended all of the meetings that were held.
 
